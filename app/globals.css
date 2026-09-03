@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+/* ============================================================
+   ZENSIP — Design tokens
+   Bảng màu biểu đồ lấy từ bộ categorical đã kiểm định CVD
+   (validate_palette.js: light PASS trên #ffffff, dark PASS trên #141417).
+   KHÔNG đổi thứ tự slot — thứ tự chính là cơ chế an toàn mù màu.
+   ============================================================ */
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --color-page: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f4f6;
+  --color-ink: #09090b;
+  --color-ink-2: #52525b;
+  --color-muted: #71717a;
+  --color-line: rgba(9, 9, 11, 0.08);
+  --color-line-strong: rgba(9, 9, 11, 0.14);
+
+  --color-brand: #4f46e5;
+  --color-brand-hover: #4338ca;
+  --color-brand-soft: #eef2ff;
+  --color-on-brand: #ffffff;
+
+  --color-good: #0ca30c;
+  --color-warning: #fab219;
+  --color-serious: #ec835a;
+  --color-critical: #d03b3b;
+
+  --color-s1: #2a78d6;
+  --color-s2: #1baf7a;
+  --color-s3: #eda100;
+  --color-s4: #008300;
+  --color-s5: #4a3aa7;
+  --color-s6: #e34948;
+  --color-s7: #e87ba4;
+  --color-s8: #eb6834;
+
+  --color-grid: #e6e6ea;
+  --color-axis: #c9c9d1;
+
+  --radius-card: 14px;
+}
+
+/* Dark mode — bộ màu riêng cho nền tối, không phải đảo ngược tự động */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --color-page: #09090b;
+  --color-surface: #141417;
+  --color-surface-2: #1c1c20;
+  --color-ink: #fafafa;
+  --color-ink-2: #a1a1aa;
+  --color-muted: #8b8b94;
+  --color-line: rgba(255, 255, 255, 0.09);
+  --color-line-strong: rgba(255, 255, 255, 0.16);
+
+  --color-brand: #6366f1;
+  --color-brand-hover: #818cf8;
+  --color-brand-soft: rgba(99, 102, 241, 0.14);
+
+  --color-s1: #3987e5;
+  --color-s2: #199e70;
+  --color-s3: #c98500;
+  --color-s4: #008300;
+  --color-s5: #9085e9;
+  --color-s6: #e66767;
+  --color-s7: #d55181;
+  --color-s8: #d95926;
+
+  --color-grid: #26262b;
+  --color-axis: #3a3a41;
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: #fff;
+}
+
+/* Thanh cuộn mảnh, hoà vào nền */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-axis) transparent;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-axis);
+  border-radius: 99px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Vòng focus thống nhất toàn app */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Số trong bảng/trục phải thẳng cột; số lớn dùng figure tỉ lệ */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

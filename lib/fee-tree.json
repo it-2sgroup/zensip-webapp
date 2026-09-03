@@ -1,0 +1,8678 @@
+{
+ "Máy tính & Thiết bị Văn phòng": {
+  "Thiết bị ngoại vi & Phụ kiện": {
+   "Tấm làm mát": [
+    7.5,
+    12.5
+   ],
+   "Bàn phím & Vỏ bàn di chuột": [
+    7.5,
+    12.5
+   ],
+   "Bàn phím & Chuột": [
+    9.5,
+    13.7
+   ],
+   "Pin máy tính xách tay": [
+    7.5,
+    12.5
+   ],
+   "Bộ sạc & Bộ điều hợp máy tính xách tay": [
+    7.5,
+    12.5
+   ],
+   "Vỏ & Ốp máy tính xách tay": [
+    7.5,
+    12.5
+   ],
+   "Giá đỡ & Khay để máy tính xách tay": [
+    9.5,
+    14.5
+   ],
+   "Tấm lót chuột": [
+    7.5,
+    12.5
+   ],
+   "Hub USB & Đầu đọc thẻ": [
+    7.5,
+    12.5
+   ],
+   "Webcam": [
+    7.5,
+    12.5
+   ]
+  },
+  "Phần mềm & Bộ nhớ": {
+   "Đĩa nhỏ gọn": [
+    7.5,
+    12.5
+   ],
+   "Ổ flash & Cáp OTG": [
+    7.5,
+    12.5
+   ],
+   "Hộp đựng đĩa cứng & Trạm lưu trữ": [
+    7.5,
+    12.5
+   ],
+   "Ổ cứng": [
+    7.5,
+    12.5
+   ],
+   "Thẻ Micro SD": [
+    11.5,
+    13.6
+   ],
+   "Bộ nhớ đính kèm mạng (NAS)": [
+    8.0,
+    13.5
+   ],
+   "Phần mềm": [
+    9.5,
+    13.7
+   ],
+   "SSD": [
+    8.0,
+    11.5
+   ]
+  },
+  "Linh kiện máy tính để bàn & máy tính xách tay": {
+   "Cáp & Phụ Kiện": [
+    7.5,
+    12.5
+   ],
+   "Quạt & Tản nhiệt": [
+    6.0,
+    11.5
+   ],
+   "Card đồ họa": [
+    6.0,
+    11.5
+   ],
+   "Thiết bị giám sát": [
+    2.0,
+    8.3
+   ],
+   "Bo mạch chủ": [
+    6.5,
+    12.5
+   ],
+   "Ổ quang": [
+    6.0,
+    11.5
+   ],
+   "Vỏ máy tính": [
+    6.5,
+    12.5
+   ],
+   "Bộ cấp nguồn": [
+    6.5,
+    12.5
+   ],
+   "Bộ xử lý": [
+    7.5,
+    8.3
+   ],
+   "RAM": [
+    6.5,
+    12.5
+   ],
+   "Card âm thanh": [
+    6.0,
+    11.5
+   ],
+   "UPS & Ổn áp": [
+    6.0,
+    9.5
+   ]
+  },
+  "Máy tính để bàn, Máy tính xách tay & Máy tính bảng": {
+   "Máy vi tính đồng bộ": [
+    2.5,
+    3.8
+   ],
+   "Máy tính để bàn": [
+    2.0,
+    3.8
+   ],
+   "Máy tính xách tay": [
+    2.0,
+    3.8
+   ],
+   "Máy chủ": [
+    2.5,
+    3.8
+   ]
+  },
+  "Các thành phần mạng": {
+   "Công tắc KVM": [
+    7.5,
+    12.5
+   ],
+   "Modem & Bộ định tuyến không dây": [
+    7.5,
+    12.5
+   ],
+   "Cáp & Đầu nối mạng": [
+    7.5,
+    12.5
+   ],
+   "Công tắc mạng & PoE": [
+    7.5,
+    12.5
+   ],
+   "Bộ điều hợp Powerline": [
+    7.5,
+    12.5
+   ],
+   "Máy chủ in": [
+    8.0,
+    13.5
+   ],
+   "Bộ lặp": [
+    7.5,
+    12.5
+   ],
+   "Bộ điều hợp không dây & Card mạng": [
+    7.5,
+    12.5
+   ]
+  },
+  "Thiết bị văn phòng": {
+   "Dụng cụ in 3D": [
+    7.5,
+    9.0
+   ],
+   "Thiết bị chấm công & Kiểm soát truy cập": [
+    9.5,
+    13.7
+   ],
+   "Thiết bị in ấn quảng cáo": [
+    10.0,
+    14.7
+   ],
+   "Máy quét mã vạch": [
+    9.5,
+    13.7
+   ],
+   "Thiết bị Âm thanh & Video hội nghị": [
+    7.5,
+    12.5
+   ],
+   "Máy fax": [
+    9.5,
+    13.7
+   ],
+   "Hộp mực in dạng lỏng & bột": [
+    7.5,
+    12.5
+   ],
+   "Máy in nhãn": [
+    7.5,
+    12.5
+   ],
+   "Máy cán màng": [
+    9.5,
+    13.7
+   ],
+   "Máy đếm tiền": [
+    9.5,
+    13.7
+   ],
+   "Bộ phận thiết bị văn phòng": [
+    9.5,
+    13.7
+   ],
+   "Máy hủy giấy": [
+    9.5,
+    13.7
+   ],
+   "Máy in & Máy scan": [
+    8.0,
+    9.5
+   ],
+   "Thiết bị bán lẻ thông minh": [
+    9.5,
+    13.7
+   ],
+   "Máy đánh chữ": [
+    9.5,
+    13.7
+   ]
+  },
+  "Văn phòng phẩm & Vật tư": {
+   "Vật tư dùng cho công việc kế toán": [
+    14.5,
+    16.7
+   ],
+   "Họa cụ": [
+    11.5,
+    16.7
+   ],
+   "Vật tư dùng trong văn phòng": [
+    14.5,
+    16.7
+   ],
+   "Lịch & Phụ kiện": [
+    11.5,
+    16.7
+   ],
+   "Thẻ": [
+    12.0,
+    17.7
+   ],
+   "Phụ kiện & Giá để đồ bàn học": [
+    11.5,
+    16.7
+   ],
+   "Phong bì & Đồ bưu điện": [
+    12.0,
+    17.7
+   ],
+   "Quà tặng & Giấy gói": [
+    10.0,
+    14.5
+   ],
+   "Phù hiệu & Đồ đi kèm": [
+    12.0,
+    17.7
+   ],
+   "Nhãn, Bìa phân trang & Tem": [
+    12.0,
+    17.7
+   ],
+   "Sổ tay & Giấy": [
+    12.0,
+    17.7
+   ],
+   "Dụng cụ cắt dùng trong văn phòng": [
+    12.0,
+    17.7
+   ],
+   "Sản phẩm giữ tài liệu văn phòng": [
+    11.5,
+    16.7
+   ],
+   "Dụng cụ đo dùng trong văn phòng": [
+    12.0,
+    17.7
+   ],
+   "Dụng cụ thuyết trình dùng trong văn phòng": [
+    12.0,
+    17.7
+   ],
+   "Đồ dùng học tập & giáo dục": [
+    11.5,
+    16.7
+   ],
+   "Băng dán, keo dán & chốt buộc": [
+    12.0,
+    17.7
+   ],
+   "Đồ để viết & sửa": [
+    11.5,
+    16.7
+   ],
+   "Két sắt": [
+    11.5,
+    12.5
+   ]
+  }
+ },
+ "Thiết bị gia dụng": {
+  "Thiết bị thương mại": {
+   "Thiết bị vệ sinh": [
+    9.0,
+    15.7
+   ],
+   "Bộ phận của thiết bị thương mại": [
+    10.5,
+    14.7
+   ],
+   "Bếp lò thương mại": [
+    11.0,
+    15.7
+   ],
+   "Quạt & Thiết bị hút": [
+    10.5,
+    14.7
+   ],
+   "Thiết bị chế biến thực phẩm": [
+    9.5,
+    13.7
+   ],
+   "Thiết bị giặt là": [
+    8.5,
+    5.5
+   ],
+   "Thiết bị làm lạnh": [
+    9.0,
+    7.5
+   ]
+  },
+  "Đồ gia dụng": {
+   "Máy làm mát": [
+    9.0,
+    7.5
+   ],
+   "Máy lọc không khí": [
+    10.0,
+    8.5
+   ],
+   "Máy trả lời": [
+    8.5,
+    14.7
+   ],
+   "Máy sấy quần áo & giày": [
+    7.5,
+    8.5
+   ],
+   "Máy là hơi": [
+    8.5,
+    13.5
+   ],
+   "Máy hút ẩm": [
+    10.0,
+    8.5
+   ],
+   "Chăn điện": [
+    8.5,
+    14.7
+   ],
+   "Cây lau nhà chạy bằng điện": [
+    8.5,
+    9.5
+   ],
+   "Máy đánh bóng giày điện": [
+    8.5,
+    14.7
+   ],
+   "Chổi điện cọ rửa": [
+    8.5,
+    9.5
+   ],
+   "Máy lau cửa sổ chạy bằng điện": [
+    8.5,
+    14.7
+   ],
+   "Máy diệt muỗi điện tử": [
+    8.5,
+    14.7
+   ],
+   "Quạt": [
+    9.5,
+    8.5
+   ],
+   "Máy sấy tay": [
+    8.5,
+    14.7
+   ],
+   "Máy sưởi": [
+    9.0,
+    9.3
+   ],
+   "Máy tiệt trùng gia đình": [
+    10.5,
+    14.7
+   ],
+   "Các bộ phận của thiết bị gia dụng": [
+    9.0,
+    15.7
+   ],
+   "Máy tạo độ ẩm": [
+    10.0,
+    8.5
+   ],
+   "Bàn là": [
+    8.5,
+    13.5
+   ],
+   "Máy tẩy xơ vải": [
+    9.0,
+    15.7
+   ],
+   "Máy hút bụi & Robot quét nhà": [
+    8.5,
+    9.5
+   ]
+  },
+  "Dụng cụ nhà bếp": {
+   "Máy làm bánh mì": [
+    9.5,
+    13.7
+   ],
+   "Máy pha cà phê & Phụ kiện": [
+    9.5,
+    13.7
+   ],
+   "Lò nướng để bàn": [
+    9.5,
+    13.7
+   ],
+   "Bếp điện & gas": [
+    9.5,
+    13.7
+   ],
+   "Máy hấp điện": [
+    9.5,
+    13.7
+   ],
+   "Bếp nướng điện": [
+    9.5,
+    13.7
+   ],
+   "Bình nóng lạnh": [
+    9.5,
+    13.7
+   ],
+   "Ấm điện": [
+    11.5,
+    15.7
+   ],
+   "Máy xay chế biến thực phẩm": [
+    9.5,
+    13.7
+   ],
+   "Máy xử lý chất thải thực phẩm": [
+    9.5,
+    13.7
+   ],
+   "Nồi chiên không dầu": [
+    10.0,
+    14.7
+   ],
+   "Công cụ làm đá": [
+    10.0,
+    14.7
+   ],
+   "Bếp từ": [
+    9.5,
+    13.7
+   ],
+   "Máy ép trái cây & Máy xay sinh tố": [
+    9.5,
+    13.7
+   ],
+   "Các bộ phận của dụng cụ nhà bếp": [
+    9.5,
+    13.7
+   ],
+   "Lò vi sóng": [
+    10.0,
+    14.7
+   ],
+   "Máy trộn": [
+    9.5,
+    13.7
+   ],
+   "Nồi cơm & Nồi áp suất": [
+    9.5,
+    13.7
+   ],
+   "Máy làm soda": [
+    10.0,
+    14.7
+   ],
+   "Thiết bị nhà bếp chuyên dụng": [
+    10.0,
+    14.7
+   ],
+   "Lò nướng bánh": [
+    9.5,
+    13.7
+   ],
+   "Máy hút chân không": [
+    12.5,
+    15.1
+   ],
+   "Máy làm mát & Máy lấy nước": [
+    9.5,
+    9.0
+   ],
+   "Bộ lọc nước": [
+    9.5,
+    9.0
+   ]
+  },
+  "Đồ gia dụng lớn": {
+   "Máy điều hoà": [
+    9.5,
+    8.5
+   ],
+   "Tủ mát đựng đồ uống": [
+    9.0,
+    5.5
+   ],
+   "Máy rửa bát": [
+    8.0,
+    6.5
+   ],
+   "Bộ phận & phụ kiện của thiết bị lớn": [
+    9.0,
+    7.5
+   ],
+   "Lò nướng, Bếp gas & Bếp từ": [
+    10.0,
+    14.7
+   ],
+   "Máy điều hòa di động": [
+    9.5,
+    8.5
+   ],
+   "Máy hút mùi": [
+    10.0,
+    9.3
+   ],
+   "Tủ lạnh & Tủ đông": [
+    9.0,
+    5.5
+   ],
+   "Đầu thu kỹ thuật số": [
+    6.5,
+    10.6
+   ],
+   "Ti vi": [
+    7.5,
+    3.8
+   ],
+   "Máy giặt & Máy sấy": [
+    8.5,
+    5.5
+   ],
+   "Bình nước nóng": [
+    9.0,
+    9.3
+   ]
+  },
+  "Thiết bị gia dụng tân trang": {
+   "Thiết Bị Gia Dụng Đã Được Tân Trang": [
+    9.0,
+    5.5
+   ]
+  }
+ },
+ "Điện thoại & Đồ điện tử": {
+  "Âm thanh & Video": {
+   "Amply & Bàn trộn": [
+    10.5,
+    12.6
+   ],
+   "Phụ kiện âm thanh & video": [
+    10.5,
+    13.5
+   ],
+   "Máy thu AV": [
+    10.5,
+    14.7
+   ],
+   "Đầu đĩa CD & DVD": [
+    8.5,
+    13.5
+   ],
+   "Tai nghe trong & Tai nghe": [
+    10.5,
+    14.7
+   ],
+   "Hệ thống rạp chiếu phim tại nhà": [
+    8.5,
+    12.6
+   ],
+   "Micrô": [
+    10.5,
+    14.7
+   ],
+   "Máy nghe nhạc MP3 & MP4": [
+    8.5,
+    13.5
+   ],
+   "Máy chiếu": [
+    9.5,
+    11.6
+   ],
+   "Radio & Máy cassette": [
+    8.5,
+    13.5
+   ],
+   "Loa": [
+    10.5,
+    13.5
+   ],
+   "Máy ghi âm": [
+    8.5,
+    13.5
+   ],
+   "Bộ đàm": [
+    10.5,
+    14.7
+   ]
+  },
+  "Camera & Nhiếp ảnh": {
+   "Camera hành động": [
+    7.5,
+    8.3
+   ],
+   "Phụ kiện camera": [
+    9.5,
+    13.7
+   ],
+   "Bảo quản camera": [
+    11.5,
+    15.7
+   ],
+   "Ống kính máy ảnh": [
+    8.0,
+    8.3
+   ],
+   "Drone & Phụ kiện": [
+    7.5,
+    10.0
+   ],
+   "Máy ảnh DSLR": [
+    7.5,
+    8.3
+   ],
+   "Máy phim": [
+    6.0,
+    11.5
+   ],
+   "Camera chụp ảnh lấy liền": [
+    7.5,
+    8.3
+   ],
+   "Camera không gương lật": [
+    7.5,
+    8.3
+   ],
+   "Camera ngắm & chụp": [
+    7.5,
+    8.3
+   ],
+   "Hệ thống & Camera an ninh": [
+    7.5,
+    12.5
+   ],
+   "Máy quay video": [
+    5.5,
+    10.6
+   ]
+  },
+  "Thiết bị giáo dục": {
+   "Bút thông minh & kỹ thuật số": [
+    13.5,
+    15.7
+   ],
+   "Từ điển điện tử": [
+    10.5,
+    14.7
+   ],
+   "Bộ phận & phụ kiện thiết bị giáo dục": [
+    10.5,
+    14.7
+   ],
+   "Thiết bị học tập điện tử": [
+    10.5,
+    14.7
+   ],
+   "Sổ tay điện tử": [
+    6.0,
+    8.6
+   ],
+   "Máy đọc sách điện tử": [
+    10.5,
+    14.7
+   ],
+   "Bút & Thiết bị đọc": [
+    13.5,
+    15.7
+   ],
+   "Bảng viết điện tử": [
+    2.0,
+    3.8
+   ]
+  },
+  "Chơi game & Bảng điều khiển": {
+   "Phụ kiện bảng điều khiển": [
+    9.5,
+    13.7
+   ],
+   "Bảng điều khiển trò chơi cầm tay": [
+    7.0,
+    12.5
+   ],
+   "Bảng điều khiển trò chơi video tại nhà": [
+    7.0,
+    8.5
+   ],
+   "Trò chơi điện tử": [
+    9.5,
+    13.7
+   ]
+  },
+  "Phụ kiện điện thoại": {
+   "Cáp, Bộ sạc & Bộ điều hợp": [
+    13.5,
+    15.7
+   ],
+   "Ốp, miếng bảo vệ màn hình & miếng dán": [
+    13.5,
+    15.7
+   ],
+   "Thiết bị casting": [
+    11.5,
+    13.6
+   ],
+   "Ống kính & Đèn flash di động": [
+    13.5,
+    15.7
+   ],
+   "Bộ phận của điện thoại di động": [
+    13.5,
+    15.7
+   ],
+   "Pin điện thoại": [
+    13.5,
+    15.7
+   ],
+   "Giá đỡ & Chân đỡ điện thoại": [
+    13.5,
+    15.7
+   ],
+   "Dây đeo & Móc treo điện thoại": [
+    14.0,
+    16.7
+   ],
+   "Pin ѕạc dự phòng": [
+    13.5,
+    15.7
+   ],
+   "Phụ kiện chụp ảnh chân dung": [
+    13.5,
+    15.7
+   ],
+   "Thẻ sim & Phụ kiện": [
+    10.5,
+    12.7
+   ]
+  },
+  "Điện thoại & Máy tính bảng": {
+   "Điện thoại di động": [
+    2.0,
+    2.5
+   ],
+   "Máy tính bảng": [
+    2.0,
+    3.8
+   ]
+  },
+  "Đồ điện tử tân trang": {
+   "Máy Chơi Game & Máy Chơi Game Đã Được Tân Trang": [
+    7.0,
+    12.5
+   ]
+  },
+  "Thiết bị thông minh & Thiết bị đeo": {
+   "Vòng đeo tay thể thao thông minh": [
+    10.0,
+    11.5
+   ],
+   "Thiết bị định vị GPS": [
+    9.5,
+    12.5
+   ],
+   "Kính thông minh": [
+    9.5,
+    12.5
+   ],
+   "Đồng hồ thông minh": [
+    9.5,
+    10.5
+   ],
+   "Thiết bị VR": [
+    9.5,
+    12.5
+   ],
+   "Phụ kiện đeo": [
+    13.5,
+    14.5
+   ]
+  },
+  "Phụ kiện máy tính bảng & máy tính": {
+   "Bút cảm ứng": [
+    13.5,
+    15.7
+   ],
+   "Túi đựng máy tính bảng": [
+    13.5,
+    15.7
+   ],
+   "Bộ sạc & Bộ điều hợp máy tính bảng": [
+    13.5,
+    15.7
+   ],
+   "Vỏ & Ốp máy tính bảng": [
+    13.5,
+    15.7
+   ],
+   "Bàn phím máy tính bảng": [
+    13.5,
+    15.7
+   ],
+   "Bộ phận máy tính bảng": [
+    13.5,
+    15.7
+   ],
+   "Cường lực máy tính bảng": [
+    7.5,
+    12.5
+   ],
+   "Giá đỡ & đế máy tính bảng": [
+    13.5,
+    15.7
+   ]
+  },
+  "Phụ kiện đa năng": {
+   "Wi-Fi bỏ túi": [
+    13.5,
+    15.7
+   ],
+   "Sạc pin đa năng": [
+    13.5,
+    15.7
+   ],
+   "Quạt USB & di động": [
+    13.5,
+    15.7
+   ],
+   "Đèn USB & di động": [
+    13.5,
+    15.7
+   ],
+   "Máy hút chân không USB": [
+    13.5,
+    15.7
+   ],
+   "Pin cúc áo": [
+    9.5,
+    13.7
+   ],
+   "Pin khô": [
+    10.0,
+    14.7
+   ]
+  }
+ },
+ "Đã qua sử dụng": {
+  "Điện thoại & Đồ điện tử đã được tân trang lại": {
+   "Máy vi tính đồng bộ": [
+    2.5,
+    3.8
+   ],
+   "Máy ảnh": [
+    7.5,
+    8.3
+   ],
+   "Máy tính để bàn": [
+    2.0,
+    3.8
+   ],
+   "Máy tính xách tay": [
+    2.0,
+    3.8
+   ],
+   "Điện thoại di động": [
+    2.0,
+    2.5
+   ],
+   "Máy chủ": [
+    2.5,
+    3.8
+   ],
+   "Máy tính bảng": [
+    2.0,
+    3.8
+   ]
+  },
+  "Đồng hồ": {
+   "Đồng hồ thông minh": [
+    9.5,
+    10.5
+   ],
+   "Đồng hồ tự động": [
+    14.0,
+    16.0
+   ],
+   "Đồng Hồ Cơ": [
+    14.0,
+    16.0
+   ],
+   "Đồng hồ thạch anh": [
+    14.0,
+    16.0
+   ],
+   "Phụ kiện đồng hồ": [
+    14.0,
+    16.0
+   ]
+  },
+  "Túi xách": {
+   "Ba lô": [
+    15.0,
+    17.1
+   ],
+   "Phụ kiện túi xách": [
+    15.0,
+    17.1
+   ],
+   "Túi đeo hông": [
+    15.0,
+    17.1
+   ],
+   "Túi xô": [
+    15.0,
+    17.1
+   ],
+   "Ví cầm tay & ví đeo cổ tay": [
+    15.0,
+    17.1
+   ],
+   "Túi đeo chéo": [
+    14.0,
+    16.0
+   ],
+   "Túi đưa thư Túi xách": [
+    14.0,
+    16.0
+   ],
+   "Túi mini": [
+    14.0,
+    16.0
+   ],
+   "Túi chuyên nghiệp & công nghệ": [
+    15.0,
+    17.1
+   ],
+   "Túi đeo vai": [
+    14.0,
+    16.0
+   ],
+   "Đồ da nhỏ": [
+    14.0,
+    16.1
+   ],
+   "Túi xách tay": [
+    14.0,
+    16.0
+   ],
+   "Túi xách": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phụ kiện thời trang": {
+   "Thắt lưng": [
+    15.0,
+    17.1
+   ],
+   "Trang sức & phụ kiện thời trang": [
+    13.0,
+    15.0
+   ],
+   "Gọng & Kính": [
+    14.0,
+    16.1
+   ],
+   "Găng tay": [
+    15.0,
+    17.1
+   ],
+   "Phụ kiện cài đầu": [
+    13.0,
+    15.0
+   ],
+   "Mũ": [
+    15.0,
+    17.1
+   ],
+   "Trang Sức Cao Cấp": [
+    13.0,
+    15.0
+   ],
+   "Kính râm": [
+    14.0,
+    16.1
+   ]
+  },
+  "Giày dép": {
+   "Bốt": [
+    14.0,
+    16.0
+   ],
+   "Phụ kiện giày dép": [
+    14.0,
+    16.0
+   ],
+   "Giày cao gót": [
+    14.0,
+    16.0
+   ],
+   "Giày tây nam": [
+    14.0,
+    16.0
+   ],
+   "Dép xăng đan": [
+    15.0,
+    17.1
+   ],
+   "Giày thể thao": [
+    14.0,
+    16.0
+   ],
+   "Giày bệt nữ": [
+    14.0,
+    16.0
+   ]
+  },
+  "Hành lý & Du lịch": {
+   "Hành lý": [
+    12.0,
+    14.0
+   ],
+   "Phụ kiện hành lý": [
+    14.0,
+    16.1
+   ],
+   "Túi đựng đồ vệ sinh": [
+    14.0,
+    16.1
+   ],
+   "Túi du lịch": [
+    14.0,
+    16.1
+   ]
+  },
+  "Thời trang nam": {
+   "Quần nam": [
+    14.0,
+    16.1
+   ],
+   "Áo khoác nam": [
+    15.0,
+    17.1
+   ],
+   "Áo len, áo cardigan & áo hoodie nam": [
+    15.0,
+    17.1
+   ],
+   "Đồ thể thao nam": [
+    15.0,
+    17.1
+   ],
+   "Bộ vest & quần yếm nam": [
+    14.0,
+    16.1
+   ],
+   "Đồ bơi & đồ đi biển nam": [
+    15.0,
+    17.1
+   ],
+   "Áo nam": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phụ kiện thể thao": {
+   "Phụ kiện câu cá": [
+    15.0,
+    17.1
+   ],
+   "Con lăn massage": [
+    15.0,
+    17.1
+   ],
+   "Bóng Golf": [
+    15.0,
+    17.1
+   ],
+   "Câu lạc bộ golf": [
+    15.0,
+    17.1
+   ],
+   "Cọc và dụng cụ đánh dấu gôn": [
+    15.0,
+    17.1
+   ],
+   "Dây kéo đàn hồi": [
+    15.0,
+    17.1
+   ],
+   "Phụ Kiện Xe Đạp": [
+    12.0,
+    14.0
+   ]
+  },
+  "Thời trang nữ": {
+   "Quần nữ": [
+    15.0,
+    17.1
+   ],
+   "Váy nữ": [
+    15.0,
+    17.1
+   ],
+   "Áo khoác & áo choàng nữ": [
+    14.0,
+    16.0
+   ],
+   "Áo len, áo cardigan & áo hoodie nữ": [
+    15.0,
+    17.1
+   ],
+   "Đồ lót, đồ ngủ & đồ mặc nhà nữ": [
+    15.0,
+    17.1
+   ],
+   "Giày thể thao nữ": [
+    15.0,
+    17.1
+   ],
+   "Bộ vest & quần yếm nữ": [
+    15.0,
+    17.1
+   ],
+   "Đồ bơi & đồ đi biển nữ": [
+    15.0,
+    17.1
+   ],
+   "Áo nữ": [
+    15.0,
+    17.1
+   ]
+  },
+  "Sách": {
+   "Truyện Tranh Được Phân Loại": [
+    13.5,
+    15.0
+   ],
+   "Sách Chưa Phân Loại": [
+    13.5,
+    15.0
+   ],
+   "Sách Hiếm & Sưu Tầm": [
+    13.5,
+    15.0
+   ]
+  },
+  "Thẻ trao đổi sưu tầm": {
+   "Mở hộp thẻ trao đổi không thuộc lĩnh vực thể thao": [
+    14.5,
+    15.7
+   ],
+   "Gói & Hộp thẻ trao đổi Không Thể Thao": [
+    14.5,
+    15.7
+   ],
+   "thẻ trao đổi không thuộc lĩnh vực thể thao (thẻ đơn) được phân loại": [
+    14.5,
+    15.7
+   ],
+   "thẻ trao đổi Không Thể Thao - Thẻ Đơn Chưa Phân Loại": [
+    14.5,
+    15.7
+   ],
+   "Mở hộp thẻ trao đổi thể thao": [
+    14.5,
+    15.7
+   ],
+   "Thẻ trao đổi thể thao đơn lẻ được phân loại": [
+    14.5,
+    15.7
+   ],
+   "Gói & hộp thẻ trao đổi thể thao": [
+    14.5,
+    15.7
+   ],
+   "thẻ trao đổi Thể Thao - Thẻ Đơn Chưa Phân Loại": [
+    14.5,
+    15.7
+   ],
+   "Phụ kiện thẻ trao đổi": [
+    14.5,
+    15.7
+   ]
+  }
+ },
+ "Sản phẩm trực tuyến": {
+  "Viễn thông": {
+   "E-SIM": [
+    10.5,
+    12.7
+   ],
+   "Dữ liệu di động": [
+    11.5,
+    12.6
+   ],
+   "Nạp tiền di động": [
+    11.5,
+    12.6
+   ]
+  },
+  "Thẻ giảm giá": {
+   "Phiếu giảm giá và vận chuyển": [
+    11.5,
+    12.6
+   ]
+  }
+ },
+ "Phụ kiện thời trang": {
+  "Phụ kiện quần áo": {
+   "Thắt lưng": [
+    15.0,
+    17.1
+   ],
+   "Kẹp & Trâm cài cổ áo": [
+    15.0,
+    17.1
+   ],
+   "Khuy măng sét": [
+    14.0,
+    16.0
+   ],
+   "Chụp tai": [
+    15.0,
+    17.1
+   ],
+   "Khẩu trang & phụ kiện": [
+    15.0,
+    17.1
+   ],
+   "Bộ phụ kiện thời trang": [
+    15.0,
+    17.1
+   ],
+   "Găng tay": [
+    15.0,
+    17.1
+   ],
+   "Khăn tay": [
+    15.0,
+    17.1
+   ],
+   "Mũ": [
+    15.0,
+    17.1
+   ],
+   "Khăn quàng cổ & Khăn choàng": [
+    15.0,
+    17.1
+   ],
+   "Cà vạt & Nơ cà vạt": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phục sức & phụ kiện": {
+   "Lắc chân": [
+    15.0,
+    17.1
+   ],
+   "Trang sức cơ thể": [
+    15.0,
+    17.1
+   ],
+   "Vòng tay & Lắc tay": [
+    14.0,
+    16.0
+   ],
+   "Hạt charm & Mặt dây chuyền": [
+    14.0,
+    16.0
+   ],
+   "Hoa tai": [
+    14.0,
+    16.0
+   ],
+   "Bộ điều chỉnh & Bảo vệ trang sức": [
+    13.5,
+    16.0
+   ],
+   "Bộ trang sức": [
+    15.0,
+    17.1
+   ],
+   "Dây chuyền": [
+    15.0,
+    17.1
+   ],
+   "Nhẫn": [
+    14.0,
+    16.0
+   ],
+   "Móc khóa": [
+    14.5,
+    16.7
+   ]
+  },
+  "Vải may váy": {
+   "Batik": [
+    13.0,
+    15.0
+   ],
+   "Canvas": [
+    13.0,
+    15.0
+   ],
+   "Cotton": [
+    13.0,
+    15.0
+   ],
+   "Denim": [
+    14.0,
+    16.0
+   ],
+   "Kain Pasang": [
+    13.0,
+    15.0
+   ],
+   "Ren": [
+    13.0,
+    15.0
+   ],
+   "Da": [
+    13.0,
+    15.0
+   ],
+   "Polyester": [
+    13.0,
+    15.0
+   ],
+   "Songket": [
+    13.0,
+    15.0
+   ],
+   "Nhung, Lụa & Satin": [
+    13.0,
+    15.0
+   ],
+   "Len": [
+    13.5,
+    16.0
+   ]
+  },
+  "Kính mắt": {
+   "Gọng & Kính": [
+    14.0,
+    16.1
+   ],
+   "Hộp kính & Phụ kiện": [
+    14.5,
+    17.1
+   ],
+   "Kính râm": [
+    14.0,
+    16.1
+   ]
+  },
+  "Đồng hồ & Phụ kiện": {
+   "Đồng hồ cặp đôi": [
+    14.0,
+    16.0
+   ],
+   "Đồng hồ nam": [
+    14.0,
+    16.0
+   ],
+   "Đồng hồ unisex": [
+    14.0,
+    16.0
+   ],
+   "Phụ kiện đồng hồ": [
+    14.0,
+    16.0
+   ],
+   "Đồng hồ nữ": [
+    14.0,
+    16.0
+   ]
+  },
+  "Phụ kiện cài đầu": {
+   "Kẹp tóc & Ghim cài tóc": [
+    15.0,
+    17.1
+   ],
+   "Bờm & Dây buộc tóc": [
+    15.5,
+    18.1
+   ],
+   "Băng đô": [
+    15.0,
+    17.1
+   ],
+   "Phụ kiện cài đầu & Vương miện": [
+    15.5,
+    18.1
+   ]
+  },
+  "Nối tóc & tóc giả": {
+   "Tóc nối & phụ kiện tóc giả": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren 360 bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren tùy chỉnh bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc nối bằng tóc thật & kẹp": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren toàn bộ đầu bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren toàn bộ đầu bằng tóc thật làm bằng máy": [
+    15.0,
+    17.1
+   ],
+   "Đuôi tóc giả lót ren bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc mái giả lót ren bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren gốc lụa bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren phần T bằng tóc thật": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả lót ren bện tổng hợp": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả phục sức tổng hợp": [
+    15.0,
+    17.1
+   ],
+   "Tóc nối tổng hợp & kẹp": [
+    15.0,
+    17.1
+   ],
+   "Tóc giả toàn bộ đầu làm bằng máy": [
+    15.0,
+    17.1
+   ],
+   "Tóc mái giả lót ren tổng hợp": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phụ kiện cưới": {
+   "Thắt lưng chú rể": [
+    15.0,
+    17.1
+   ],
+   "Mahr": [
+    15.0,
+    17.1
+   ],
+   "Phụ kiện nam truyền thống": [
+    15.5,
+    18.1
+   ]
+  }
+ },
+ "Phụ kiện trang sức & Phái sinh": {
+  "Hổ phách": {
+   "Vòng tay & Lắc chân hổ phách": [
+    13.5,
+    16.0
+   ],
+   "Phụ kiện quần áo bằng hổ phách": [
+    13.0,
+    15.0
+   ],
+   "Đồ trang trí bằng hổ phách": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai hổ phách": [
+    13.5,
+    16.0
+   ],
+   "Bộ trang sức hổ phách": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền hổ phách": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn hổ phách": [
+    13.0,
+    15.0
+   ],
+   "Hổ phách bán thành phẩm": [
+    13.5,
+    16.0
+   ]
+  },
+  "Đá quý nhân tạo": {
+   "Vòng tay & Lắc chân đá quý nhân tạo": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo bằng đá quý nhân tạo": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai đá quý nhân tạo": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức bằng đá quý nhân tạo": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền đá quý nhân tạo": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn đá quý nhân tạo": [
+    13.0,
+    15.0
+   ]
+  },
+  "Kim cương": {
+   "Vòng tay & Lắc chân kim cương": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo kim cương": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai kim cương": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức kim cương": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền kim cương": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn kim cương": [
+    13.0,
+    15.0
+   ],
+   "Mahr": [
+    13.0,
+    15.0
+   ]
+  },
+  "Vàng": {
+   "Vòng tay & Lắc chân vàng": [
+    9.0,
+    9.0
+   ],
+   "Phụ kiện quần áo bằng vàng": [
+    9.0,
+    9.0
+   ],
+   "Đồ trang trí bằng vàng": [
+    9.0,
+    9.0
+   ],
+   "Khuyên tai vàng": [
+    9.0,
+    9.0
+   ],
+   "Bộ trang sức bằng vàng": [
+    9.0,
+    9.0
+   ],
+   "Dây chuyền & Mặt dây chuyền vàng": [
+    9.0,
+    9.0
+   ],
+   "Nhẫn vàng": [
+    9.0,
+    9.0
+   ],
+   "Mahr": [
+    13.0,
+    15.0
+   ],
+   "Vàng bán thành phẩm": [
+    9.0,
+    9.0
+   ]
+  },
+  "Ngọc bích": {
+   "Vòng tay & Lắc chân ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Đồ trang trí bằng ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn ngọc bích": [
+    13.0,
+    15.0
+   ],
+   "Ngọc bích bán thành phẩm": [
+    13.0,
+    15.0
+   ]
+  },
+  "Mellite": {
+   "Vòng tay & Lắc chân Mellite": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo bằng Mellite": [
+    13.0,
+    15.0
+   ],
+   "Đồ trang trí bằng Mellite": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai Mellite": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức Mellite": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền Mellite": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn Mellite": [
+    13.0,
+    15.0
+   ],
+   "Mellite bán thành phẩm": [
+    13.0,
+    15.0
+   ]
+  },
+  "Pha lê tự nhiên": {
+   "Vòng tay & Lắc chân pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Đồ trang trí bằng pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn pha lê tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Pha lê tự nhiên bán thành phẩm": [
+    13.0,
+    15.0
+   ]
+  },
+  "Pha lê không tự nhiên": {
+   "Vòng tay & Lắc chân pha lê không phải tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo pha lê không tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Đồ trang trí bằng pha lê không tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai pha lê không tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức pha lê không tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền pha lê không tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn pha lê không tự nhiên": [
+    13.0,
+    15.0
+   ],
+   "Pha lê không tự nhiên bán thành phẩm": [
+    13.0,
+    15.0
+   ]
+  },
+  "Ngọc trai": {
+   "Vòng tay & Lắc chân ngọc trai": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo ngọc trai": [
+    13.0,
+    15.0
+   ],
+   "Đồ trang trí bằng ngọc trai": [
+    13.5,
+    16.0
+   ],
+   "Khuyên tai ngọc trai": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức ngọc trai": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền ngọc trai": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn ngọc trai": [
+    13.0,
+    15.0
+   ],
+   "Ngọc trai bán thành phẩm": [
+    13.0,
+    15.0
+   ]
+  },
+  "Bạch kim & Vàng Carat": {
+   "Vòng tay & Lắc chân bằng bạch kim & vàng Carat": [
+    13.5,
+    16.0
+   ],
+   "Phụ kiện quần áo bạch kim & vàng Carat": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai bạch kim & vàng Carat": [
+    13.5,
+    16.0
+   ],
+   "Bộ trang sức bạch kim & vàng Carat": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền bằng bạch kim & vàng Carat": [
+    13.5,
+    16.0
+   ],
+   "Nhẫn bạch kim & vàng Carat": [
+    13.0,
+    15.0
+   ]
+  },
+  "Hồng ngọc, Sapphire & Ngọc lục bảo": {
+   "Vòng tay & Lắc chân Hồng ngọc, Sapphire & Ngọc lục bảo": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo bằng Hồng ngọc, Sapphire & Ngọc lục bảo": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai Hồng ngọc, Sapphire & Ngọc lục bảo": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức Hồng ngọc, Sapphire & Ngọc lục bảo": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền Hồng ngọc, Sapphire & Ngọc lục bảo": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn Hồng ngọc, Sapphire & Ngọc lục bảo": [
+    13.0,
+    15.0
+   ],
+   "Hồng ngọc, Sapphire & Ngọc lục bảo bán thành phẩm": [
+    13.0,
+    15.0
+   ]
+  },
+  "Đá bán quý": {
+   "Đá bán quý bán thành phẩm": [
+    13.0,
+    15.0
+   ],
+   "Vòng tay & Lắc chân bằng đá bán quý": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện quần áo bằng đá bán quý": [
+    13.0,
+    15.0
+   ],
+   "Khuyên tai bằng đá bán quý": [
+    13.0,
+    15.0
+   ],
+   "Bộ trang sức bằng đá bán quý": [
+    13.0,
+    15.0
+   ],
+   "Dây chuyền & Mặt dây chuyền bằng đá bán quý": [
+    13.0,
+    15.0
+   ],
+   "Nhẫn đá bán quý": [
+    13.0,
+    15.0
+   ]
+  },
+  "Bạc": {
+   "Bạc bán thành phẩm": [
+    14.0,
+    16.1
+   ],
+   "Vòng tay & Lắc chân bạc": [
+    14.0,
+    16.1
+   ],
+   "Phụ kiện quần áo bằng bạc": [
+    14.0,
+    16.1
+   ],
+   "Đồ trang trí bằng bạc": [
+    14.0,
+    16.1
+   ],
+   "Khuyên tai bạc": [
+    14.0,
+    16.1
+   ],
+   "Bộ trang sức bằng bạc": [
+    14.0,
+    16.1
+   ],
+   "Dây chuyền & Mặt dây chuyền bạc": [
+    14.0,
+    16.1
+   ],
+   "Nhẫn bạc": [
+    14.0,
+    16.1
+   ]
+  }
+ },
+ "Hành lý & Túi xách": {
+  "Phụ kiện túi": {
+   "Móc treo túi": [
+    15.5,
+    18.1
+   ],
+   "Túi nhiều ngăn": [
+    15.0,
+    17.1
+   ],
+   "Quai xách & Dây đeo dạng xích": [
+    15.0,
+    17.1
+   ],
+   "Móc treo & Khăn cột túi": [
+    15.0,
+    17.1
+   ],
+   "Vệ sinh & Bảo quản": [
+    15.0,
+    17.1
+   ]
+  },
+  "Túi đa năng": {
+   "Ba lô": [
+    15.0,
+    17.1
+   ],
+   "Túi làm mát": [
+    14.0,
+    16.1
+   ],
+   "Túi đựng máy tính xách tay": [
+    15.0,
+    17.1
+   ],
+   "Túi đựng hộp cơm": [
+    14.0,
+    16.1
+   ],
+   "Túi đựng đồ trang điểm": [
+    14.0,
+    16.1
+   ],
+   "Các túi mua sắm": [
+    14.5,
+    17.1
+   ],
+   "Túi đựng đồ vệ sinh": [
+    14.0,
+    16.1
+   ]
+  },
+  "Hành lý & Túi du lịch": {
+   "Hành lý": [
+    12.5,
+    15.0
+   ],
+   "Phụ kiện hành lý": [
+    14.0,
+    16.1
+   ],
+   "Bìa & Ví đựng hộ chiếu": [
+    14.0,
+    16.1
+   ],
+   "Túi du lịch": [
+    14.0,
+    16.1
+   ],
+   "Ví đựng thẻ": [
+    14.0,
+    16.1
+   ]
+  },
+  "Túi xách nam": {
+   "Ba lô": [
+    15.0,
+    17.1
+   ],
+   "Cặp tài liệu": [
+    14.0,
+    16.0
+   ],
+   "Túi ví cầm tay": [
+    14.0,
+    16.0
+   ],
+   "Túi đeo chéo & Túi đeo vai": [
+    15.0,
+    17.1
+   ],
+   "Túi bao tử & Túi thắt lưng": [
+    14.0,
+    16.1
+   ],
+   "Túi tote": [
+    14.0,
+    16.0
+   ],
+   "Ví": [
+    14.0,
+    16.0
+   ]
+  },
+  "Túi xách nữ": {
+   "Túi ví cầm tay & Túi ví đeo cổ tay": [
+    15.0,
+    17.1
+   ],
+   "Túi đeo chéo & Túi đeo vai": [
+    14.0,
+    16.0
+   ],
+   "Túi bao tử & Túi thắt lưng": [
+    15.0,
+    17.1
+   ],
+   "Túi xách": [
+    14.0,
+    16.0
+   ],
+   "Túi tote": [
+    15.0,
+    17.1
+   ],
+   "Ví": [
+    14.0,
+    16.1
+   ]
+  }
+ },
+ "Trang phục nam & Đồ lót": {
+  "Quần nam": {
+   "Quần jean": [
+    13.0,
+    15.1
+   ],
+   "Quần dài": [
+    14.0,
+    16.1
+   ],
+   "Quần short": [
+    15.0,
+    17.1
+   ]
+  },
+  "Đồ ngủ & đồ mặc nhà cho nam": {
+   "Áo liền quần rộng": [
+    14.5,
+    17.1
+   ],
+   "Áo choàng tắm & Áo choàng": [
+    14.0,
+    16.1
+   ],
+   "Áo ngủ": [
+    14.0,
+    16.1
+   ],
+   "Bộ ngủ": [
+    14.0,
+    16.1
+   ]
+  },
+  "Quần áo nam Nam Á": {
+   "Áo Kurta": [
+    14.0,
+    16.1
+   ],
+   "Áo sơ mi": [
+    14.0,
+    16.1
+   ],
+   "Quần dài": [
+    14.0,
+    16.1
+   ]
+  },
+  "Trang phục đặc biệt dành cho nam": {
+   "Trang phục & Phụ kiện": [
+    15.0,
+    17.1
+   ],
+   "Trang phục truyền thống": [
+    14.0,
+    16.1
+   ],
+   "Quần áo bảo hộ lao động & Đồng phục": [
+    15.0,
+    17.1
+   ]
+  },
+  "Bộ vét và quần yếm nam": {
+   "Bộ": [
+    14.0,
+    16.1
+   ],
+   "Bộ vét": [
+    14.0,
+    16.1
+   ],
+   "Quần yếm": [
+    14.0,
+    16.1
+   ]
+  },
+  "Áo nam": {
+   "Áo hoodie & Áo len": [
+    15.0,
+    17.1
+   ],
+   "Áo khoác & Áo choàng": [
+    15.0,
+    17.1
+   ],
+   "Hàng dệt kim": [
+    15.0,
+    17.1
+   ],
+   "Áo Polo": [
+    15.0,
+    17.1
+   ],
+   "Áo sơ mi": [
+    15.0,
+    17.1
+   ],
+   "Áo thun": [
+    15.0,
+    17.1
+   ],
+   "Áo gi lê": [
+    15.0,
+    17.1
+   ],
+   "Áo gilê và Áo gilet": [
+    14.0,
+    16.1
+   ]
+  },
+  "Đồ lót nam": {
+   "Áo gi lê": [
+    15.0,
+    17.1
+   ],
+   "Đồ giữ ấm mặc bên trong": [
+    15.0,
+    17.1
+   ],
+   "Đồ lót": [
+    15.0,
+    17.1
+   ],
+   "Tất": [
+    15.0,
+    17.1
+   ]
+  }
+ },
+ "Thời trang Hồi giáo": {
+  "Trang phục phụ nữ Hồi giáo": {
+   "Áo Kaftan": [
+    14.0,
+    16.0
+   ],
+   "Abaya": [
+    14.0,
+    16.0
+   ],
+   "Bộ đồ": [
+    14.0,
+    16.0
+   ],
+   "Bộ đồ cho cặp đôi": [
+    14.0,
+    16.0
+   ],
+   "Váy": [
+    14.0,
+    16.0
+   ],
+   "Bộ đồ cho gia đình": [
+    14.0,
+    16.0
+   ],
+   "Gamis": [
+    14.0,
+    16.0
+   ],
+   "Áo liền quần": [
+    14.0,
+    16.0
+   ],
+   "Quần legging": [
+    14.0,
+    16.0
+   ],
+   "Quần Palazzo": [
+    14.0,
+    16.0
+   ],
+   "Áo choàng": [
+    14.0,
+    16.0
+   ],
+   "Áo sơ mi và áo blouse": [
+    14.0,
+    16.0
+   ],
+   "Chân váy": [
+    14.0,
+    16.0
+   ],
+   "Áo Tunic": [
+    14.0,
+    16.0
+   ],
+   "Khuy măng sét & khuy trong": [
+    14.5,
+    17.0
+   ]
+  },
+  "Khăn trùm đầu che đầu và cổ (Hijab)": {
+   "Khăn trùm đầu đội ngay": [
+    14.0,
+    16.0
+   ],
+   "Khăn trùm dài che đầu, cổ và vai (Khimar)": [
+    14.0,
+    16.0
+   ],
+   "Niqab": [
+    14.0,
+    16.0
+   ],
+   "Khăn quàng cổ Pashmina": [
+    14.0,
+    16.0
+   ],
+   "Khăn trùm đầu vuông": [
+    14.0,
+    16.0
+   ],
+   "Khăn trùm tóc": [
+    14.0,
+    16.0
+   ]
+  },
+  "Phụ kiện Hồi giáo": {
+   "Găng tay ống": [
+    14.0,
+    16.0
+   ],
+   "Ghim cài khăn trùm đầu": [
+    14.0,
+    16.0
+   ],
+   "Tất": [
+    14.0,
+    16.0
+   ]
+  },
+  "Đồ thể thao Hồi giáo": {
+   "Đồ bơi Hồi giáo": [
+    15.0,
+    17.1
+   ],
+   "Bộ quần áo thể thao Hồi giáo": [
+    14.0,
+    16.0
+   ]
+  },
+  "Trang phục trẻ em Hồi giáo": {
+   "Trang phục bé trai Hồi giáo": [
+    14.0,
+    16.0
+   ],
+   "Trang phục bé gái Hồi giáo": [
+    14.0,
+    16.0
+   ],
+   "Khăn trùm đầu cho trẻ em": [
+    14.0,
+    16.0
+   ]
+  },
+  "Trang phục đàn ông Hồi giáo": {
+   "Koko & Áo": [
+    14.0,
+    16.0
+   ],
+   "Áo choàng": [
+    14.0,
+    16.0
+   ],
+   "Quần dài": [
+    14.0,
+    16.0
+   ]
+  },
+  "Đồ mặc ngoài": {
+   "Áo cardigan": [
+    14.0,
+    16.0
+   ],
+   "Áo choàng": [
+    14.0,
+    16.0
+   ],
+   "Áo khoác": [
+    14.0,
+    16.0
+   ],
+   "Áo mưa": [
+    15.0,
+    17.1
+   ],
+   "Áo gilê": [
+    14.0,
+    16.0
+   ]
+  },
+  "Trang phục & trang bị cầu nguyện": {
+   "Mukena": [
+    14.0,
+    16.0
+   ],
+   "Peci": [
+    14.0,
+    16.0
+   ],
+   "Thảm cầu nguyện": [
+    14.0,
+    16.0
+   ],
+   "Bộ đồ cầu nguyện": [
+    14.0,
+    16.0
+   ],
+   "Áo khoác cầu nguyện": [
+    14.5,
+    17.0
+   ],
+   "Sarong": [
+    14.5,
+    17.0
+   ],
+   "Tasbih": [
+    14.5,
+    17.0
+   ]
+  },
+  "Thiết bị Umroh": {
+   "Y phục Ihram": [
+    14.0,
+    16.0
+   ],
+   "Gói Umroh": [
+    14.5,
+    17.0
+   ],
+   "Bộ áo sơ mi trắng": [
+    14.0,
+    16.0
+   ]
+  }
+ },
+ "Giày": {
+  "Giày nam": {
+   "Giày thể thao đơn giản": [
+    14.0,
+    16.0
+   ],
+   "Giày đi dự tiệc": [
+    14.0,
+    16.0
+   ],
+   "Bốt": [
+    14.0,
+    16.0
+   ],
+   "Giày oxford": [
+    14.0,
+    16.0
+   ],
+   "Giày hở gót & Guốc": [
+    14.0,
+    16.0
+   ],
+   "Dép xăng đan & Dép tông": [
+    14.0,
+    16.0
+   ],
+   "Giày lười & giày đế bằng": [
+    14.0,
+    16.0
+   ],
+   "Dép lê": [
+    14.0,
+    16.0
+   ],
+   "Giày cưới": [
+    14.0,
+    16.0
+   ],
+   "Giày lao động & bảo hộ": [
+    14.0,
+    16.0
+   ]
+  },
+  "Phụ kiện giày": {
+   "Vệ sinh & Bảo quản": [
+    14.0,
+    16.0
+   ],
+   "Lót giày & Lót gót chân": [
+    14.0,
+    16.0
+   ],
+   "Lót bảo vệ mũi giày & bốt": [
+    14.5,
+    17.0
+   ],
+   "Phụ kiện trang trí giày": [
+    14.5,
+    17.0
+   ],
+   "Đón gót & Phom giày": [
+    14.5,
+    17.0
+   ],
+   "Dây giày": [
+    14.0,
+    16.0
+   ]
+  },
+  "Giày nữ": {
+   "Giày thể thao đơn giản": [
+    14.0,
+    16.0
+   ],
+   "Đế bằng": [
+    14.0,
+    16.0
+   ],
+   "Cao gót": [
+    14.0,
+    16.0
+   ],
+   "Giày Mary Jane": [
+    15.0,
+    17.1
+   ],
+   "Giày hở gót & Guốc": [
+    14.0,
+    16.0
+   ],
+   "Giày oxford": [
+    14.0,
+    16.0
+   ],
+   "Dép xăng đan & Dép tông": [
+    15.0,
+    17.1
+   ],
+   "Giày lười": [
+    14.0,
+    16.0
+   ],
+   "Dép lê": [
+    15.0,
+    17.1
+   ],
+   "Bốt": [
+    14.0,
+    16.0
+   ],
+   "Giày lao động & bảo hộ": [
+    14.0,
+    16.0
+   ]
+  }
+ },
+ "Thể thao & Ngoài trời": {
+  "Thiết bị các môn thể thao bóng": {
+   "Bóng bầu dục Mỹ": [
+    12.0,
+    14.0
+   ],
+   "Bóng ném Mỹ": [
+    12.0,
+    14.0
+   ],
+   "Cầu lông": [
+    12.0,
+    14.0
+   ],
+   "Bóng chày": [
+    12.0,
+    14.0
+   ],
+   "Bóng rổ": [
+    12.0,
+    14.0
+   ],
+   "Bida & Snooker": [
+    12.0,
+    14.0
+   ],
+   "Bowling": [
+    12.0,
+    14.0
+   ],
+   "Bóng gậy": [
+    12.0,
+    14.0
+   ],
+   "Khúc côn cầu": [
+    15.0,
+    17.1
+   ],
+   "Bóng đá": [
+    12.0,
+    14.0
+   ],
+   "Bóng đá trong nhà": [
+    12.0,
+    14.0
+   ],
+   "Golf": [
+    12.0,
+    14.0
+   ],
+   "Bóng ném": [
+    12.0,
+    14.0
+   ],
+   "Bóng lưới": [
+    12.0,
+    14.0
+   ],
+   "Vợt tennis": [
+    12.0,
+    14.0
+   ],
+   "Mã cầu": [
+    12.5,
+    15.0
+   ],
+   "Bóng bầu dục Rugby": [
+    12.0,
+    14.0
+   ],
+   "Bóng mềm": [
+    12.0,
+    14.0
+   ],
+   "Bóng quần": [
+    12.0,
+    14.0
+   ],
+   "Bóng bàn": [
+    12.0,
+    14.0
+   ],
+   "Tennis": [
+    12.0,
+    14.0
+   ],
+   "Bóng chuyền": [
+    12.0,
+    14.0
+   ]
+  },
+  "Thiết bị cắm trại & đi bộ đường dài": {
+   "Ống nhòm & Kính thiên văn": [
+    12.0,
+    14.0
+   ],
+   "Đồ dùng bếp cắm trại": [
+    12.0,
+    14.0
+   ],
+   "Nội thất cắm trại": [
+    12.0,
+    14.0
+   ],
+   "La bàn": [
+    12.0,
+    14.0
+   ],
+   "Võng": [
+    12.0,
+    14.0
+   ],
+   "Gậy đi bộ đường dài": [
+    12.0,
+    14.0
+   ],
+   "Dao & Bộ dụng cụ sinh tồn": [
+    12.0,
+    14.0
+   ],
+   "Đèn cắm trại": [
+    12.0,
+    14.0
+   ],
+   "vệ sinh cắm trại": [
+    12.0,
+    14.0
+   ],
+   "Thảm & Giỏ dã ngoại": [
+    12.0,
+    14.0
+   ],
+   "Túi ngủ & Bộ chăn ga gối đệm": [
+    12.0,
+    14.0
+   ],
+   "Lều & Phụ kiện": [
+    12.0,
+    14.0
+   ],
+   "Máy lọc nước, máy lọc và bảo quản": [
+    12.0,
+    14.0
+   ],
+   "Quạt cắm trại": [
+    12.0,
+    14.0
+   ]
+  },
+  "Cửa hàng dành cho người hâm mộ": {
+   "Bóng bầu dục Mỹ": [
+    12.0,
+    14.0
+   ],
+   "Bóng rổ": [
+    12.0,
+    14.0
+   ],
+   "Bóng gậy": [
+    12.0,
+    14.0
+   ],
+   "Chơi game": [
+    14.0,
+    16.1
+   ],
+   "Golf": [
+    12.0,
+    14.0
+   ],
+   "Giải bóng đá Ngoại hạng Anh": [
+    14.0,
+    16.1
+   ],
+   "Tennis": [
+    12.0,
+    14.0
+   ]
+  },
+  "Thiết bị tập thể hình": {
+   "Tập bụng": [
+    12.0,
+    14.0
+   ],
+   "Thiết bị tập luyện sự nhanh nhạy": [
+    12.0,
+    14.0
+   ],
+   "Thiết bị tập thể hình dưới nước": [
+    12.0,
+    14.0
+   ],
+   "Thiết bị tập luyện cân bằng": [
+    12.0,
+    14.0
+   ],
+   "Vòng lắc eo": [
+    12.0,
+    14.0
+   ],
+   "Phụ kiện máy tập thể dục": [
+    12.0,
+    14.0
+   ],
+   "Máy tập thể hình": [
+    12.0,
+    14.0
+   ],
+   "Bóng tập gym": [
+    12.0,
+    14.0
+   ],
+   "Bộ tập tăng cường sức mạnh cho tay": [
+    12.0,
+    14.0
+   ],
+   "Xà đơn": [
+    12.0,
+    14.0
+   ],
+   "Dây kéo đàn hồi": [
+    12.0,
+    14.0
+   ],
+   "Xe trượt scooter & Xe ngồi lái": [
+    12.0,
+    14.0
+   ],
+   "Dây nhảy": [
+    12.0,
+    14.0
+   ],
+   "Thảm thể thao": [
+    12.0,
+    14.0
+   ],
+   "Bộ dây tập kháng lực": [
+    12.0,
+    14.0
+   ],
+   "Giàn nhún": [
+    12.0,
+    14.0
+   ],
+   "Tập tạ": [
+    12.0,
+    14.0
+   ]
+  },
+  "Thiết bị giải trí ngoài trời & thư giãn": {
+   "Thể dục nhịp điệu": [
+    12.0,
+    14.0
+   ],
+   "Trò chơi giả lập quân sự nhập vai": [
+    12.0,
+    14.0
+   ],
+   "Bắn cung": [
+    12.0,
+    14.0
+   ],
+   "Ba lê & Khiêu vũ": [
+    12.0,
+    14.0
+   ],
+   "Quyền anh & Võ thuật": [
+    12.0,
+    14.0
+   ],
+   "Nhảy cổ vũ": [
+    12.0,
+    14.0
+   ],
+   "Leo núi": [
+    12.0,
+    14.0
+   ],
+   "Phi tiêu": [
+    12.0,
+    14.0
+   ],
+   "Thể thao đĩa bay": [
+    12.0,
+    14.0
+   ],
+   "Thể thao điện tử": [
+    14.0,
+    16.1
+   ],
+   "Cưỡi ngựa": [
+    12.0,
+    14.0
+   ],
+   "Đấu kiếm": [
+    12.0,
+    14.0
+   ],
+   "Câu cá": [
+    12.0,
+    14.0
+   ],
+   "Thể dục dụng cụ": [
+    12.0,
+    14.0
+   ],
+   "Săn bắn": [
+    12.0,
+    14.0
+   ],
+   "Giải trí trong nhà": [
+    12.0,
+    14.0
+   ],
+   "Trượt patin": [
+    12.0,
+    14.0
+   ],
+   "Judo": [
+    12.0,
+    14.0
+   ],
+   "Võ Karate": [
+    12.0,
+    14.0
+   ],
+   "Côn nhị khúc": [
+    12.0,
+    14.0
+   ],
+   "Bắn súng sơn": [
+    12.0,
+    14.0
+   ],
+   "Đua": [
+    12.0,
+    14.0
+   ],
+   "Chạy": [
+    12.0,
+    14.0
+   ],
+   "Trượt ván": [
+    12.0,
+    14.0
+   ],
+   "Nhảy dù": [
+    12.0,
+    14.0
+   ],
+   "Taekwondo": [
+    12.0,
+    14.0
+   ],
+   "Điền kinh trong sân vận động": [
+    12.0,
+    14.0
+   ],
+   "Ba môn phối hợp": [
+    12.0,
+    14.0
+   ],
+   "Đấu vật": [
+    12.5,
+    15.0
+   ],
+   "Yoga & Pilates": [
+    12.0,
+    14.0
+   ],
+   "Đạp xe": [
+    12.0,
+    14.0
+   ]
+  },
+  "Đồ thể thao & ngoài trời": {
+   "Đồ khiêu vũ & Trang phục khiêu vũ": [
+    15.0,
+    17.1
+   ],
+   "Quần jogger": [
+    15.0,
+    17.1
+   ],
+   "Trang phục thể thao trẻ em": [
+    15.0,
+    17.1
+   ],
+   "Đồ bơi trẻ em": [
+    15.0,
+    17.1
+   ],
+   "Áo thể thao": [
+    15.0,
+    17.1
+   ],
+   "Áo bơi dài tay": [
+    15.0,
+    17.1
+   ],
+   "Áo mưa thể thao": [
+    15.0,
+    17.1
+   ],
+   "Đồ lót giữ ấm thể thao": [
+    15.0,
+    17.1
+   ],
+   "Quần legging thể thao": [
+    15.0,
+    17.1
+   ],
+   "Áo lót thể thao": [
+    15.0,
+    17.1
+   ],
+   "Bộ quần áo thể thao": [
+    15.0,
+    17.1
+   ],
+   "Váy liền thể thao": [
+    15.0,
+    17.1
+   ],
+   "Đồ mặc ngoài theo phong cách thể thao & áo hoodie": [
+    15.0,
+    17.1
+   ],
+   "Quần short thể thao": [
+    15.0,
+    17.1
+   ],
+   "Chân váy thể thao": [
+    15.0,
+    17.1
+   ],
+   "Áo thun thể thao": [
+    15.0,
+    17.1
+   ],
+   "Quần áo lót thể thao": [
+    15.0,
+    17.1
+   ],
+   "Áo khoác thể thao": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phụ kiện thể thao & ngoài trời": {
+   "Trang bị cho huấn luyện viên & trọng tài": [
+    15.0,
+    17.1
+   ],
+   "Khăn che mặt & khẩu trang": [
+    15.0,
+    17.1
+   ],
+   "Túi thể thao": [
+    15.0,
+    17.1
+   ],
+   "Phấn viết tay": [
+    15.0,
+    17.1
+   ],
+   "Áo phao cứu hộ": [
+    12.0,
+    14.0
+   ],
+   "Máy đếm bước chân": [
+    15.0,
+    17.1
+   ],
+   "Đồ bảo hộ": [
+    15.0,
+    17.1
+   ],
+   "Mũ thể thao & ngoài trời": [
+    15.0,
+    17.1
+   ],
+   "Kính mắt thể thao": [
+    15.0,
+    17.1
+   ],
+   "Găng tay thể thao": [
+    15.0,
+    17.1
+   ],
+   "Băng đô thể thao": [
+    15.0,
+    17.1
+   ],
+   "Túi đựng giày": [
+    15.0,
+    17.1
+   ],
+   "Ống tay thể thao & hỗ trợ": [
+    15.0,
+    17.1
+   ],
+   "Tất thể thao": [
+    15.0,
+    17.1
+   ],
+   "Băng thể thao": [
+    15.0,
+    17.1
+   ],
+   "Bình nước thể thao": [
+    15.0,
+    17.1
+   ],
+   "Vòng tay thể thao": [
+    15.0,
+    17.1
+   ],
+   "Đồng hồ bấm giờ và đồng hồ hẹn giờ": [
+    15.0,
+    17.1
+   ],
+   "Mũ bơi": [
+    15.0,
+    17.1
+   ],
+   "Danh hiệu, huy chương & giải thưởng": [
+    15.0,
+    17.1
+   ]
+  },
+  "Giày thể thao": {
+   "Giày cầu lông": [
+    13.0,
+    15.0
+   ],
+   "Giày bóng chày": [
+    13.0,
+    15.0
+   ],
+   "Giày bóng rổ": [
+    13.0,
+    15.0
+   ],
+   "Giày đạp xe": [
+    13.0,
+    15.0
+   ],
+   "Giày khiêu vũ": [
+    13.0,
+    15.0
+   ],
+   "Giày bóng đá": [
+    13.0,
+    15.0
+   ],
+   "Giày futsal": [
+    13.0,
+    15.0
+   ],
+   "Giày chơi gôn": [
+    13.0,
+    15.0
+   ],
+   "Giày đi bộ đường dài": [
+    13.0,
+    15.0
+   ],
+   "Giày thể thao trẻ em": [
+    13.0,
+    15.0
+   ],
+   "Giày trượt băng & trượt patin": [
+    13.0,
+    15.0
+   ],
+   "Giày chạy bộ": [
+    13.0,
+    15.0
+   ],
+   "Giày trượt ván": [
+    13.0,
+    15.0
+   ],
+   "Phụ kiện giày thể thao": [
+    12.0,
+    14.0
+   ],
+   "Giày sandal thể theo": [
+    13.0,
+    15.0
+   ],
+   "Giày chơi tennis": [
+    13.0,
+    15.0
+   ],
+   "Giày tập luyện & Giày tập gym": [
+    13.0,
+    15.0
+   ],
+   "Giày bóng chuyền": [
+    13.0,
+    15.0
+   ],
+   "Giày đi bộ": [
+    13.0,
+    15.0
+   ],
+   "Giày lội nước": [
+    13.0,
+    15.0
+   ]
+  },
+  "Đồ bơi, đồ lướt sóng & đồ lặn": {
+   "Bikini": [
+    15.0,
+    17.1
+   ],
+   "Quần lót": [
+    15.0,
+    17.1
+   ],
+   "Đồ mặc đi biển": [
+    15.0,
+    17.1
+   ],
+   "Đồ bơi một mảnh": [
+    15.0,
+    17.1
+   ],
+   "Đồ bơi chuyên nghiệp": [
+    15.0,
+    17.1
+   ],
+   "Đồ bơi dài tay": [
+    15.0,
+    17.1
+   ],
+   "Quần bơi ngắn và quần bơi": [
+    15.0,
+    17.1
+   ],
+   "Váy bơi": [
+    15.0,
+    17.1
+   ],
+   "Tankini": [
+    15.0,
+    17.1
+   ],
+   "Đồ lặn": [
+    15.0,
+    17.1
+   ]
+  },
+  "Thiết bị thể thao dưới nước": {
+   "Chèo thuyền": [
+    12.0,
+    14.0
+   ],
+   "Chèo ca nô": [
+    12.0,
+    14.0
+   ],
+   "Lặn": [
+    12.0,
+    14.0
+   ],
+   "Chèo kayak": [
+    12.0,
+    14.0
+   ],
+   "Lướt ván diều": [
+    12.5,
+    15.0
+   ],
+   "Đi thuyền": [
+    12.0,
+    14.0
+   ],
+   "Chèo ván đứng": [
+    12.0,
+    14.0
+   ],
+   "Lướt ván": [
+    12.0,
+    14.0
+   ],
+   "Bơi lội": [
+    12.0,
+    14.0
+   ],
+   "Bóng nước": [
+    12.0,
+    14.0
+   ],
+   "Trượt nước & Lướt ván ca nô": [
+    12.0,
+    14.0
+   ],
+   "Lướt ván buồm": [
+    12.0,
+    14.0
+   ]
+  },
+  "Thiết bị thể thao mùa đông": {
+   "Bi đá trên băng": [
+    12.0,
+    14.0
+   ],
+   "Khúc côn cầu trên băng": [
+    12.0,
+    14.0
+   ],
+   "Trượt băng": [
+    12.0,
+    14.0
+   ],
+   "Trượt tuyết": [
+    12.0,
+    14.0
+   ],
+   "Trượt ván": [
+    12.0,
+    14.0
+   ],
+   "Trượt ván trên tuyết": [
+    12.0,
+    14.0
+   ],
+   "Trượt tuyết bằng giầy": [
+    12.0,
+    14.0
+   ]
+  }
+ },
+ "Trang phục nữ & Đồ lót": {
+  "Bộ sưu tập thể thao": {
+   "Quần nữ": [
+    15.0,
+    17.1
+   ],
+   "Váy nữ": [
+    15.0,
+    17.1
+   ],
+   "Đồ Ngủ & Đồ Mặc Nhà Nữ": [
+    15.0,
+    17.1
+   ],
+   "Quần Áo Đặc Biệt Dành Cho Nữ": [
+    15.0,
+    17.1
+   ],
+   "Bộ & Áo Vest Nữ": [
+    14.0,
+    16.0
+   ],
+   "Áo nữ": [
+    15.0,
+    17.1
+   ],
+   "Đồ Lót Nữ": [
+    15.0,
+    17.1
+   ]
+  },
+  "Quần nữ": {
+   "Quần jean": [
+    15.0,
+    17.1
+   ],
+   "Quần legging": [
+    15.0,
+    17.1
+   ],
+   "Quần dài": [
+    15.0,
+    17.1
+   ],
+   "Quần phối chân váy & quần short váy": [
+    15.0,
+    17.1
+   ],
+   "Quần short": [
+    15.0,
+    17.1
+   ],
+   "Chân váy": [
+    15.0,
+    17.1
+   ]
+  },
+  "Váy nữ": {
+   "Váy phù dâu": [
+    15.0,
+    17.1
+   ],
+   "Váy thường mặc": [
+    15.0,
+    17.1
+   ],
+   "Váy dự tiệc": [
+    15.0,
+    17.1
+   ],
+   "Váy cưới": [
+    15.0,
+    17.1
+   ]
+  },
+  "Đồ ngủ & đồ mặc nhà cho nữ": {
+   "Áo choàng tắm & Áo choàng": [
+    15.0,
+    17.1
+   ],
+   "Váy ngủ": [
+    15.0,
+    17.1
+   ],
+   "Áo liền quần rộng": [
+    15.0,
+    17.1
+   ],
+   "Bộ ngủ": [
+    15.0,
+    17.1
+   ]
+  },
+  "Quần áo nữ Nam Á": {
+   "Váy": [
+    15.0,
+    17.1
+   ],
+   "Quần Salwar Áo Kameez": [
+    15.0,
+    17.1
+   ],
+   "Áo Sari": [
+    15.0,
+    17.1
+   ],
+   "Bộ vest": [
+    15.0,
+    17.1
+   ]
+  },
+  "Trang phục đặc biệt dành cho nữ": {
+   "Trang phục & Phụ kiện": [
+    15.0,
+    17.1
+   ],
+   "Trang phục truyền thống": [
+    15.0,
+    17.1
+   ],
+   "Quần áo bảo hộ lao động & Đồng phục": [
+    15.0,
+    17.1
+   ]
+  },
+  "Bộ vét và quần yếm nữ": {
+   "Bộ đồ cho cặp đôi": [
+    15.0,
+    17.1
+   ],
+   "Bộ đồ cho gia đình": [
+    15.0,
+    17.1
+   ],
+   "Quần yếm": [
+    15.0,
+    17.1
+   ],
+   "Bộ": [
+    15.0,
+    17.1
+   ],
+   "Bộ vét": [
+    15.0,
+    17.1
+   ]
+  },
+  "Áo nữ": {
+   "Áo cánh & Áo sơ mi": [
+    15.0,
+    17.1
+   ],
+   "Bodysuit": [
+    15.0,
+    17.1
+   ],
+   "Áo hoodie & Áo len": [
+    15.0,
+    17.1
+   ],
+   "Áo khoác & Áo choàng": [
+    14.0,
+    16.0
+   ],
+   "Hàng dệt kim": [
+    15.0,
+    17.1
+   ],
+   "Áo Polo": [
+    15.0,
+    17.1
+   ],
+   "Áo thun": [
+    15.0,
+    17.1
+   ],
+   "Áo vest, Tank Top & Áo quây": [
+    15.0,
+    17.1
+   ],
+   "Áo gilê": [
+    14.0,
+    16.0
+   ]
+  },
+  "Đồ lót nữ": {
+   "Phụ kiện áo lót": [
+    15.0,
+    17.1
+   ],
+   "Áo lót không gọng": [
+    15.0,
+    17.1
+   ],
+   "Áo lót": [
+    15.0,
+    17.1
+   ],
+   "Đồ nội y": [
+    15.0,
+    17.1
+   ],
+   "Quần lót": [
+    15.0,
+    17.1
+   ],
+   "Đồ lót định hình": [
+    15.0,
+    17.1
+   ],
+   "Tất": [
+    15.0,
+    17.1
+   ],
+   "Đồ giữ ấm mặc bên trong": [
+    15.0,
+    17.1
+   ],
+   "Quần bó": [
+    15.0,
+    17.1
+   ],
+   "Bộ đồ lót": [
+    15.0,
+    17.1
+   ]
+  }
+ },
+ "Phiếu quà tặng": {
+  "Phiếu quà tặng bản cứng": {
+   "Phiếu tín dụng bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Phiếu dữ liệu bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Thẻ quà tặng bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Phiếu quà tặng bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Phiếu khách sạn bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Phiếu chụp ảnh bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Phiếu đại lý du lịch bản cứng": [
+    11.5,
+    12.6
+   ],
+   "Phiếu du lịch bản cứng": [
+    11.5,
+    12.6
+   ]
+  }
+ },
+ "Sách, tạp chí & âm thanh": {
+  "Sách dành cho trẻ em & trẻ sơ sinh": {
+   "Sách hoạt động": [
+    13.5,
+    15.0
+   ],
+   "Khoa học xã hội và nhân văn cho thiếu nhi": [
+    13.5,
+    15.0
+   ],
+   "Văn học & nghệ thuật thiếu nhi": [
+    13.5,
+    15.0
+   ],
+   "Khoa học và công nghệ cho thiếu nhi": [
+    13.5,
+    15.0
+   ],
+   "Sách giáo dục sớm & sách mềm": [
+    13.5,
+    15.0
+   ],
+   "Sách tranh": [
+    13.5,
+    15.0
+   ]
+  },
+  "Kinh tế & Quản lý": {
+   "Kinh doanh & Quản lý": [
+    13.5,
+    15.0
+   ],
+   "Kinh tế": [
+    13.5,
+    15.0
+   ],
+   "Tài chính & Đầu tư": [
+    13.5,
+    15.0
+   ]
+  },
+  "Giáo dục & Trường học": {
+   "Ngôn ngữ & Từ điển": [
+    13.5,
+    15.0
+   ],
+   "Sách tư vấn": [
+    13.5,
+    15.0
+   ],
+   "Sách giáo khoa": [
+    13.5,
+    15.0
+   ]
+  },
+  "Khoa học xã hội và nhân văn": {
+   "Sự nghiệp & Tự lực": [
+    13.5,
+    15.0
+   ],
+   "Lịch sử & Văn hóa": [
+    13.5,
+    15.0
+   ],
+   "Nuôi dạy con cái & Gia đình": [
+    13.5,
+    15.0
+   ],
+   "Chính trị, Luật & Khoa học xã hội": [
+    13.5,
+    15.0
+   ],
+   "Tâm lý học & Mối quan hệ": [
+    13.5,
+    15.0
+   ],
+   "Tôn giáo & Triết học": [
+    13.5,
+    15.0
+   ]
+  },
+  "Phong cách sống & Sở thích": {
+   "Truyện tranh & Manga": [
+    13.5,
+    15.0
+   ],
+   "Thủ công mỹ nghệ & Tự làm": [
+    13.5,
+    15.0
+   ],
+   "Thời trang & Làm đẹp": [
+    13.5,
+    15.0
+   ],
+   "Sức khỏe, Thể hình & Ăn kiêng": [
+    13.5,
+    15.0
+   ],
+   "Tử vi": [
+    13.5,
+    15.0
+   ],
+   "Giáo dục thai sản & tiền sản": [
+    13.5,
+    15.0
+   ],
+   "Công thức & Nấu nướng": [
+    13.5,
+    15.0
+   ],
+   "Thể thao & Thể hình": [
+    13.5,
+    15.0
+   ],
+   "Du lịch & Bản đồ": [
+    14.0,
+    16.0
+   ]
+  },
+  "Văn học & Nghệ thuật": {
+   "Tiểu sử & Hồi ký": [
+    13.5,
+    15.0
+   ],
+   "Phim điện ảnh & Truyền hình": [
+    13.5,
+    15.0
+   ],
+   "Văn học": [
+    13.5,
+    15.0
+   ],
+   "Âm nhạc": [
+    13.5,
+    15.0
+   ],
+   "Viễn tưởng": [
+    13.5,
+    15.0
+   ],
+   "Vẽ tranh & Thiết kế": [
+    13.5,
+    15.0
+   ],
+   "Biểu diễn nghệ thuật": [
+    13.5,
+    15.0
+   ],
+   "Nhiếp ảnh & Video": [
+    13.5,
+    15.0
+   ]
+  },
+  "Tạp chí & Báo": {
+   "Kinh doanh": [
+    13.5,
+    15.0
+   ],
+   "Thời trang": [
+    13.5,
+    15.0
+   ],
+   "Lối sống": [
+    13.5,
+    15.0
+   ],
+   "Thiếu niên": [
+    13.5,
+    15.0
+   ]
+  },
+  "Khoa học & Công nghệ": {
+   "Nông lâm ngư nghiệp": [
+    13.5,
+    15.0
+   ],
+   "Kiến trúc": [
+    13.5,
+    15.0
+   ],
+   "Máy tính & Mạng": [
+    13.5,
+    15.0
+   ],
+   "Công nghệ công nghiệp": [
+    13.5,
+    15.0
+   ],
+   "Y khoa": [
+    13.5,
+    15.0
+   ],
+   "Khoa học tự nhiên": [
+    13.5,
+    15.0
+   ]
+  },
+  "Video & nhạc": {
+   "Băng cassette": [
+    8.5,
+    13.5
+   ],
+   "CD": [
+    8.5,
+    13.5
+   ],
+   "DVD": [
+    8.5,
+    13.5
+   ],
+   "VHS": [
+    8.5,
+    13.5
+   ],
+   "Vinyl": [
+    8.5,
+    13.5
+   ]
+  }
+ },
+ "Đồ ăn & Đồ uống": {
+  "Nướng bánh": {
+   "Bột làm bánh": [
+    13.5,
+    16.1
+   ],
+   "Hỗn hợp nướng bánh": [
+    13.5,
+    16.1
+   ],
+   "Bột nở & Baking soda": [
+    13.5,
+    16.1
+   ],
+   "Bánh mì vụn & nhân nhồi": [
+    12.5,
+    15.7
+   ],
+   "Bơ & Bơ thực vật": [
+    12.5,
+    16.7
+   ],
+   "Phô mai & Bột phô mai": [
+    12.5,
+    16.7
+   ],
+   "Sữa đặc": [
+    11.5,
+    15.0
+   ],
+   "Kem": [
+    12.5,
+    16.7
+   ],
+   "Bột kem": [
+    12.5,
+    16.7
+   ],
+   "Màu thực phẩm": [
+    13.5,
+    16.1
+   ],
+   "Cao & Hương vị thực phẩm": [
+    13.5,
+    16.1
+   ],
+   "Dụng cụ rắc đường, láng đường & trang trí bánh kem": [
+    13.5,
+    16.1
+   ],
+   "Kẹo xốp": [
+    12.0,
+    15.7
+   ]
+  },
+  "Bia, Rượu & Rượu mạnh": {
+   "Bia": [
+    13.5,
+    16.1
+   ],
+   "Rượu trái cây": [
+    13.5,
+    16.1
+   ],
+   "Rượu mạnh & rượu tráng miệng": [
+    13.5,
+    16.1
+   ],
+   "Rượu trái cây & rượu theo mùa": [
+    13.5,
+    16.1
+   ],
+   "Đồ uống pha sẵn & chuẩn bị sẵn": [
+    13.5,
+    16.1
+   ],
+   "Sake, Soju & Umeshu": [
+    13.5,
+    16.1
+   ],
+   "Vang sủi & Sâm panh": [
+    13.5,
+    16.1
+   ],
+   "Rượu mạnh": [
+    13.5,
+    16.1
+   ],
+   "Rượu": [
+    13.5,
+    16.1
+   ]
+  },
+  "Đồ uống": {
+   "Đồ uống sô-cô-la & Sữa mạch nha": [
+    12.5,
+    15.7
+   ],
+   "Cà phê": [
+    12.5,
+    15.7
+   ],
+   "Sản phẩm thay thế cà phê": [
+    12.5,
+    15.7
+   ],
+   "Topping đồ uống": [
+    12.5,
+    15.7
+   ],
+   "Đồ uống có ga": [
+    12.5,
+    15.7
+   ],
+   "Hỗn hợp đồ uống dạng bột": [
+    12.5,
+    15.7
+   ],
+   "Nước ép & Sinh tố": [
+    12.5,
+    15.7
+   ],
+   "Thực phẩm dinh dưỡng & đồ uống protein": [
+    13.0,
+    16.7
+   ],
+   "Đồ uống không cồn": [
+    12.5,
+    15.7
+   ],
+   "Đồ uống thể thao & Nước tăng lực": [
+    12.5,
+    15.7
+   ],
+   "Sirô & nước cô đặc": [
+    12.5,
+    15.7
+   ],
+   "Trà": [
+    12.5,
+    15.7
+   ],
+   "Soda & nước có ga": [
+    13.0,
+    16.7
+   ],
+   "Nước & Nước có vị": [
+    8.5,
+    11.7
+   ]
+  },
+  "Lễ tế lễ": {
+   "Gia Sú": [
+    12.5,
+    13.7
+   ]
+  },
+  "Thực phẩm tươi & đông lạnh": {
+   "Bánh mỳ": [
+    12.5,
+    15.7
+   ],
+   "Bánh ngọt và bánh nướng": [
+    11.5,
+    14.7
+   ],
+   "Deli": [
+    11.5,
+    14.7
+   ],
+   "Trứng": [
+    8.5,
+    12.7
+   ],
+   "Thực phẩm đông lạnh": [
+    11.5,
+    14.7
+   ],
+   "Hoa quả": [
+    12.0,
+    15.7
+   ],
+   "Kem": [
+    12.5,
+    16.7
+   ],
+   "Bộ dụng cụ ăn uống": [
+    11.5,
+    14.7
+   ],
+   "Thịt": [
+    8.5,
+    11.7
+   ],
+   "Nấm": [
+    11.5,
+    14.7
+   ],
+   "Pasta & nước xốt": [
+    10.5,
+    13.7
+   ],
+   "Bánh ngọt": [
+    12.5,
+    15.7
+   ],
+   "Pizza & focaccia": [
+    12.0,
+    15.7
+   ],
+   "Món ăn chế biến sẵn": [
+    12.5,
+    15.7
+   ],
+   "Thịt & Hải sản đã chế biến": [
+    11.5,
+    14.7
+   ],
+   "Sandwich & món cuốn": [
+    12.0,
+    15.7
+   ],
+   "Hải sản": [
+    11.5,
+    14.7
+   ],
+   "Súp & hầm": [
+    11.5,
+    14.7
+   ],
+   "Đậu hũ": [
+    10.5,
+    14.7
+   ],
+   "Rau": [
+    8.5,
+    11.7
+   ],
+   "Thực phẩm thay thế thịt": [
+    11.5,
+    14.7
+   ]
+  },
+  "Sữa và bơ sữa": {
+   "Sữa tươi": [
+    11.5,
+    15.0
+   ],
+   "Sữa thực vật": [
+    12.5,
+    15.7
+   ],
+   "Sữa bột": [
+    11.0,
+    14.0
+   ],
+   "Sữa UHT": [
+    11.0,
+    14.0
+   ],
+   "Sữa chua & sản phẩm làm từ sữa lên men": [
+    10.5,
+    14.7
+   ]
+  },
+  "Thực phẩm ăn liền": {
+   "Yến sào": [
+    12.5,
+    15.7
+   ],
+   "Ngũ cốc ăn sáng, Ngũ cốc & Yến mạch": [
+    12.5,
+    15.7
+   ],
+   "Thực phẩm đóng hộp, lọ & đóng gói": [
+    8.5,
+    11.7
+   ],
+   "Lẩu ăn liền": [
+    12.5,
+    15.7
+   ],
+   "Mì gói": [
+    8.5,
+    11.7
+   ],
+   "Cơm & Cháo ăn liền": [
+    13.0,
+    16.7
+   ],
+   "Rau muối chua, dưa chua & Chutney": [
+    11.0,
+    14.7
+   ]
+  },
+  "Đồ ăn vặt": {
+   "Thanh bánh": [
+    12.5,
+    15.7
+   ],
+   "Bánh quy, Bánh cookies & Bánh xốp": [
+    11.5,
+    14.7
+   ],
+   "Kẹo": [
+    11.5,
+    14.7
+   ],
+   "Kẹo cao su nhai & Kẹo cao su thổi": [
+    11.5,
+    14.7
+   ],
+   "Sô-cô-la & đồ ăn nhẹ có sô-cô-la": [
+    11.5,
+    14.7
+   ],
+   "Khoai tây giòn & thức ăn nhanh có nhân": [
+    11.5,
+    14.7
+   ],
+   "Bánh pudding sữa trứng & thạch": [
+    12.0,
+    15.7
+   ],
+   "Đồ ăn nhẹ khô": [
+    11.5,
+    14.7
+   ],
+   "Bộ quà tặng": [
+    12.0,
+    14.5
+   ],
+   "Quả hạch & đậu": [
+    11.5,
+    14.7
+   ],
+   "Đồ ăn nhẹ gluten & gốc thực vật": [
+    11.5,
+    14.7
+   ],
+   "Bắp rang bơ": [
+    12.0,
+    15.7
+   ],
+   "Rong biển": [
+    11.5,
+    14.7
+   ],
+   "Hạt": [
+    11.5,
+    14.7
+   ],
+   "Bánh ăn vặt và bánh bột nhào": [
+    12.5,
+    15.7
+   ]
+  },
+  "Kẹp & Đồ dùng nấu ăn cần thiết": {
+   "Đậu & Ngũ cốc": [
+    8.5,
+    11.7
+   ],
+   "Nước hầm xương, Nước thịt & Súp ăn liền": [
+    11.5,
+    14.7
+   ],
+   "Tương & hỗn hợp gia vị nấu ăn": [
+    11.5,
+    14.7
+   ],
+   "Xốt nấu ăn": [
+    11.5,
+    14.7
+   ],
+   "Rượu nấu ăn": [
+    8.5,
+    11.7
+   ],
+   "Mứt, nước xốt & chất phết lên bánh": [
+    12.5,
+    15.7
+   ],
+   "Thực phẩm khô": [
+    8.5,
+    11.7
+   ],
+   "Chất điều vị": [
+    12.0,
+    15.7
+   ],
+   "Bột mì": [
+    12.0,
+    15.0
+   ],
+   "Thảo mộc, Gia vị & Hạt nêm": [
+    8.5,
+    11.7
+   ],
+   "Si-rô mật ong & phong": [
+    12.5,
+    15.7
+   ],
+   "Dầu": [
+    8.5,
+    11.7
+   ],
+   "Pasta, mì & bún": [
+    8.5,
+    11.7
+   ],
+   "Cơm": [
+    9.0,
+    12.7
+   ],
+   "Muối": [
+    9.0,
+    12.7
+   ],
+   "Đường & Chất tạo ngọt": [
+    8.5,
+    11.7
+   ],
+   "Giấm": [
+    8.5,
+    11.7
+   ]
+  }
+ },
+ "Đồ gia dụng": {
+  "Đồ gia dụng": {
+   "Đồ vệ sinh nhà cửa": [
+    9.0,
+    12.7
+   ],
+   "Cuộn giấy & khăn lau nhà bếp": [
+    9.5,
+    11.5
+   ],
+   "Khăn giấy & khăn ăn & khăn lau": [
+    9.0,
+    10.5
+   ],
+   "Giấy vệ sinh & giấy lau": [
+    9.5,
+    13.0
+   ],
+   "Tạp dề": [
+    13.5,
+    16.1
+   ],
+   "Thùng rác": [
+    12.5,
+    16.7
+   ],
+   "Chổi": [
+    8.5,
+    12.7
+   ],
+   "Xô": [
+    13.0,
+    17.7
+   ],
+   "Khăn lau": [
+    13.0,
+    17.7
+   ],
+   "Găng tay vệ sinh": [
+    12.5,
+    16.7
+   ],
+   "Bọc giày dùng một lần": [
+    8.5,
+    12.7
+   ],
+   "Chắn bụi": [
+    12.5,
+    16.7
+   ],
+   "Máy hút bụi/Đầu máy hút bụi": [
+    12.5,
+    16.7
+   ],
+   "Chất tẩy rửa formaldehyde": [
+    9.0,
+    10.5
+   ],
+   "Nước hoa để phòng": [
+    14.5,
+    17.1
+   ],
+   "Cây lau nhà": [
+    8.5,
+    12.7
+   ],
+   "Tấm chống ẩm, nấm mốc & nhậy": [
+    12.5,
+    16.7
+   ],
+   "Thuốc diệt cỏ & Kiểm soát sâu bệnh": [
+    12.5,
+    16.7
+   ],
+   "Tấm chắn nước bắn": [
+    13.0,
+    17.7
+   ],
+   "Bọt biển & miếng cọ rửa": [
+    8.5,
+    12.7
+   ],
+   "Chổi cao su": [
+    12.5,
+    16.7
+   ],
+   "Túi rác": [
+    8.5,
+    12.7
+   ]
+  },
+  "Dụng cụ & phụ kiện giặt là": {
+   "Bột giặt": [
+    9.0,
+    12.7
+   ],
+   "Giá phơi đồ": [
+    12.5,
+    16.7
+   ],
+   "Bàn ủi": [
+    9.0,
+    12.7
+   ],
+   "Bóng & Đĩa giặt": [
+    9.0,
+    12.7
+   ],
+   "Ván giặt": [
+    9.0,
+    12.7
+   ],
+   "Túi giặt": [
+    9.5,
+    13.7
+   ],
+   "Dây phơi": [
+    9.0,
+    12.7
+   ]
+  },
+  "Đồ dùng phòng tắm": {
+   "Thảm phòng tắm": [
+    14.5,
+    17.1
+   ],
+   "Đồ trong phòng tắm": [
+    14.5,
+    17.1
+   ],
+   "Bộ phòng tắm": [
+    14.5,
+    17.1
+   ],
+   "Cốc để nhà tắm": [
+    14.5,
+    17.1
+   ],
+   "Mũ tắm": [
+    14.5,
+    17.1
+   ],
+   "Rèm & Thanh treo rèm tắm": [
+    14.5,
+    17.1
+   ],
+   "Khay đựng xà phòng": [
+    14.5,
+    17.1
+   ],
+   "Máy lấy xà phòng": [
+    14.5,
+    17.1
+   ],
+   "Bàn chải vệ sinh & cây thông bồn cầu": [
+    12.5,
+    14.5
+   ],
+   "Đệm ngồi bồn cầu": [
+    12.5,
+    14.5
+   ],
+   "Hộp để bàn chải đánh răng": [
+    14.5,
+    17.1
+   ],
+   "Khăn tắm": [
+    14.5,
+    17.1
+   ],
+   "Bồn tắm & Bồn ngâm chân": [
+    12.5,
+    14.5
+   ]
+  },
+  "Đồ dùng cho lễ hội & bữa tiệc": {
+   "Phông nền & Biểu ngữ": [
+    13.5,
+    15.7
+   ],
+   "Bóng bay": [
+    13.5,
+    15.7
+   ],
+   "Đồ trang trí bánh": [
+    13.5,
+    15.7
+   ],
+   "Bộ đồ ăn dùng một lần": [
+    13.5,
+    15.7
+   ],
+   "Đồ trang trí lễ hội": [
+    13.5,
+    15.7
+   ],
+   "Diêm": [
+    13.5,
+    15.7
+   ],
+   "Túi & Quà tặng dự tiệc": [
+    13.5,
+    15.7
+   ],
+   "Nón tiệc, mặt nạ & phụ kiện": [
+    13.5,
+    15.7
+   ],
+   "Đèn Khổng Minh": [
+    13.5,
+    15.7
+   ],
+   "Bình xịt, kim tuyến & băng giấy màu": [
+    13.5,
+    15.7
+   ],
+   "Đồ dùng đám cưới": [
+    13.5,
+    15.7
+   ]
+  },
+  "Trang trí nội thất": {
+   "Khay giữ nến": [
+    14.5,
+    17.1
+   ],
+   "Nến": [
+    14.5,
+    17.1
+   ],
+   "Bìa mô hình": [
+    15.0,
+    18.1
+   ],
+   "Đồng hồ": [
+    14.5,
+    17.1
+   ],
+   "Hoa, cây & trái cây trang trí": [
+    14.5,
+    17.1
+   ],
+   "Sơn trang trí": [
+    14.5,
+    17.1
+   ],
+   "Hình dán trang trí": [
+    14.5,
+    17.1
+   ],
+   "Đồ trang trí phong thủy": [
+    14.5,
+    17.1
+   ],
+   "Quạt tay": [
+    14.5,
+    17.1
+   ],
+   "Đồ treo trang trí": [
+    14.5,
+    17.1
+   ],
+   "Móc & Giá": [
+    14.5,
+    17.1
+   ],
+   "Gương": [
+    14.5,
+    17.1
+   ],
+   "Hộp nhạc": [
+    14.5,
+    17.1
+   ],
+   "Album ảnh": [
+    14.5,
+    17.1
+   ],
+   "Khung ảnh": [
+    14.5,
+    17.1
+   ],
+   "Lợn đất": [
+    14.5,
+    17.1
+   ],
+   "Tấm & Biển hiệu": [
+    14.5,
+    17.1
+   ],
+   "Áp phích & tài liệu in": [
+    14.5,
+    17.1
+   ],
+   "Nam châm tủ lạnh": [
+    14.5,
+    17.1
+   ],
+   "Đồ trang trí theo tôn giáo": [
+    14.5,
+    17.1
+   ],
+   "Tượng & Tượng nhỏ": [
+    14.5,
+    17.1
+   ],
+   "Thảm trang trí": [
+    14.5,
+    17.1
+   ],
+   "Bình hoa & đồ lót bình": [
+    14.5,
+    17.1
+   ]
+  },
+  "Đồ đựng trong nhà": {
+   "Móc treo & Kẹp": [
+    14.5,
+    17.1
+   ],
+   "Móc & Giá xoay": [
+    14.5,
+    17.1
+   ],
+   "Túi": [
+    13.0,
+    15.6
+   ],
+   "Giỏ": [
+    12.5,
+    16.7
+   ],
+   "Chai & Lọ": [
+    14.5,
+    17.1
+   ],
+   "Hộp & Thùng": [
+    12.5,
+    16.7
+   ],
+   "Hộp để & Giá": [
+    13.5,
+    16.1
+   ]
+  },
+  "Đồ gia dụng khác": {
+   "Túi chườm nóng": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện bật lửa": [
+    14.5,
+    16.7
+   ],
+   "Quần áo đi mưa": [
+    15.0,
+    17.1
+   ],
+   "Ủng cao su chống nước": [
+    15.0,
+    17.1
+   ],
+   "Áo mưa": [
+    15.0,
+    17.1
+   ],
+   "Ô dù": [
+    15.0,
+    17.1
+   ]
+  }
+ },
+ "Chăm sóc sắc đẹp & Chăm sóc cá nhân": {
+  "Đồ tắm & Chăm sóc cơ thể": {
+   "Sữa tắm & Xà phòng": [
+    15.5,
+    18.8
+   ],
+   "Dầu xoa bóp & dầu dưỡng thể": [
+    15.5,
+    18.8
+   ],
+   "Bộ dụng cụ chăm sóc cơ thể": [
+    15.5,
+    17.1
+   ],
+   "Mặt nạ cơ thể": [
+    15.5,
+    18.8
+   ],
+   "Kem & Sữa dưỡng thể": [
+    15.5,
+    18.8
+   ],
+   "Tẩy tế bào chết & Lột da cơ thể": [
+    15.5,
+    18.8
+   ],
+   "Kem định hình cơ thể": [
+    15.5,
+    18.8
+   ],
+   "Kem chống nắng": [
+    15.5,
+    18.8
+   ],
+   "Chăm sóc ngực": [
+    15.5,
+    18.8
+   ],
+   "Khử mùi": [
+    15.5,
+    18.8
+   ],
+   "Kem, wax và nước cạo râu": [
+    15.5,
+    18.8
+   ],
+   "Dụng cụ xoa bóp thủ công": [
+    15.0,
+    16.0
+   ],
+   "Chăm sóc cổ": [
+    15.5,
+    18.8
+   ],
+   "Phấn rôm": [
+    15.5,
+    18.8
+   ],
+   "Dầu thuộc da & tự thuộc da": [
+    15.5,
+    18.8
+   ],
+   "Phụ kiện nhà tắm": [
+    14.5,
+    17.1
+   ]
+  },
+  "Chăm sóc mắt & tai": {
+   "Kính áp tròng màu": [
+    15.0,
+    18.8
+   ],
+   "Kính áp tròng": [
+    15.0,
+    18.8
+   ],
+   "Bộ dụng cụ cho kính áp tròng": [
+    15.0,
+    18.8
+   ],
+   "Dung dịch ngâm rửa kính áp tròng & Thuốc nhỏ mắt": [
+    15.0,
+    18.8
+   ],
+   "Thuốc nhỏ tai": [
+    15.0,
+    18.8
+   ],
+   "Nút tai": [
+    15.0,
+    18.8
+   ],
+   "Sản phẩm lấy ráy tai": [
+    15.0,
+    18.8
+   ],
+   "Kính đọc sách": [
+    15.0,
+    18.8
+   ],
+   "Mặt nạ ngủ": [
+    15.0,
+    18.8
+   ]
+  },
+  "Sản phẩm chăm sóc dành cho phụ nữ": {
+   "Kem bôi âm đạo": [
+    15.0,
+    18.8
+   ],
+   "Sản phẩm khử mùi vùng kín": [
+    15.0,
+    18.8
+   ],
+   "Dung dịch vệ sinh phụ nữ": [
+    15.0,
+    18.8
+   ],
+   "Bình xịt & kem mãn kinh": [
+    15.0,
+    18.8
+   ],
+   "Cốc nguyệt san": [
+    15.0,
+    18.8
+   ],
+   "Khăn vệ sinh": [
+    15.0,
+    18.8
+   ],
+   "Băng vệ sinh": [
+    15.0,
+    18.8
+   ]
+  },
+  "Nước hoa": {
+   "Bộ nước hoa": [
+    15.5,
+    18.8
+   ],
+   "Nước hoa nam": [
+    15.5,
+    18.8
+   ],
+   "Nước hoa": [
+    15.5,
+    18.8
+   ],
+   "Nước hoa unisex": [
+    15.5,
+    18.8
+   ],
+   "Nước hoa nữ": [
+    15.5,
+    18.8
+   ]
+  },
+  "Chăm sóc & Tạo kiểu tóc": {
+   "Bàn chải & lược chải tóc": [
+    16.0,
+    18.1
+   ],
+   "Thuốc nhuộm tóc": [
+    15.5,
+    18.8
+   ],
+   "Sản phẩm chống rụng tóc": [
+    15.5,
+    18.8
+   ],
+   "Điều trị tóc / điều trị da đầu": [
+    15.5,
+    18.8
+   ],
+   "Bột tạo kiểu tóc": [
+    15.5,
+    18.8
+   ],
+   "Dụng cụ tạo kiểu không nhiệt": [
+    15.5,
+    17.1
+   ],
+   "Keo bọt & Gel": [
+    15.5,
+    18.8
+   ],
+   "Dầu gội & Dầu xả": [
+    15.5,
+    18.8
+   ]
+  },
+  "Chăm sóc tay, chân & móng": {
+   "Sản phẩm kiểm soát mùi hôi chân": [
+    15.5,
+    18.8
+   ],
+   "Sữa dường, kem & tẩy tế bào chết cho tay": [
+    15.5,
+    18.8
+   ],
+   "Mặt nạ tay & chân": [
+    15.5,
+    18.8
+   ],
+   "Chai khử trùng cầm tay": [
+    15.0,
+    18.8
+   ],
+   "Nước rửa tay": [
+    15.5,
+    18.8
+   ]
+  },
+  "Trang điểm": {
+   "Kem BB và Kem CC": [
+    15.5,
+    18.8
+   ],
+   "Phấn má": [
+    15.5,
+    18.8
+   ],
+   "Trang điểm cơ thể": [
+    15.5,
+    18.8
+   ],
+   "Phấn tạo khối & Phấn bắt sáng": [
+    15.5,
+    18.8
+   ],
+   "Kem che khuyết điểm & Phấn nền": [
+    15.5,
+    18.8
+   ],
+   "Tăm bông": [
+    15.5,
+    18.8
+   ],
+   "Chì & Gel kẻ lông mày": [
+    15.5,
+    18.8
+   ],
+   "Kẹp uốn mi": [
+    16.0,
+    19.8
+   ],
+   "Kẻ mắt & Kẻ viền môi": [
+    15.5,
+    18.8
+   ],
+   "Phấn mắt": [
+    15.5,
+    18.8
+   ],
+   "Mí mắt giả & keo": [
+    15.5,
+    18.8
+   ],
+   "Kem dưỡng mi": [
+    15.5,
+    18.8
+   ],
+   "Son môi & Son bóng": [
+    15.5,
+    18.8
+   ],
+   "Lớp nền trang điểm và Kem lót": [
+    15.5,
+    18.8
+   ],
+   "Mút trang điểm": [
+    15.5,
+    18.8
+   ],
+   "Cọ trang điểm": [
+    15.5,
+    18.8
+   ],
+   "Xịt cố định lớp trang điểm": [
+    15.5,
+    18.8
+   ],
+   "Gương trang điểm": [
+    16.0,
+    19.8
+   ],
+   "Tẩy trang": [
+    15.5,
+    18.8
+   ],
+   "Bộ trang điểm": [
+    15.5,
+    17.1
+   ],
+   "Dụng cụ trang điểm": [
+    15.5,
+    18.8
+   ],
+   "Mascara": [
+    15.5,
+    18.8
+   ],
+   "Phấn": [
+    15.5,
+    18.8
+   ],
+   "Bông phấn": [
+    16.0,
+    19.8
+   ],
+   "Máy & bộ dụng cụ xăm hình": [
+    15.5,
+    17.1
+   ],
+   "Xóa hình xăm": [
+    15.5,
+    18.8
+   ],
+   "Hình xăm tạm thời": [
+    15.0,
+    17.1
+   ]
+  },
+  "Sản phẩm chăm sóc dành cho nam giới": {
+   "Đồ tắm & Chăm sóc cơ thể": [
+    15.5,
+    18.8
+   ],
+   "Chăm sóc tóc": [
+    15.5,
+    18.8
+   ],
+   "Đồ trang điểm": [
+    15.5,
+    18.8
+   ],
+   "Phụ kiện cạo thủ công": [
+    15.5,
+    18.8
+   ],
+   "Dao cạo": [
+    15.5,
+    18.8
+   ],
+   "Bọt cạo râu & Nước hoa sau khi cạo râu": [
+    15.5,
+    18.8
+   ],
+   "Bộ dụng cụ cạo": [
+    15.5,
+    18.8
+   ],
+   "Chăm sóc da": [
+    15.5,
+    18.8
+   ]
+  },
+  "Chăm sóc móng tay": {
+   "Dụng cụ làm móng tay & chân": [
+    15.5,
+    18.8
+   ],
+   "Vẽ móng & Sơn móng tay": [
+    15.5,
+    18.8
+   ],
+   "Phụ kiện & đồ trang trí móng nghệ thuật": [
+    16.0,
+    19.8
+   ],
+   "Bộ dụng cụ sơn móng tay": [
+    15.5,
+    18.8
+   ],
+   "Nước tẩy sơn móng tay": [
+    15.5,
+    18.8
+   ],
+   "Điều trị móng": [
+    15.5,
+    18.8
+   ]
+  },
+  "Chăm sóc mũi & răng miệng": {
+   "Chỉ & tăm nha khoa": [
+    15.0,
+    18.8
+   ],
+   "Chăm sóc răng miệng": [
+    15.0,
+    18.8
+   ],
+   "Nước súc miệng": [
+    15.0,
+    18.8
+   ],
+   "Vệ sinh mũi": [
+    14.0,
+    17.1
+   ],
+   "Bộ dụng cụ chăm sóc răng miệng": [
+    15.0,
+    18.8
+   ],
+   "Xịt miệng": [
+    15.0,
+    18.8
+   ],
+   "Phụ kiện chỉnh nha": [
+    15.0,
+    18.8
+   ],
+   "Làm trắng răng": [
+    15.0,
+    18.8
+   ],
+   "Cây cạo lưỡi": [
+    15.0,
+    18.8
+   ],
+   "Bàn chải đánh răng": [
+    15.0,
+    18.8
+   ],
+   "Kem đánh răng": [
+    15.0,
+    18.8
+   ]
+  },
+  "Thiết bị chăm sóc cá nhân": {
+   "Phụ kiện": [
+    15.5,
+    17.1
+   ],
+   "Thiết bị Làm đẹp cơ thể": [
+    15.5,
+    17.1
+   ],
+   "Máy uốn & ép tóc": [
+    15.5,
+    17.1
+   ],
+   "Dao cạo lông mày điện": [
+    15.5,
+    18.8
+   ],
+   "Dao cạo râu điện": [
+    15.5,
+    18.8
+   ],
+   "Bàn chải đánh răng điện": [
+    15.0,
+    18.8
+   ],
+   "Thiết bị làm đẹp da mặt": [
+    15.5,
+    17.1
+   ],
+   "Máy sấy lông": [
+    15.5,
+    17.1
+   ],
+   "Máy tẩy lông": [
+    15.5,
+    14.5
+   ],
+   "Máy xén & Tông đơ cắt tóc": [
+    15.5,
+    18.8
+   ],
+   "Thiết bị massage": [
+    15.0,
+    16.0
+   ],
+   "Dụng cụ tỉa lông mũi & tai": [
+    15.5,
+    18.8
+   ],
+   "Máy tăm nước": [
+    9.5,
+    15.7
+   ],
+   "Ghế mát-xa": [
+    9.5,
+    15.7
+   ]
+  },
+  "Chăm sóc da": {
+   "Sản phẩm đặc trị mụn": [
+    15.5,
+    18.8
+   ],
+   "Sản phẩm đặc trị mắt": [
+    15.5,
+    18.8
+   ],
+   "Mặt nạ": [
+    15.5,
+    18.8
+   ],
+   "Tẩy tế bào chết & Lột da mặt": [
+    15.5,
+    18.8
+   ],
+   "Sữa rửa mặt": [
+    15.5,
+    18.8
+   ],
+   "Kem massage mặt": [
+    15.5,
+    18.8
+   ],
+   "Kem chống nắng cho da mặt": [
+    15.5,
+    18.8
+   ],
+   "Sản phẩm đặc trị môi": [
+    15.5,
+    18.8
+   ],
+   "Kem dưỡng ẩm & Xịt thơm": [
+    15.5,
+    18.8
+   ],
+   "Sản phẩm đặc trị mũi": [
+    15.5,
+    18.8
+   ],
+   "Serum & Tinh chất": [
+    15.5,
+    18.8
+   ],
+   "Bộ dụng cụ chăm sóc da": [
+    15.5,
+    17.1
+   ],
+   "Dụng cụ chăm sóc da": [
+    15.5,
+    17.1
+   ],
+   "Toner": [
+    15.5,
+    18.8
+   ]
+  },
+  "Chăm sóc cá nhân đặc biệt": {
+   "Tã người lớn": [
+    15.5,
+    19.8
+   ],
+   "Vá nhiệt": [
+    14.0,
+    17.1
+   ],
+   "Túi chườm nước đá": [
+    14.0,
+    17.1
+   ],
+   "Tấm lót giường thấm nước tiểu": [
+    15.0,
+    18.8
+   ],
+   "Thuốc đuổi côn trùng": [
+    15.0,
+    18.8
+   ]
+  }
+ },
+ "Sức khỏe": {
+  "Thuốc & Phương pháp điều trị thay thế": {
+   "Châm cứu": [
+    15.5,
+    18.8
+   ],
+   "Liệu pháp thay thế": [
+    15.5,
+    18.8
+   ],
+   "Tinh dầu trị liệu bằng hương thơm": [
+    14.5,
+    17.1
+   ],
+   "Thảo dược": [
+    14.0,
+    17.1
+   ]
+  },
+  "Vật tư y tế": {
+   "Cân trong nhà tắm": [
+    14.0,
+    17.1
+   ],
+   "Niềng răng & Hỗ trợ": [
+    14.0,
+    17.1
+   ],
+   "Chất diệt khuẩn": [
+    15.0,
+    18.8
+   ],
+   "Electric Stimulators": [
+    15.0,
+    16.0
+   ],
+   "Que thử kế hoạch hóa gia đình": [
+    14.0,
+    17.1
+   ],
+   "Vậtt dụng sơ cứu": [
+    14.0,
+    17.1
+   ],
+   "Kiểm tra & Theo dõi Sức khỏe": [
+    14.0,
+    17.1
+   ],
+   "Trợ thính": [
+    14.0,
+    17.1
+   ],
+   "Dụng cụ phòng thí nghiệm": [
+    14.0,
+    17.1
+   ],
+   "Khẩu trang y tế": [
+    14.0,
+    17.1
+   ],
+   "Thuốc hỗ trợ": [
+    14.0,
+    17.1
+   ],
+   "Mặt nạ bảo hộ PPE": [
+    14.0,
+    17.1
+   ],
+   "Thiết bị & phụ kiện hỗ trợ hô hấp": [
+    14.0,
+    17.1
+   ],
+   "Ngủ & ngáy": [
+    14.0,
+    17.1
+   ],
+   "Cai thuốc lá": [
+    14.0,
+    17.1
+   ],
+   "Nhiệt kế": [
+    14.0,
+    17.1
+   ],
+   "Gậy chống": [
+    14.0,
+    17.1
+   ],
+   "Xe lăn": [
+    14.0,
+    17.1
+   ]
+  },
+  "Thực phẩm bổ sung": {
+   "Thực phẩm chăm sóc sắc đẹp": [
+    15.5,
+    17.0
+   ],
+   "Thực phẩm bổ sung thể hình": [
+    15.5,
+    17.0
+   ],
+   "Thực phẩm bổ sung sức khỏe": [
+    15.5,
+    17.0
+   ],
+   "Quản lý cân nặng": [
+    15.5,
+    17.0
+   ]
+  },
+  "Thuốc & Điều trị không kê đơn": {
+   "Dị ứng, Xoang & Hen suyễn": [
+    14.0,
+    17.1
+   ],
+   "Thuốc chống nấm": [
+    14.0,
+    17.1
+   ],
+   "Y học Trẻ nhỏ & Trẻ em": [
+    14.0,
+    17.1
+   ],
+   "Ho & Cảm lạnh": [
+    14.0,
+    17.1
+   ],
+   "Vết cắt & vết thương": [
+    14.0,
+    17.1
+   ],
+   "Tiêu hóa & Buồn nôn": [
+    14.0,
+    17.1
+   ],
+   "Chăm sóc Bệnh chàm, Bệnh vẩy nến và bệnh Rosacea": [
+    14.0,
+    17.1
+   ],
+   "Giảm đau": [
+    14.0,
+    17.1
+   ],
+   "Vết sẹo & vết rạn da": [
+    14.0,
+    17.1
+   ]
+  },
+  "Sức khỏe tình dục": {
+   "Bao cao su": [
+    15.5,
+    18.8
+   ],
+   "Chất bôi trơn": [
+    15.5,
+    18.8
+   ],
+   "Chất tăng cường hiệu suất": [
+    15.5,
+    18.8
+   ]
+  }
+ },
+ "Ô tô & xe máy": {
+  "Bộ phận thay thế cho ô tô": {
+   "Pin & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Vòng bi & vòng đệm": [
+    14.5,
+    16.7
+   ],
+   "Đai, ống mềm & puli": [
+    14.5,
+    16.7
+   ],
+   "Thân, khung & cản trước": [
+    14.5,
+    16.7
+   ],
+   "Hệ thống phanh": [
+    14.5,
+    16.7
+   ],
+   "Hệ thống truyền động, hộp số & khớp ly hợp": [
+    14.5,
+    16.7
+   ],
+   "Bộ phận động cơ": [
+    14.5,
+    16.7
+   ],
+   "Khói & khí thải": [
+    14.5,
+    16.7
+   ],
+   "Hệ thống nhiên liệu": [
+    14.5,
+    16.7
+   ],
+   "Đánh lửa": [
+    14.5,
+    16.7
+   ],
+   "Bộ tản nhiệt, làm mát động cơ & điều hòa": [
+    14.5,
+    16.7
+   ],
+   "Chống va đập, thanh giằng và nhíp xe": [
+    14.5,
+    16.7
+   ],
+   "Lốp & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Bánh xe, vành bánh xe & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Cần gạt nước & rửa kính": [
+    14.5,
+    16.7
+   ]
+  },
+  "Thiết bị điện tử trên ô tô": {
+   "Hệ thống báo động & An ninh": [
+    14.5,
+    16.7
+   ],
+   "Âm thanh trên ô tô": [
+    14.5,
+    16.7
+   ],
+   "Camera hành trình": [
+    14.5,
+    16.7
+   ],
+   "Thiết bị điện trên ô tô": [
+    14.5,
+    16.7
+   ],
+   "Trình phát video trên ô tô": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện điện tử": [
+    14.5,
+    16.7
+   ],
+   "Bộ phát FM & Bluetooth": [
+    14.5,
+    16.7
+   ],
+   "GPS & Phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Hệ thống thông minh": [
+    14.5,
+    16.7
+   ],
+   "Bộ sạc USB": [
+    14.5,
+    16.7
+   ],
+   "Video giám sát": [
+    14.5,
+    16.7
+   ]
+  },
+  "Phụ kiện bên ngoài ô tô": {
+   "Đồ trang trí đầu ăng-ten": [
+    14.5,
+    16.7
+   ],
+   "Mái che & tấm che cho ô tô": [
+    14.5,
+    16.7
+   ],
+   "Kệ": [
+    14.5,
+    16.7
+   ],
+   "Dán xe": [
+    14.5,
+    16.7
+   ],
+   "Cái kẹp biên lai thuế đường trên xe": [
+    14.5,
+    16.7
+   ],
+   "Viền crôm & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Đồ trang trí": [
+    14.5,
+    16.7
+   ],
+   "Kèn & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Tấm chắn bùn & chắn nước bắn": [
+    14.5,
+    16.7
+   ],
+   "Biển số": [
+    14.5,
+    16.7
+   ],
+   "Dải phản quang": [
+    14.5,
+    16.7
+   ],
+   "Bộ dụng cụ gấp gương bên": [
+    14.5,
+    16.7
+   ],
+   "Tấm chắn gió & che nắng cửa xe": [
+    14.5,
+    16.7
+   ],
+   "Tấm che nắng": [
+    14.5,
+    16.7
+   ],
+   "Phim cửa sổ & Che nắng": [
+    14.5,
+    16.7
+   ],
+   "Kính chống chói": [
+    14.5,
+    16.7
+   ]
+  },
+  "Phụ kiện bên trong ô tô": {
+   "Thảm chống trượt": [
+    14.5,
+    16.7
+   ],
+   "Nước hoa ô tô": [
+    14.5,
+    16.7
+   ],
+   "Hộp đựng chìa khóa ô tô": [
+    14.5,
+    16.7
+   ],
+   "Thảm ô tô": [
+    14.5,
+    16.7
+   ],
+   "Đồ trang trí": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ thoát hiểm": [
+    14.5,
+    16.7
+   ],
+   "Chốt & Kẹp": [
+    14.5,
+    16.7
+   ],
+   "Cấu kiện bên trong": [
+    14.5,
+    16.7
+   ],
+   "Dán bên trong ô tô": [
+    14.5,
+    16.7
+   ],
+   "Khung đỡ & Giá đỡ": [
+    14.5,
+    16.7
+   ],
+   "Gối cổ": [
+    14.5,
+    16.7
+   ],
+   "Bàn đạp & cần số": [
+    14.5,
+    16.7
+   ],
+   "Giá đỡ & Phụ kiện phía sau": [
+    14.5,
+    16.7
+   ],
+   "Đệm ngồi": [
+    14.5,
+    16.7
+   ],
+   "Khóa & thiết bị an ninh vô lăng": [
+    14.5,
+    16.7
+   ],
+   "Bọc vô lăng": [
+    14.5,
+    16.7
+   ],
+   "Hộc đựng đồ": [
+    14.5,
+    16.7
+   ]
+  },
+  "Đèn xe": {
+   "Khung gầm": [
+    14.5,
+    16.7
+   ],
+   "Vỏ bọc": [
+    14.5,
+    16.7
+   ],
+   "Đèn trang trí": [
+    14.5,
+    16.7
+   ],
+   "Đèn sương mù": [
+    14.5,
+    16.7
+   ],
+   "Đèn pha ô tô (Halogen)": [
+    14.5,
+    16.7
+   ],
+   "Đèn pha ô tô (LED)": [
+    14.5,
+    16.7
+   ],
+   "Đèn pha ô tô (Xenon)": [
+    14.5,
+    16.7
+   ],
+   "Đèn báo": [
+    14.5,
+    16.7
+   ],
+   "Đèn Light Bar & Đèn làm việc": [
+    14.5,
+    16.7
+   ],
+   "Dây điện": [
+    14.5,
+    16.7
+   ]
+  },
+  "Dụng cụ sửa chữa ô tô": {
+   "Dụng cụ tháo lắp": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ sửa chữa ắc quy ô tô": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ sửa chữa thân xe": [
+    14.5,
+    16.7
+   ],
+   "Công cụ kiểm tra ô tô": [
+    14.5,
+    16.7
+   ],
+   "Trình đọc & Trình quét mã": [
+    14.5,
+    16.7
+   ],
+   "Công cụ chẩn đoán": [
+    14.5,
+    16.7
+   ],
+   "Công cụ sửa chữa động cơ & Hộp số": [
+    14.5,
+    16.7
+   ],
+   "Công cụ kim loại tấm": [
+    14.5,
+    16.7
+   ],
+   "Công cụ sửa chữa & Lắp lốp": [
+    14.5,
+    16.7
+   ]
+  },
+  "Rửa & Bảo dưỡng ô tô": {
+   "Phụ kiện rửa xe": [
+    14.5,
+    16.7
+   ],
+   "Máy rửa xe": [
+    14.5,
+    16.7
+   ],
+   "Dung dịch vệ sinh & bảo dưỡng": [
+    14.5,
+    16.7
+   ],
+   "Bảo dưỡng động cơ": [
+    14.5,
+    16.7
+   ],
+   "Bảo dưỡng nội thất": [
+    14.5,
+    16.7
+   ],
+   "Dầu": [
+    13.5,
+    15.7
+   ],
+   "Sơn & Dụng cụ sửa chữa cửa sổ": [
+    14.5,
+    16.7
+   ],
+   "Bảo dưỡng sơn": [
+    14.5,
+    16.7
+   ],
+   "Máy đánh bóng & Phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Súng phun nước & Bình phun bọt tuyết": [
+    14.5,
+    16.7
+   ],
+   "Sửa chữa cửa sổ": [
+    14.5,
+    16.7
+   ]
+  },
+  "Phụ kiện xe máy": {
+   "Hộp & thùng": [
+    14.5,
+    16.7
+   ],
+   "Thảm": [
+    14.5,
+    16.7
+   ],
+   "Tay lái & tay nắm": [
+    14.5,
+    16.7
+   ],
+   "Mũ bảo hiểm": [
+    14.5,
+    16.7
+   ],
+   "Áo khoác & áo mưa": [
+    14.5,
+    16.7
+   ],
+   "Khóa & an ninh": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện xe máy": [
+    14.5,
+    16.7
+   ],
+   "Trang phục và mũ trùm đầu đi xe máy": [
+    14.5,
+    16.7
+   ],
+   "Nhãn dán & phim cho xe máy": [
+    14.5,
+    16.7
+   ],
+   "Tấm chắn bùn & chắn nước bắn": [
+    14.5,
+    16.7
+   ],
+   "Đồ bảo hộ": [
+    14.5,
+    16.7
+   ],
+   "Ghế & áo ghế": [
+    14.5,
+    16.7
+   ]
+  },
+  "Linh kiện mô tô": {
+   "Pin & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Hệ thống phanh": [
+    14.5,
+    16.7
+   ],
+   "Cáp & ống": [
+    14.5,
+    16.7
+   ],
+   "Hệ thống truyền động, hộp số & khớp ly hợp": [
+    14.5,
+    16.7
+   ],
+   "Khói & khí thải": [
+    14.5,
+    16.7
+   ],
+   "Khung & Phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Kèn & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Đèn": [
+    14.5,
+    16.7
+   ],
+   "Gương & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Chất chống đông và chất bôi trơn cho xe máy": [
+    14.5,
+    16.7
+   ],
+   "Bộ lọc cho xe máy": [
+    14.5,
+    16.7
+   ],
+   "Dầu xe máy": [
+    14.5,
+    16.7
+   ],
+   "Chống va đập, thanh giằng và nhíp xe": [
+    14.5,
+    16.7
+   ],
+   "Bu-gi": [
+    14.5,
+    16.7
+   ],
+   "Lốp & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Bánh xe, vành bánh xe & phụ kiện": [
+    14.5,
+    16.7
+   ]
+  },
+  "Xe máy": {
+   "Xe máy hộp số tự động": [
+    1.5,
+    1.5
+   ],
+   "Xe máy điện": [
+    1.5,
+    1.5
+   ],
+   "Xe máy hộp số chủ động": [
+    1.5,
+    1.5
+   ]
+  },
+  "Xe Quads, Xe lưu động & Thuyền": {
+   "Phụ tùng & Phụ kiện thuyền": [
+    14.5,
+    16.7
+   ],
+   "Phụ tùng xe điện": [
+    14.5,
+    16.7
+   ],
+   "Phụ tùng xe tải": [
+    14.5,
+    16.7
+   ],
+   "Bộ phận & Phụ kiện xe lưu động": [
+    14.5,
+    16.7
+   ],
+   "Phụ tùng & Phụ kiện xe đạp Quad": [
+    14.5,
+    16.7
+   ],
+   "Phụ tùng xe cứu hộ": [
+    14.5,
+    16.7
+   ],
+   "Phụ tùng xe trượt tuyết": [
+    14.5,
+    16.7
+   ],
+   "Vận chuyển & Bảo quản": [
+    14.5,
+    16.7
+   ],
+   "Bộ phận & phụ kiện tàu thủy": [
+    14.5,
+    16.7
+   ]
+  }
+ },
+ "Bộ sưu tập": {
+  "Tiền & tiền xu sưu tầm": {
+   "Tiền giấy": [
+    14.5,
+    15.7
+   ],
+   "Tiền xu & vàng thỏi": [
+    14.5,
+    15.7
+   ]
+  },
+  "Bộ sưu tập văn hóa đương đại": {
+   "Tranh phương Tây": [
+    14.5,
+    15.7
+   ],
+   "Thư pháp Trung Quốc": [
+    15.0,
+    16.7
+   ],
+   "Lư hương & nhang": [
+    15.0,
+    16.7
+   ],
+   "Kiến diêu": [
+    14.5,
+    15.7
+   ],
+   "Tranh Trung Quốc": [
+    14.5,
+    15.7
+   ],
+   "Đồ gốm màu đỏ": [
+    14.5,
+    15.7
+   ],
+   "Đồ gốm": [
+    14.5,
+    15.7
+   ],
+   "Đá quý & điêu khắc đá": [
+    14.5,
+    15.7
+   ],
+   "Khắc dấu": [
+    15.0,
+    16.7
+   ]
+  },
+  "Giải trí": {
+   "Hộp mù": [
+    14.5,
+    15.7
+   ],
+   "Bản ghi CD, DVD & Vinyl": [
+    14.5,
+    15.7
+   ],
+   "Tượng nhỏ & tượng": [
+    14.5,
+    15.7
+   ],
+   "Ô tô mô hình & Đồ chơi Diecast": [
+    14.5,
+    15.7
+   ],
+   "Nhãn Dán Không Thể Thao": [
+    14.5,
+    15.7
+   ],
+   "Thẻ ảnh": [
+    16.0,
+    17.7
+   ],
+   "Đĩa": [
+    15.5,
+    16.7
+   ],
+   "Thú Nhồi Bông": [
+    14.5,
+    15.7
+   ],
+   "Tem bưu chính": [
+    10.0,
+    14.7
+   ],
+   "Ảnh in & Áp phích": [
+    15.0,
+    16.7
+   ]
+  },
+  "Bộ sưu tập thể thao": {
+   "Bóng": [
+    14.5,
+    15.7
+   ],
+   "Sách": [
+    14.5,
+    15.7
+   ],
+   "Tượng nhỏ": [
+    14.5,
+    15.7
+   ],
+   "Cờ & Biểu ngữ": [
+    14.5,
+    15.7
+   ],
+   "Găng tay": [
+    14.5,
+    15.7
+   ],
+   "Câu lạc bộ golf": [
+    15.0,
+    16.7
+   ],
+   "Mũ": [
+    14.5,
+    15.7
+   ],
+   "Áo thể thao": [
+    14.5,
+    15.7
+   ],
+   "Ảnh chụp": [
+    15.0,
+    16.7
+   ],
+   "Ảnh in & Áp phích": [
+    15.0,
+    16.7
+   ],
+   "Tạp chí": [
+    14.5,
+    15.7
+   ],
+   "Giày": [
+    14.5,
+    15.7
+   ],
+   "Nhãn Dán Thể Thao": [
+    14.5,
+    15.7
+   ],
+   "Cúp": [
+    14.5,
+    15.7
+   ]
+  },
+  "Khung giường & đầu giường": {
+   "thẻ trao đổi Không Thể Thao Đã Mở Trực Tiếp": [
+    14.5,
+    15.7
+   ],
+   "thẻ trao đổi Thể Thao Đã Mở Trực Tiếp": [
+    14.5,
+    15.7
+   ],
+   "Thẻ bài phi thể thao": [
+    14.5,
+    15.7
+   ],
+   "Thẻ bài thể thao": [
+    14.5,
+    15.7
+   ],
+   "Phụ kiện thẻ bài": [
+    15.0,
+    16.7
+   ]
+  }
+ },
+ "Đồ nội thất": {
+  "Nội thất trẻ em": {
+   "Giường": [
+    12.7,
+    13.0
+   ],
+   "Bàn đầu giường": [
+    12.7,
+    13.0
+   ],
+   "Tủ": [
+    13.2,
+    14.0
+   ],
+   "Ghế tựa": [
+    13.2,
+    14.0
+   ],
+   "Bộ nội thất": [
+    13.2,
+    14.0
+   ],
+   "Đệm": [
+    13.2,
+    14.0
+   ],
+   "Kệ & Giá đỡ": [
+    12.7,
+    13.0
+   ],
+   "Sofa": [
+    13.2,
+    14.0
+   ],
+   "Ghế đẩu & Ghế dài": [
+    12.7,
+    13.0
+   ],
+   "Bàn & Bàn làm việc": [
+    13.2,
+    14.0
+   ],
+   "Tủ quần áo": [
+    12.7,
+    13.0
+   ]
+  },
+  "Nội thất thương mại": {
+   "Nội thất khách sạn": [
+    13.2,
+    14.0
+   ],
+   "Nội thất văn phòng": [
+    13.2,
+    14.0
+   ],
+   "Nội thất nhà hàng": [
+    12.7,
+    13.0
+   ],
+   "Nội thất salon": [
+    12.7,
+    13.0
+   ],
+   "Nội thất trường học": [
+    13.2,
+    14.0
+   ]
+  },
+  "Nội thất gia đình": {
+   "Phụ tùng nội thất": [
+    12.7,
+    13.0
+   ]
+  },
+  "Nội thất trong nhà": {
+   "Thẻ bài & phụ kiện": [
+    12.7,
+    13.0
+   ],
+   "Giường": [
+    13.2,
+    14.0
+   ],
+   "Ghế tựa": [
+    12.7,
+    13.0
+   ],
+   "Cây treo đồ": [
+    12.7,
+    13.0
+   ],
+   "Tủ": [
+    13.2,
+    14.0
+   ],
+   "Bàn ghế chơi game": [
+    12.7,
+    13.0
+   ],
+   "Bộ nội thất trong nhà": [
+    12.7,
+    13.0
+   ],
+   "Bàn trang điểm": [
+    13.2,
+    14.0
+   ],
+   "Đệm": [
+    13.2,
+    14.0
+   ],
+   "Vách ngăn phòng": [
+    12.7,
+    13.0
+   ],
+   "Kệ & Giá đỡ": [
+    12.7,
+    13.0
+   ],
+   "Sofa": [
+    13.2,
+    14.0
+   ],
+   "Ghế đẩu & Ghế dài": [
+    12.7,
+    13.0
+   ],
+   "Bàn & Bàn làm việc": [
+    12.7,
+    13.0
+   ],
+   "Giá đỡ TV & Bàn đầu giường": [
+    12.7,
+    13.0
+   ],
+   "Tủ quần áo": [
+    12.7,
+    13.0
+   ]
+  },
+  "Nội thất ngoài trời": {
+   "Ghế tựa ngoài trời": [
+    13.2,
+    14.0
+   ],
+   "Bộ nội thất ngoài trời": [
+    12.7,
+    13.0
+   ],
+   "Kệ ngoài trời": [
+    12.7,
+    13.0
+   ],
+   "Sofa ngoài trời": [
+    12.7,
+    13.0
+   ],
+   "Bàn ngoài trời": [
+    12.7,
+    13.0
+   ],
+   "Xích đu ở sân trong": [
+    13.2,
+    14.0
+   ],
+   "Ô ở sân trong": [
+    12.7,
+    13.0
+   ],
+   "Ghế đẩu & Ghế dài": [
+    12.7,
+    13.0
+   ]
+  }
+ },
+ "Sửa chữa nhà cửa": {
+  "Đồ đạc nhà tắm": {
+   "Phụ kiện đồ đạc nhà tắm": [
+    14.5,
+    17.1
+   ],
+   "Bộ đồ đạc nhà tắm": [
+    14.5,
+    17.1
+   ],
+   "Gương nhà tắm": [
+    15.0,
+    18.1
+   ],
+   "Thanh vịn & Ghế an toàn trong phòng tắm": [
+    12.5,
+    14.5
+   ],
+   "Bồn rửa nhà tắm": [
+    13.0,
+    16.0
+   ],
+   "Vòi nước nhà tắm": [
+    12.5,
+    15.0
+   ],
+   "Bồn tắm": [
+    12.5,
+    14.5
+   ],
+   "Vòi xịt & các bộ phận vòi xịt": [
+    14.5,
+    17.1
+   ],
+   "Móc & Thanh": [
+    14.5,
+    17.1
+   ],
+   "Thiết bị tắm": [
+    14.5,
+    17.1
+   ],
+   "Toilet & các bộ phận toilet": [
+    12.5,
+    14.5
+   ]
+  },
+  "Vật tư xây dựng": {
+   "Cửa ra vào, Cổng & Cửa sổ": [
+    12.5,
+    15.0
+   ],
+   "Sưởi ấm, Làm mát & Thông gió": [
+    9.0,
+    9.3
+   ],
+   "Thang": [
+    12.5,
+    15.0
+   ],
+   "Vật tư & dụng cụ sơn": [
+    12.5,
+    15.0
+   ],
+   "Mái & Sàn": [
+    12.5,
+    15.0
+   ],
+   "Xe đẩy": [
+    12.5,
+    15.0
+   ],
+   "Sơn tường": [
+    12.5,
+    15.0
+   ],
+   "Giấy dán & đồ trang trí tường": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ dán giấy dán tường": [
+    14.5,
+    17.1
+   ]
+  },
+  "Đồ dùng & thiết bị điện": {
+   "Đầu nối & Thiết bị đầu cuối": [
+    10.5,
+    14.7
+   ],
+   "Ổ cắm & Phụ kiện điện": [
+    10.5,
+    14.7
+   ],
+   "Động cơ, máy phát điện & phụ kiện": [
+    10.5,
+    14.7
+   ],
+   "Thiết bị tiết kiệm điện": [
+    11.0,
+    15.7
+   ],
+   "Bộ nguồn": [
+    10.5,
+    14.7
+   ],
+   "Rơ le & Cầu dao": [
+    10.5,
+    14.7
+   ],
+   "Công tắc & Phụ kiện": [
+    10.5,
+    14.7
+   ],
+   "Bộ biến áp": [
+    10.5,
+    14.7
+   ],
+   "Dây & Cáp": [
+    10.5,
+    14.7
+   ]
+  },
+  "Vật dụng làm vườn": {
+   "Vật dụng nuôi ong": [
+    12.5,
+    14.5
+   ],
+   "Hạt giống cây trồng & hoa": [
+    12.5,
+    14.5
+   ],
+   "Hoa tươi": [
+    12.5,
+    14.5
+   ],
+   "Nhà vườn": [
+    12.5,
+    14.5
+   ],
+   "Trang trí sân vườn": [
+    12.5,
+    14.5
+   ],
+   "Bình & Chậu trong vườn": [
+    13.0,
+    15.5
+   ],
+   "Đất trồng và Phân bón": [
+    12.5,
+    14.5
+   ],
+   "Nhà kính & khay ươm hạt giống": [
+    12.5,
+    14.5
+   ],
+   "Cây cảnh": [
+    12.5,
+    14.5
+   ],
+   "Máy sưởi hiên & bếp sưởi": [
+    13.0,
+    15.5
+   ],
+   "Kiểm soát sâu bệnh": [
+    12.5,
+    14.5
+   ],
+   "Giàn & công cụ chăm sóc cây trồng": [
+    12.5,
+    14.5
+   ],
+   "Hồ bơi, bể tắm nước nóng & vật tư": [
+    12.5,
+    14.5
+   ],
+   "Vườn giường": [
+    12.5,
+    14.5
+   ],
+   "Tưới nước & Tưới tiêu": [
+    12.5,
+    14.5
+   ]
+  },
+  "Đồ đạc nhà bếp": {
+   "Tủ bếp": [
+    14.5,
+    17.1
+   ],
+   "Phụ kiện đồ đạc nhà bếp": [
+    14.5,
+    17.1
+   ],
+   "Bộ đồ đạc nhà bếp": [
+    14.5,
+    17.1
+   ],
+   "Bồn rửa nhà bếp": [
+    13.0,
+    16.0
+   ],
+   "Vòi nước nhà bếp": [
+    12.5,
+    15.0
+   ],
+   "Thiết bị lọc nước": [
+    14.5,
+    17.1
+   ]
+  },
+  "Đèn & hệ thống chiếu sáng": {
+   "Bóng đèn, đèn tuýp & dải đèn": [
+    12.5,
+    15.0
+   ],
+   "Đèn thương mại": [
+    12.5,
+    15.0
+   ],
+   "Đèn trong nhà": [
+    12.5,
+    15.0
+   ],
+   "Phụ kiện đèn": [
+    12.5,
+    15.0
+   ],
+   "Đèn trang trí": [
+    12.5,
+    15.0
+   ],
+   "Đèn ngoài trời": [
+    12.5,
+    15.0
+   ],
+   "Đèn di động": [
+    12.5,
+    15.0
+   ],
+   "Đèn chuyên nghiệp": [
+    12.5,
+    15.0
+   ]
+  },
+  "An ninh & An toàn": {
+   "Chuông cửa & Hệ thống liên lạc nội bộ": [
+    10.5,
+    14.7
+   ],
+   "Bộ dụng cụ khẩn cấp": [
+    14.5,
+    15.0
+   ],
+   "Báo động an ninh": [
+    14.5,
+    15.0
+   ],
+   "Thiết bị an toàn lao động": [
+    14.5,
+    15.0
+   ]
+  },
+  "Hệ thống nhà thông minh": {
+   "Hệ thống điều khiển rèm cửa tự động": [
+    10.5,
+    14.7
+   ],
+   "Điều khiển nhà thông minh": [
+    10.5,
+    14.7
+   ],
+   "Cảm biến chuyển động thông minh": [
+    10.5,
+    14.7
+   ],
+   "Hệ thống điều khiển nhiệt độ": [
+    10.5,
+    14.7
+   ]
+  },
+  "Năng lượng mặt trời & gió": {
+   "Bộ điều khiển & phụ kiện sạc": [
+    10.5,
+    14.7
+   ],
+   "Bộ biến tần điện": [
+    10.5,
+    14.7
+   ],
+   "Pin mặt trời": [
+    12.5,
+    15.0
+   ],
+   "Hệ thống năng lượng mặt trời": [
+    10.5,
+    14.7
+   ],
+   "Tua bin gió": [
+    10.5,
+    14.7
+   ]
+  }
+ },
+ "Đồ dùng nhà bếp": {
+  "Đồ làm bánh": {
+   "Bộ dụng cụ làm bánh": [
+    14.5,
+    17.1
+   ],
+   "Khay & Khuôn nướng": [
+    14.5,
+    17.1
+   ],
+   "Khay nướng bánh": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ làm bánh": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ trang trí": [
+    15.0,
+    18.1
+   ],
+   "Găng tay bắc bếp": [
+    14.0,
+    17.1
+   ]
+  },
+  "Đồ dùng quầy rượu & Đồ uống rượu": {
+   "Bộ đồ dùng ở quầy rượu": [
+    14.5,
+    17.1
+   ],
+   "Đồ dùng quầy rượu": [
+    14.5,
+    17.1
+   ],
+   "Thiết bị làm rượu vang": [
+    14.5,
+    17.1
+   ],
+   "Giá để rượu": [
+    14.5,
+    17.1
+   ]
+  },
+  "Tiệc nướng barbecue": {
+   "Đồ dùng nướng thịt": [
+    14.5,
+    15.1
+   ],
+   "Vỉ nướng": [
+    12.5,
+    15.1
+   ]
+  },
+  "Đồ nấu ăn": {
+   "Phụ kiện dụng cụ nấu nướng": [
+    14.5,
+    17.1
+   ],
+   "Bộ dụng cụ nấu ăn": [
+    14.5,
+    17.1
+   ],
+   "Đồ nấu ăn dùng một lần": [
+    14.5,
+    17.1
+   ],
+   "Xoong & Chảo": [
+    14.5,
+    17.1
+   ],
+   "Nồi": [
+    14.5,
+    17.1
+   ],
+   "Nồi áp suất": [
+    14.5,
+    17.1
+   ],
+   "Nồi hấp": [
+    14.5,
+    17.1
+   ]
+  },
+  "Dao kéo & Bộ đồ ăn": {
+   "Bát": [
+    14.5,
+    17.1
+   ],
+   "Đũa": [
+    14.5,
+    17.1
+   ],
+   "Dĩa": [
+    14.5,
+    17.1
+   ],
+   "Dao": [
+    14.5,
+    17.1
+   ],
+   "Hộp đựng cơm": [
+    14.5,
+    17.1
+   ],
+   "Khăn ăn": [
+    14.5,
+    17.1
+   ],
+   "Miếng lót & Đế lót": [
+    14.5,
+    17.1
+   ],
+   "Đĩa": [
+    14.5,
+    17.1
+   ],
+   "Thìa": [
+    15.0,
+    18.1
+   ],
+   "Đế đỡ bộ đồ ăn": [
+    14.5,
+    17.1
+   ],
+   "Bộ đồ ăn": [
+    14.5,
+    17.1
+   ]
+  },
+  "Bộ đồ uống": {
+   "Chén & Đĩa": [
+    14.5,
+    17.1
+   ],
+   "Phụ kiện bộ đồ uống": [
+    15.0,
+    18.1
+   ],
+   "Cốc thủy tinh": [
+    14.5,
+    17.1
+   ],
+   "Chai rượu để trong túi bên hông": [
+    14.5,
+    17.1
+   ],
+   "Ấm & Bình": [
+    14.5,
+    17.1
+   ],
+   "Cốc": [
+    14.5,
+    17.1
+   ],
+   "Phích": [
+    14.5,
+    17.1
+   ],
+   "Bình nước": [
+    14.5,
+    17.1
+   ]
+  },
+  "Dao nhà bếp": {
+   "Thớt": [
+    14.5,
+    17.1
+   ],
+   "Dao nhà bếp": [
+    14.5,
+    17.1
+   ],
+   "Kéo nhà bếp": [
+    14.5,
+    17.1
+   ],
+   "Bộ hộp đựng dao": [
+    14.5,
+    17.1
+   ],
+   "Hộp để dao": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ mài dao": [
+    14.5,
+    17.1
+   ]
+  },
+  "Đồ dùng & Dụng cụ nhà bếp": {
+   "Dụng cụ nấu ăn": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ chế biến đồ uống": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ chế biến các món trứng": [
+    14.5,
+    17.1
+   ],
+   "Cái đánh lửa": [
+    14.5,
+    17.1
+   ],
+   "Đồ đựng rau củ quả": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ làm kem": [
+    14.5,
+    17.1
+   ],
+   "Cân nhà bếp": [
+    14.5,
+    17.1
+   ],
+   "Nhiệt kế nhà bếp": [
+    14.5,
+    17.1
+   ],
+   "Đồng hồ hẹn giờ trong bếp": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ đo lường": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ chế biến thịt & thịt gia cầm": [
+    14.5,
+    17.1
+   ],
+   "Máy lấy dầu": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ mở": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ làm pasta & pizza": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ nạo & Dụng cụ cắt": [
+    14.5,
+    17.1
+   ],
+   "Thùng bảo quản": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ chế biến hải sản": [
+    14.5,
+    17.1
+   ],
+   "Đồ đựng gia vị": [
+    14.5,
+    17.1
+   ],
+   "Sàng và Chao": [
+    14.5,
+    17.1
+   ],
+   "Khác": [
+    14.5,
+    17.1
+   ]
+  },
+  "Đồ để uống trà & cà phê": {
+   "Túi lọc cà phê": [
+    14.5,
+    17.1
+   ],
+   "Bình cà phê": [
+    14.5,
+    17.1
+   ],
+   "Bộ phin pha cà phê": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ pha cà phê": [
+    14.5,
+    17.1
+   ],
+   "Máy xay cà phê bằng tay": [
+    14.5,
+    17.1
+   ],
+   "Bình sữa": [
+    14.5,
+    17.1
+   ],
+   "Bộ thưởng trà": [
+    14.5,
+    17.1
+   ],
+   "Dụng cụ pha trà": [
+    14.5,
+    17.1
+   ],
+   "Ấm trà": [
+    14.5,
+    17.1
+   ]
+  }
+ },
+ "Đồ dùng cho thú cưng": {
+  "Vật tư dành cho chim": {
+   "Thức ăn cho chim": [
+    12.5,
+    14.7
+   ],
+   "Chăm sóc chim": [
+    12.5,
+    14.7
+   ],
+   "Đồ chơi": [
+    13.0,
+    15.7
+   ],
+   "Lồng & Phụ kiện": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ cho ăn": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ chải lông": [
+    12.5,
+    14.7
+   ],
+   "Xích đu & Cành để đậu": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ hỗ trợ đào tạo": [
+    12.5,
+    14.7
+   ]
+  },
+  "Phụ kiện cho chó & mèo": {
+   "Camera & Màn hình": [
+    12.5,
+    14.7
+   ],
+   "Túi & dụng cụ vận chuyển": [
+    12.5,
+    14.7
+   ],
+   "Đồ chơi cho mèo": [
+    12.5,
+    14.7
+   ],
+   "Vòng cổ, Đai ngực & Dây dắt": [
+    12.5,
+    14.7
+   ],
+   "Đồ chơi cho chó": [
+    12.5,
+    14.7
+   ],
+   "Đồ cho ăn": [
+    12.5,
+    14.7
+   ],
+   "Vật kỷ niệm": [
+    12.5,
+    14.7
+   ],
+   "Đào tạo & Hỗ trợ Hành vi": [
+    12.5,
+    14.7
+   ]
+  },
+  "Quần áo cho chó & mèo": {
+   "Bốt & Đồ bảo vệ móng": [
+    12.5,
+    14.7
+   ],
+   "Áo choàng": [
+    12.5,
+    14.7
+   ],
+   "Trang phục": [
+    12.5,
+    14.7
+   ],
+   "Váy": [
+    12.5,
+    14.7
+   ],
+   "Kính mắt": [
+    12.5,
+    14.7
+   ],
+   "Phụ kiện cài đầu": [
+    12.5,
+    14.7
+   ],
+   "Mũ": [
+    12.5,
+    14.7
+   ],
+   "Áo phao": [
+    12.5,
+    14.7
+   ],
+   "Phụ kiện cổ": [
+    12.5,
+    14.7
+   ],
+   "Áo mưa": [
+    12.5,
+    14.7
+   ],
+   "Áo sơ mi": [
+    12.5,
+    14.7
+   ],
+   "Áo len & Áo hoodie": [
+    12.5,
+    14.7
+   ]
+  },
+  "Thức ăn cho chó & mèo": {
+   "Thức ăn cho mèo": [
+    12.5,
+    15.1
+   ],
+   "Món ăn cho mèo": [
+    12.5,
+    15.1
+   ],
+   "Thức ăn cho chó": [
+    12.5,
+    15.1
+   ],
+   "Món ăn cho chó": [
+    12.5,
+    15.1
+   ]
+  },
+  "Nội thất cho chó & mèo": {
+   "Giường, Sofa & Thảm": [
+    12.5,
+    14.7
+   ],
+   "Lồng & Giỏ": [
+    12.5,
+    14.7
+   ],
+   "Cửa cho mèo & chó": [
+    12.5,
+    14.7
+   ],
+   "Võng cho mèo": [
+    12.5,
+    14.7
+   ],
+   "Chuồng": [
+    12.5,
+    14.7
+   ],
+   "Rào chắn": [
+    12.5,
+    14.7
+   ],
+   "Cột & Bảng cào móng": [
+    12.5,
+    14.7
+   ],
+   "Cầu thang & Cầu nâng": [
+    12.5,
+    14.7
+   ]
+  },
+  "Đồ chải chuốt cho chó & mèo": {
+   "Phụ kiện tắm": [
+    12.5,
+    14.7
+   ],
+   "Chăm sóc móng": [
+    12.5,
+    14.7
+   ],
+   "Lược & Bàn chải": [
+    12.5,
+    14.7
+   ],
+   "Xịt khử mùi & nước hoa": [
+    12.5,
+    14.7
+   ],
+   "Chăm sóc tai": [
+    12.5,
+    14.7
+   ],
+   "Chăm sóc mắt": [
+    12.5,
+    14.7
+   ],
+   "Tông đơ cắt tỉa lông": [
+    12.5,
+    14.7
+   ],
+   "Kéo cắt tỉa lông": [
+    12.5,
+    14.7
+   ],
+   "Khăn lau": [
+    12.5,
+    14.7
+   ],
+   "Máy sấy lông": [
+    12.5,
+    14.7
+   ],
+   "Sản phẩm tẩy lông": [
+    12.5,
+    14.7
+   ],
+   "Chăm sóc răng miệng": [
+    12.5,
+    14.7
+   ],
+   "Dầu gội & Dầu xả": [
+    12.5,
+    14.7
+   ],
+   "Gel & Bột tạo kiểu": [
+    12.5,
+    14.7
+   ]
+  },
+  "Chăm sóc sức khỏe cho chó & mèo": {
+   "Sản phẩm đặc trị bọ chét & bọ ve": [
+    12.5,
+    15.1
+   ],
+   "Thuốc": [
+    12.5,
+    15.1
+   ],
+   "Vòng chụp cổ & hỗ trợ cho thú cứng": [
+    12.5,
+    15.1
+   ],
+   "Vitamin & Thực phẩm bổ sung": [
+    12.5,
+    15.1
+   ]
+  },
+  "Cát vệ sinh cho chó & mèo": {
+   "Tã, Miếng lót & Khay": [
+    12.5,
+    14.7
+   ],
+   "Khay & Hộp đựng cát vệ sinh": [
+    13.0,
+    15.7
+   ],
+   "Xịt khử mùi & tẩy vết bẩn": [
+    12.5,
+    14.7
+   ],
+   "Túi đựng phân & Xẻng xúc": [
+    12.5,
+    14.7
+   ],
+   "Hệ thống huấn luyện vệ sinh cho thú cưng": [
+    13.0,
+    15.7
+   ],
+   "Máy dò nước tiểu": [
+    12.5,
+    14.7
+   ]
+  },
+  "Vật tư cho gia cầm & gia súc": {
+   "Lồng & Phụ kiện": [
+    12.5,
+    14.7
+   ],
+   "Giá đỡ & dây": [
+    12.5,
+    14.7
+   ],
+   "Khuyên tai gia súc": [
+    12.5,
+    14.7
+   ],
+   "Đồ dùng chăm sóc sức khỏe cho gia cầm": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ cho ăn": [
+    12.5,
+    14.7
+   ],
+   "Thức ăn": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ chải lông": [
+    12.5,
+    14.7
+   ],
+   "Đồ chơi": [
+    12.5,
+    14.7
+   ]
+  },
+  "Vật tư dành cho cá & loài sống dưới nước": {
+   "Thuốc cho cá cảnh": [
+    12.5,
+    14.7
+   ],
+   "Thức ăn cho vật nuôi trong bể cá": [
+    12.5,
+    14.7
+   ],
+   "Bể cá & Bể chứa": [
+    12.5,
+    14.7
+   ],
+   "Công cụ làm sạch": [
+    12.5,
+    14.7
+   ],
+   "Đồ trang trí": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ cho ăn": [
+    12.5,
+    14.7
+   ],
+   "Đèn": [
+    12.5,
+    14.7
+   ],
+   "Thực phẩm chức năng & Chăm sóc sức khỏe": [
+    12.5,
+    14.7
+   ],
+   "Bơm & Bộ lọc": [
+    12.5,
+    14.7
+   ],
+   "Kiểm soát nhiệt độ": [
+    12.5,
+    14.7
+   ],
+   "Xử lý nước": [
+    12.5,
+    14.7
+   ]
+  },
+  "Vật tư dành cho bò sát & động vật lưỡng cư": {
+   "Công cụ làm sạch": [
+    12.5,
+    14.7
+   ],
+   "Đồ trang trí": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ cho ăn": [
+    13.0,
+    15.7
+   ],
+   "Đèn": [
+    12.5,
+    14.7
+   ],
+   "Thức ăn cho bò sát": [
+    12.5,
+    14.7
+   ],
+   "Đồ dùng chăm sóc sức khỏe cho loài bò sát": [
+    12.5,
+    14.7
+   ],
+   "Điều khiển nhiệt độ": [
+    12.5,
+    14.7
+   ],
+   "Nhà kiếng & vật tư vận chuyển": [
+    12.5,
+    14.7
+   ]
+  },
+  "Vật tư dành cho động vật nhỏ": {
+   "Lồng vận chuyển": [
+    12.5,
+    14.7
+   ],
+   "Vòng cổ, Đai ngực & Dây dắt": [
+    12.5,
+    14.7
+   ],
+   "Bánh xe chạy": [
+    12.5,
+    14.7
+   ],
+   "Đồ cho ăn": [
+    12.5,
+    14.7
+   ],
+   "Dụng cụ chải lông": [
+    13.0,
+    15.7
+   ],
+   "Vật tư về sức khỏe": [
+    12.5,
+    14.7
+   ],
+   "Chuồng & Môi trường sống": [
+    12.5,
+    14.7
+   ],
+   "Xịt khử mùi & tẩy vết bẩn": [
+    12.5,
+    14.7
+   ],
+   "Quần áo cho thú cưng nhỏ": [
+    12.5,
+    14.7
+   ],
+   "Thức ăn cho thú cưng nhỏ": [
+    12.5,
+    14.7
+   ],
+   "Đồ chơi": [
+    12.5,
+    14.7
+   ]
+  }
+ },
+ "Hàng dệt & Đồ nội thất mềm": {
+  "Chăn ga gối đệm": {
+   "Váy giường": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện giường": [
+    14.5,
+    16.7
+   ],
+   "Bộ chăn ga gối đệm": [
+    14.5,
+    16.7
+   ],
+   "Khăn trải giường": [
+    14.5,
+    16.7
+   ],
+   "Chăn": [
+    14.5,
+    16.7
+   ],
+   "Bộ chăn ga gối đệm cho trẻ em": [
+    14.5,
+    16.7
+   ],
+   "Thảm & miếng đệm làm mát": [
+    14.5,
+    16.7
+   ],
+   "Vỏ chăn": [
+    14.5,
+    16.7
+   ],
+   "Chăn lông vịt": [
+    14.5,
+    16.7
+   ],
+   "Tấm đệm & Nệm": [
+    14.5,
+    16.7
+   ],
+   "Màn chống muỗi": [
+    14.5,
+    16.7
+   ],
+   "Gối nằm & gối tựa": [
+    14.5,
+    16.7
+   ],
+   "Mền": [
+    14.5,
+    16.7
+   ],
+   "Khăn trải giường & Vỏ gối": [
+    14.5,
+    16.7
+   ]
+  },
+  "Vải & Đồ may": {
+   "Kim": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện may vá & Kim chỉ": [
+    15.0,
+    17.7
+   ],
+   "Bộ dụng cụ may thủ công": [
+    14.5,
+    16.7
+   ],
+   "Máy may": [
+    14.5,
+    16.7
+   ],
+   "Bộ dụng cụ may vá": [
+    14.5,
+    16.7
+   ],
+   "Dệt & Vải": [
+    14.5,
+    16.7
+   ],
+   "Chỉ": [
+    15.0,
+    17.7
+   ]
+  },
+  "Hàng dệt gia dụng": {
+   "Thảm": [
+    14.5,
+    17.1
+   ],
+   "Bọc ghế": [
+    14.5,
+    17.1
+   ],
+   "Rèm cửa": [
+    14.5,
+    17.1
+   ],
+   "Gối đệm, nệm & áo gối": [
+    14.5,
+    16.7
+   ],
+   "Khăn trải bàn & Thảm trang trí": [
+    14.5,
+    17.1
+   ],
+   "Bọc ghế sofa": [
+    14.5,
+    17.1
+   ]
+  }
+ },
+ "Công cụ & Phần cứng": {
+  "Dụng cụ làm vườn": {
+   "Cưa xích": [
+    12.5,
+    14.5
+   ],
+   "Chĩa & Xẻng": [
+    13.0,
+    15.5
+   ],
+   "Dụng cụ dọn vườn": [
+    12.5,
+    14.5
+   ],
+   "Găng tay làm vườn & trang bị bảo hộ": [
+    12.5,
+    14.5
+   ],
+   "Phụ kiện dụng cụ làm vườn": [
+    12.5,
+    14.5
+   ],
+   "Máy xén cỏ": [
+    12.5,
+    14.5
+   ],
+   "Cuốc & Cào": [
+    12.5,
+    14.5
+   ],
+   "Máy cắt cỏ": [
+    12.5,
+    14.5
+   ],
+   "Máy thổi lá & Máy hút bụi": [
+    12.5,
+    14.5
+   ],
+   "Máy dò kim loại": [
+    12.5,
+    14.5
+   ],
+   "Dụng cụ cắt tỉa": [
+    12.5,
+    14.5
+   ],
+   "Dụng cụ cạo tuyết": [
+    12.5,
+    14.5
+   ],
+   "Dao & Xẻng": [
+    12.5,
+    14.5
+   ],
+   "Dụng cụ làm vườn chuyên môn": [
+    12.5,
+    14.5
+   ]
+  },
+  "Dụng cụ cầm tay": {
+   "Rìu": [
+    14.5,
+    16.7
+   ],
+   "Đục": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ cắt": [
+    14.5,
+    16.7
+   ],
+   "Búa": [
+    14.5,
+    16.7
+   ],
+   "Máy tán đinh cầm tay": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện dụng cụ cầm tay": [
+    14.5,
+    16.7
+   ],
+   "Cân công nghiệp": [
+    14.5,
+    16.7
+   ],
+   "Nhíp công nghiệp": [
+    14.5,
+    16.7
+   ],
+   "Dao": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ xây dựng và ốp lát": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ đa năng & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Kìm": [
+    14.5,
+    16.7
+   ],
+   "Cưa": [
+    14.5,
+    16.7
+   ],
+   "Kéo": [
+    14.5,
+    16.7
+   ],
+   "Tua vít": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ cầm tay chuyên môn": [
+    14.5,
+    16.7
+   ],
+   "Bộ dụng cụ": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ sửa chữa đồng hồ": [
+    14.5,
+    16.7
+   ],
+   "Cờ lê": [
+    14.5,
+    16.7
+   ]
+  },
+  "Phần cứng": {
+   "Sản phẩm mài & hoàn thiện": [
+    12.5,
+    15.0
+   ],
+   "Chất kết dính, Băng dính & Chất hàn": [
+    14.5,
+    16.7
+   ],
+   "Kẹp": [
+    14.5,
+    16.7
+   ],
+   "Phần cứng cửa": [
+    12.5,
+    15.0
+   ],
+   "Chốt & Móc": [
+    14.5,
+    16.7
+   ],
+   "Phần cứng nội thất": [
+    14.5,
+    16.7
+   ],
+   "Nam châm": [
+    14.5,
+    16.7
+   ],
+   "Phần cứng cơ khí": [
+    14.5,
+    16.7
+   ],
+   "Ổ khóa & chốt khóa": [
+    14.5,
+    14.5
+   ],
+   "Dây thừng, Dây xích & Móc ròng rọc": [
+    14.5,
+    16.7
+   ],
+   "Phần cứng cửa sổ": [
+    12.5,
+    15.0
+   ]
+  },
+  "Dụng cụ đo lường": {
+   "Dụng cụ đo bằng điện": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ đo cầm tay": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ quang học": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ đo lường vật lý": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ đo áp suất": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ đo nhiệt độ": [
+    14.5,
+    16.7
+   ]
+  },
+  "Dụng cụ điện": {
+   "Máy nén khí": [
+    14.5,
+    16.7
+   ],
+   "Máy mài góc": [
+    14.5,
+    16.7
+   ],
+   "Máy thổi": [
+    14.5,
+    16.7
+   ],
+   "Máy khoan điện": [
+    14.5,
+    16.7
+   ],
+   "Cưa điện": [
+    14.5,
+    16.7
+   ],
+   "Tua vít điện": [
+    14.5,
+    16.7
+   ],
+   "Cờ lê điện": [
+    14.5,
+    16.7
+   ],
+   "Súng bắn keo": [
+    14.5,
+    16.7
+   ],
+   "Súng nhiệt": [
+    14.5,
+    16.7
+   ],
+   "Súng bắn đinh": [
+    14.5,
+    16.7
+   ],
+   "Máy đánh bóng": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện dụng cụ điện": [
+    14.5,
+    16.7
+   ],
+   "Bộ dụng cụ điện": [
+    14.5,
+    16.7
+   ],
+   "Máy rửa áp lực": [
+    14.5,
+    16.7
+   ],
+   "Dụng cụ điện chuyên môn": [
+    14.5,
+    16.7
+   ],
+   "Súng phun": [
+    14.5,
+    16.7
+   ],
+   "Máy phay gỗ": [
+    14.5,
+    16.7
+   ]
+  },
+  "Máy bơm & Hệ thống đường ống": {
+   "Ống & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Máy bơm, bộ phận & phụ kiện": [
+    14.5,
+    16.7
+   ],
+   "Van & bộ phận": [
+    14.5,
+    16.7
+   ]
+  },
+  "Thiết bị hàn": {
+   "Mỏ hàn điện": [
+    14.5,
+    16.7
+   ],
+   "Trạm hàn": [
+    14.5,
+    16.7
+   ],
+   "Máy hàn": [
+    14.5,
+    16.7
+   ],
+   "Phụ kiện hàn": [
+    14.5,
+    16.7
+   ]
+  },
+  "Bộ sắp xếp dụng cụ": {
+   "Túi đựng dụng cụ": [
+    12.5,
+    15.0
+   ],
+   "Bọc & Hộp dụng cụ": [
+    12.5,
+    15.0
+   ],
+   "Giá đỡ & Thanh treo dụng cụ": [
+    12.5,
+    15.0
+   ]
+  }
+ },
+ "Đồ chơi & sở thích": {
+  "DIY": {
+   "Làm huy hiệu": [
+    14.5,
+    16.7
+   ],
+   "Làm cườm & trang sức": [
+    14.5,
+    16.7
+   ],
+   "Làm nến & xà phòng": [
+    14.5,
+    16.7
+   ],
+   "Đồ vẽ tự làm": [
+    14.5,
+    16.7
+   ],
+   "Đồ gỗ tự làm": [
+    14.5,
+    16.7
+   ],
+   "Thủ công mỹ nghệ vải nỉ": [
+    14.5,
+    16.7
+   ],
+   "Đan & móc": [
+    14.5,
+    16.7
+   ],
+   "Thủ công da": [
+    14.5,
+    16.7
+   ],
+   "Gia công kim": [
+    14.5,
+    16.7
+   ],
+   "Gốm & Gốm sứ": [
+    14.5,
+    16.7
+   ],
+   "Làm album thủ công & In dập": [
+    15.0,
+    17.7
+   ],
+   "Đồ tự chế đặc biệt": [
+    14.5,
+    16.7
+   ]
+  },
+  "Đồ chơi điện & điều khiển từ xa": {
+   "Máy bay & Trực thăng": [
+    15.0,
+    16.2
+   ],
+   "Động vật": [
+    15.5,
+    16.7
+   ],
+   "Thuyền & Tàu ngầm": [
+    15.0,
+    16.2
+   ],
+   "Ô tô, Xe buýt & Xe lửa": [
+    13.0,
+    16.1
+   ],
+   "Thảm nhảy": [
+    15.0,
+    16.2
+   ],
+   "Camera kỹ thuật số": [
+    15.0,
+    16.2
+   ],
+   "Phụ kiện đồ chơi điện": [
+    15.5,
+    16.7
+   ],
+   "Thú cưng điện tử": [
+    15.0,
+    16.2
+   ],
+   "Máy hát karaoke": [
+    15.5,
+    16.7
+   ],
+   "Xe máy": [
+    13.5,
+    17.1
+   ],
+   "Rô bốt": [
+    13.0,
+    16.1
+   ],
+   "Xe tăng": [
+    15.5,
+    16.7
+   ],
+   "Bộ đàm": [
+    15.0,
+    16.2
+   ]
+  },
+  "Trò chơi & Ghép hình": {
+   "Trò chơi trong nhà": [
+    15.5,
+    16.7
+   ],
+   "Trò chơi thẻ bài": [
+    15.5,
+    16.7
+   ],
+   "Xúc xắc": [
+    15.5,
+    16.7
+   ],
+   "Trò chơi trên sàn nhà": [
+    15.5,
+    16.7
+   ],
+   "Thiết bị nhào lộn ma thuật": [
+    15.5,
+    16.7
+   ],
+   "Hình khối ma thuật": [
+    15.0,
+    16.2
+   ],
+   "Ghép hình": [
+    15.0,
+    16.2
+   ],
+   "Trò chơi xếp chồng": [
+    15.5,
+    16.7
+   ]
+  },
+  "Nhạc cụ & Phụ kiện": {
+   "Đàn synthesizer điện tử": [
+    14.5,
+    14.5
+   ],
+   "Đàn guitar & bộ dây": [
+    14.5,
+    14.5
+   ],
+   "Túi & Hộp đựng dụng cụ": [
+    14.5,
+    14.5
+   ],
+   "Bàn phím & Piano": [
+    14.5,
+    14.5
+   ],
+   "Phụ kiện âm nhạc": [
+    14.5,
+    14.5
+   ],
+   "Nhạc cụ gõ": [
+    14.5,
+    14.5
+   ],
+   "Nhạc cụ thổi": [
+    14.5,
+    14.5
+   ]
+  },
+  "Đồ chơi cổ điển & mới lạ": {
+   "Đồ chơi hành động & đồ chơi nhân vật": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi xây dựng": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi vỏ nhộng": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi rèn luyện ngón tay": [
+    13.5,
+    17.1
+   ],
+   "Mạt chược": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi xe & Mô hình": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi mới lạ": [
+    13.0,
+    16.1
+   ],
+   "Chơi đồ hàng": [
+    13.0,
+    16.1
+   ],
+   "Búp bê & rạp múa rối bước": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi Slime & Squishy": [
+    13.0,
+    16.1
+   ],
+   "Con quay": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi giảm căng thẳng": [
+    13.0,
+    16.1
+   ],
+   "Yo-yo": [
+    15.0,
+    16.2
+   ]
+  },
+  "Búp bê & Gấu bông": {
+   "Phụ kiện búp bê": [
+    13.0,
+    16.1
+   ],
+   "Nhà búp bê & Bộ đồ chơi": [
+    13.0,
+    16.1
+   ],
+   "Búp bê": [
+    13.0,
+    16.1
+   ],
+   "Gấu bông": [
+    13.0,
+    16.1
+   ]
+  },
+  "Đồ chơi giáo dục": {
+   "Vẽ & Làm thủ công": [
+    13.0,
+    16.1
+   ],
+   "Thám tử & điệp viên": [
+    13.0,
+    16.1
+   ],
+   "Thẻ flash": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi học ngôn ngữ": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi toán học": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi âm nhạc": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi khoa học & công nghệ": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi xếp hình": [
+    13.0,
+    16.1
+   ],
+   "Máy tính bảng đồ chơi & Máy tính đồ chơi": [
+    13.0,
+    16.1
+   ]
+  },
+  "Đồ chơi thể thao & ngoài trời": {
+   "Đồ chơi phun & Súng đồ chơi": [
+    13.0,
+    16.1
+   ],
+   "Bong bóng": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi bay": [
+    13.0,
+    16.1
+   ],
+   "Diều & Vòng quay gió": [
+    13.0,
+    16.1
+   ],
+   "Trò chơi bắn bi": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi khám phá thiên nhiên": [
+    13.0,
+    16.1
+   ],
+   "Thiết bị sân chơi": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi nhà, lều & đường hầm": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi bể bơi, nước & cát": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi ngồi lái": [
+    13.5,
+    17.1
+   ],
+   "Đồ chơi thể thao": [
+    13.0,
+    16.1
+   ],
+   "Kiếm & đao đồ chơi": [
+    13.0,
+    16.1
+   ]
+  }
+ },
+ "Trẻ sơ sinh & thai sản": {
+  "Chăm sóc bé & sức khỏe": {
+   "Đồ dùng tắm cho trẻ": [
+    12.0,
+    15.7
+   ],
+   "Chậu tắm & Ghế tắm cho trẻ": [
+    12.5,
+    16.7
+   ],
+   "Máy tiệt trùng quần áo trẻ em": [
+    13.0,
+    16.0
+   ],
+   "Tã lót": [
+    11.0,
+    14.5
+   ],
+   "Dụng cụ cắt tỉa tóc cho trẻ": [
+    12.0,
+    15.7
+   ],
+   "Máy sấy tóc cho trẻ": [
+    13.0,
+    16.0
+   ],
+   "Máy cắt tóc cho trẻ": [
+    13.0,
+    16.0
+   ],
+   "Nước rửa tay": [
+    12.0,
+    15.7
+   ],
+   "Chăm sóc da cho trẻ": [
+    9.0,
+    12.0
+   ],
+   "Vitamin & Thực phẩm bổ sung cho trẻ": [
+    13.0,
+    16.0
+   ],
+   "Chăm sóc mũi & răng miệng": [
+    13.0,
+    16.0
+   ],
+   "Nước hoa": [
+    12.0,
+    15.7
+   ],
+   "Chăm sóc tóc & Tắm gội toàn thân": [
+    9.0,
+    12.7
+   ],
+   "Dụng cụ tạo hình tay & dấu chân": [
+    13.0,
+    16.0
+   ],
+   "Thiết bị đo chiều cao & chu vi": [
+    13.0,
+    16.0
+   ],
+   "Thuốc diệt côn trùng & sâu bọ": [
+    13.0,
+    16.0
+   ],
+   "Bột giặt": [
+    13.5,
+    17.0
+   ],
+   "Khay đựng thuốc": [
+    13.0,
+    16.0
+   ],
+   "Ty ngậm giảm đau khi mọc răng": [
+    14.5,
+    17.1
+   ],
+   "Cân": [
+    13.0,
+    16.0
+   ],
+   "Khăn tắm & Mũ tắm": [
+    12.0,
+    15.7
+   ],
+   "Khăn lau & khay": [
+    12.5,
+    16.7
+   ]
+  },
+  "Quần áo & Giày trẻ em": {
+   "Quần bloomer, tã lót & đồ lót": [
+    15.0,
+    17.1
+   ],
+   "Bộ đồ liền thân & Áo liền quần": [
+    15.0,
+    17.1
+   ],
+   "Quần": [
+    15.0,
+    17.1
+   ],
+   "Trang phục": [
+    15.0,
+    17.1
+   ],
+   "Váy": [
+    15.0,
+    17.1
+   ],
+   "Bộ quà tặng": [
+    13.0,
+    16.1
+   ],
+   "Áo hoodie & hoạt động": [
+    15.0,
+    17.1
+   ],
+   "Áo khoác & Áo choàng": [
+    15.0,
+    17.1
+   ],
+   "Giày": [
+    14.0,
+    16.1
+   ],
+   "Đồ ngủ": [
+    15.0,
+    17.1
+   ],
+   "Tất & Quần tất": [
+    14.0,
+    16.1
+   ],
+   "Áo len": [
+    15.0,
+    17.1
+   ],
+   "Đồ bơi": [
+    15.0,
+    17.1
+   ],
+   "Áo": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phụ kiện thời trang cho em bé": {
+   "Túi xách trẻ em": [
+    14.0,
+    16.1
+   ],
+   "Phục sức cho bé": [
+    14.0,
+    16.1
+   ],
+   "Bịt tai cho bé": [
+    14.0,
+    16.1
+   ],
+   "Khẩu trang cho bé": [
+    14.0,
+    16.1
+   ],
+   "Găng tay em bé": [
+    14.0,
+    16.1
+   ],
+   "Phụ kiện tóc cho bé": [
+    14.5,
+    17.1
+   ],
+   "Mũ & Mũ lưỡi trai em bé": [
+    14.0,
+    16.1
+   ],
+   "Khăn quàng cổ cho bé": [
+    14.0,
+    16.1
+   ],
+   "Yếm dãi & khăn ợ hơi": [
+    14.5,
+    17.1
+   ],
+   "Bộ quà tặng": [
+    14.0,
+    16.1
+   ],
+   "Kính râm": [
+    14.0,
+    16.1
+   ]
+  },
+  "Nội thất cho trẻ em": {
+   "Ghế trẻ em": [
+    12.0,
+    14.7
+   ],
+   "Bàn trẻ em": [
+    14.0,
+    16.7
+   ],
+   "Xe tập đi cho bé": [
+    12.5,
+    15.7
+   ],
+   "Xích đu nhún cho bé": [
+    12.0,
+    14.7
+   ],
+   "Bàn thay tã": [
+    10.5,
+    13.5
+   ],
+   "Cũi & Giường": [
+    12.0,
+    14.7
+   ],
+   "Đệm & Bộ chăn ga gối đệm": [
+    13.5,
+    16.1
+   ],
+   "Ghế tiểu tiện & dạy trẻ đi vệ sinh": [
+    11.5,
+    13.5
+   ]
+  },
+  "An toàn cho bé": {
+   "Tấm chắn & rào giường": [
+    13.5,
+    16.1
+   ],
+   "Bảo vệ cạnh & góc": [
+    13.5,
+    16.1
+   ],
+   "Bảo vệ chống điện giật": [
+    13.5,
+    16.1
+   ],
+   "Cổng & Ô cửa": [
+    13.5,
+    16.1
+   ],
+   "Thiết bị giám sát": [
+    13.5,
+    16.1
+   ],
+   "Màn chống muỗi": [
+    13.5,
+    16.1
+   ],
+   "Khóa & Dây đai an toàn": [
+    13.5,
+    16.1
+   ]
+  },
+  "Đồ chơi trẻ em": {
+   "Đồ chơi điện & điều khiển từ xa cho bé": [
+    13.0,
+    16.1
+   ],
+   "Đồ hàng cho bé": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi âm thanh cho em bé": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi thể thao & ngoài trời cho em bé": [
+    13.5,
+    17.1
+   ],
+   "Bóng": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi khi tắm": [
+    13.0,
+    16.1
+   ],
+   "Ghế ô tô & đồ chơi xe đẩy": [
+    13.5,
+    17.1
+   ],
+   "Búp bê & Gấu bông": [
+    13.0,
+    16.1
+   ],
+   "Đồ chơi trí tuệ & giáo dục sớm": [
+    13.0,
+    16.1
+   ],
+   "Bộ quà tặng": [
+    13.0,
+    16.1
+   ],
+   "Máy leo núi trong nhà & thiết bị sân chơi trẻ em": [
+    13.5,
+    17.1
+   ],
+   "Gương": [
+    13.0,
+    16.1
+   ],
+   "Thảm nằm chơi an toàn": [
+    13.0,
+    16.1
+   ],
+   "Rào chắn": [
+    13.0,
+    16.1
+   ],
+   "Ngựa & Động vật bập bênh": [
+    13.5,
+    17.1
+   ],
+   "Đồ chơi con lật đật Roly-Poly": [
+    13.0,
+    16.1
+   ],
+   "Mô hình nhân vật và người mẫu đồ chơi": [
+    13.0,
+    16.1
+   ]
+  },
+  "Những vật dụng cần thiết khi cho bé đi du lịch": {
+   "Ghế ngồi xe hơi cho trẻ em": [
+    12.5,
+    13.5
+   ],
+   "Địu": [
+    13.0,
+    15.7
+   ],
+   "Phụ kiện ghế ngồi xe hơi": [
+    13.0,
+    15.7
+   ],
+   "Dây đai dành cho trẻ em": [
+    13.0,
+    15.7
+   ],
+   "Túi tã": [
+    11.0,
+    14.5
+   ],
+   "Dây an toàn & phụ kiện": [
+    13.5,
+    16.7
+   ],
+   "Phụ kiện xe đẩy": [
+    13.0,
+    15.7
+   ],
+   "Xe đẩy": [
+    13.0,
+    14.5
+   ]
+  },
+  "Sữa công thức & Thực phẩm cho trẻ": {
+   "Đồ uống": [
+    10.0,
+    13.5
+   ],
+   "Sữa công thức tăng trưởng": [
+    10.0,
+    11.5
+   ],
+   "Sữa công thức sơ sinh": [
+    9.5,
+    10.5
+   ],
+   "Cháo, Bột & Ngũ cốc": [
+    9.5,
+    12.5
+   ],
+   "Món Ăn Chế Biến Sẵn & Món Ăn Kèm": [
+    9.5,
+    12.5
+   ],
+   "Đồ ăn vặt": [
+    9.5,
+    12.5
+   ]
+  },
+  "Vật tư cho mẹ": {
+   "Quần áo & Phụ kiện thai sản": [
+    13.5,
+    16.1
+   ],
+   "Gối cho mẹ": [
+    13.5,
+    16.1
+   ],
+   "Dây an toàn cho thai phụ & phụ kiện": [
+    13.5,
+    16.1
+   ],
+   "Chăm sóc da cho mẹ": [
+    13.5,
+    16.1
+   ],
+   "Đồ lót cho mẹ": [
+    13.5,
+    16.1
+   ],
+   "Vitamin & Thực phẩm bổ sung cho mẹ": [
+    13.5,
+    16.1
+   ],
+   "Sữa công thức cho phụ nữ mang thai & cho con bú": [
+    13.5,
+    16.1
+   ],
+   "Quần áo cho bé bú": [
+    13.5,
+    16.1
+   ],
+   "Thiết bị theo dõi trước khi sinh": [
+    13.5,
+    16.1
+   ],
+   "Đai hỗ trợ": [
+    13.5,
+    16.1
+   ]
+  },
+  "Cho bú & Cho ăn": {
+   "Hộp đựng bình sữa & giá phơi": [
+    14.5,
+    17.1
+   ],
+   "Que rửa bình sữa cho bé": [
+    14.5,
+    17.1
+   ],
+   "Máy giữ ấm & máy làm nguội & khử trùng bình sữa": [
+    14.5,
+    17.1
+   ],
+   "Bình sữa & phụ kiện cho bé": [
+    14.5,
+    17.1
+   ],
+   "Đồ dùng trẻ em": [
+    14.5,
+    17.1
+   ],
+   "Miếng lót thấm sữa": [
+    14.0,
+    16.0
+   ],
+   "Máy hút sữa & phụ kiện": [
+    13.5,
+    16.1
+   ],
+   "Gối cho con bú": [
+    14.0,
+    16.0
+   ],
+   "Đầu vú cao su": [
+    14.5,
+    17.1
+   ],
+   "Máy xay chế biến thực phẩm": [
+    14.5,
+    17.1
+   ],
+   "Công thức & Tổ chức & Bảo quản sữa": [
+    9.5,
+    10.5
+   ],
+   "Khăn che bé bú": [
+    13.5,
+    16.1
+   ]
+  }
+ },
+ "Thời trang trẻ em": {
+  "Quần áo bé trai": {
+   "Quần": [
+    15.0,
+    17.1
+   ],
+   "Áo choàng & Áo khoác": [
+    15.0,
+    17.1
+   ],
+   "Trang phục & Phụ kiện": [
+    15.0,
+    17.1
+   ],
+   "Đồng phục đi học": [
+    15.0,
+    17.1
+   ],
+   "Đồ ngủ": [
+    15.0,
+    17.1
+   ],
+   "Tất": [
+    14.0,
+    16.1
+   ],
+   "Bộ vét & Bộ": [
+    15.0,
+    17.1
+   ],
+   "Áo": [
+    15.0,
+    17.1
+   ],
+   "Đồ lót": [
+    15.0,
+    17.1
+   ]
+  },
+  "Giày dép bé trai": {
+   "Bốt": [
+    14.0,
+    16.1
+   ],
+   "Giày đế bằng": [
+    14.0,
+    16.1
+   ],
+   "Giày đi dự tiệc": [
+    14.0,
+    16.1
+   ],
+   "Dép xăng đan & Dép tông": [
+    15.0,
+    17.1
+   ],
+   "Dép lê": [
+    14.0,
+    16.1
+   ],
+   "Giày thể thao": [
+    14.0,
+    16.1
+   ]
+  },
+  "Quần áo bé gái": {
+   "Quần": [
+    15.0,
+    17.1
+   ],
+   "Áo choàng & Áo khoác": [
+    15.0,
+    17.1
+   ],
+   "Trang phục & Phụ kiện": [
+    15.0,
+    17.1
+   ],
+   "Váy": [
+    15.0,
+    17.1
+   ],
+   "Đồng phục đi học": [
+    15.0,
+    17.1
+   ],
+   "Chân váy": [
+    15.0,
+    17.1
+   ],
+   "Đồ ngủ": [
+    15.0,
+    17.1
+   ],
+   "Tất": [
+    14.0,
+    16.1
+   ],
+   "Bộ vét & Bộ": [
+    15.0,
+    17.1
+   ],
+   "Quần bó": [
+    15.0,
+    17.1
+   ],
+   "Áo": [
+    15.0,
+    17.1
+   ],
+   "Đồ lót": [
+    15.0,
+    17.1
+   ]
+  },
+  "Giày dép bé gái": {
+   "Bốt": [
+    14.0,
+    16.1
+   ],
+   "Giày đế bằng": [
+    14.0,
+    16.1
+   ],
+   "Dép xăng đan & Dép tông": [
+    14.0,
+    16.1
+   ],
+   "Dép lê": [
+    14.0,
+    16.1
+   ],
+   "Giày thể thao": [
+    14.0,
+    16.1
+   ]
+  },
+  "Khung giường & đầu giường": {
+   "Quần Áo Bé Trai Nam Á": [
+    15.0,
+    17.1
+   ],
+   "Quần Áo Bé Gái Nam Á": [
+    15.0,
+    17.1
+   ]
+  },
+  "Phụ kiện thời trang cho trẻ em": {
+   "Túi xách & Hành lý": [
+    14.0,
+    16.1
+   ],
+   "Thắt lưng": [
+    14.0,
+    16.1
+   ],
+   "Chụp tai": [
+    14.0,
+    16.1
+   ],
+   "Kính mắt": [
+    14.0,
+    16.1
+   ],
+   "Mặt nạ": [
+    14.0,
+    16.1
+   ],
+   "Găng tay": [
+    14.0,
+    16.1
+   ],
+   "Phụ kiện cài đầu": [
+    14.5,
+    17.1
+   ],
+   "Phục sức & phụ kiện trẻ em": [
+    14.0,
+    16.1
+   ],
+   "Mũ trẻ em": [
+    14.0,
+    16.1
+   ],
+   "Khăn quàng cổ & Khăn choàng trẻ em": [
+    14.0,
+    16.1
+   ],
+   "Cà vạt & Nơ cà vạt": [
+    14.5,
+    17.1
+   ],
+   "Đồng hồ": [
+    14.0,
+    16.1
+   ]
+  }
+ }
+}
