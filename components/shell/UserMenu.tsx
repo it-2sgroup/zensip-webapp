@@ -13,15 +13,24 @@ export function UserMenu() {
   const router = useRouter();
   const [email, setEmail] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [configured, setConfigured] = useState(true);
 
   useEffect(() => {
     const supabase = createClient();
+    if (!supabase) {
+      setConfigured(false);
+      return;
+    }
     supabase.auth.getUser().then(({ data }) => setEmail(data.user?.email ?? null));
   }, []);
 
   async function signOut() {
-    setBusy(true);
     const supabase = createClient();
+    if (!supabase) {
+      router.replace("/login");
+      return;
+    }
+    setBusy(true);
     await supabase.auth.signOut();
     router.replace("/login");
     router.refresh();
@@ -34,7 +43,7 @@ export function UserMenu() {
       </span>
       <div className="min-w-0 flex-1">
         <p className="truncate text-[13px] font-medium text-[var(--color-ink)]">
-          {email ?? "Đang tải…"}
+          {configured ? (email ?? "Đang tải…") : "Chưa cấu hình đăng nhập"}
         </p>
         <p className="truncate text-[11.5px] text-[var(--color-muted)]">
           Nội bộ SISMO
@@ -43,10 +52,10 @@ export function UserMenu() {
       <button
         type="button"
         onClick={signOut}
-        disabled={busy}
+        disabled={busy || !configured}
         title="Đăng xuất"
         aria-label="Đăng xuất"
-        className="shrink-0 rounded-[7px] p-1.5 text-[var(--color-muted)] transition-colors hover:bg-[var(--color-surface-2)] hover:text-[var(--color-critical)] disabled:opacity-50"
+        className="shrink-0 rounded-[7px] p-1.5 text-[var(--color-muted)] transition-colors hover:bg-[var(--color-surface-2)] hover:text-[var(--color-critical)] disabled:opacity-40"
       >
         <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
           <path d="M9 4.5H6a1.5 1.5 0 0 0-1.5 1.5v12A1.5 1.5 0 0 0 6 19.5h3" />

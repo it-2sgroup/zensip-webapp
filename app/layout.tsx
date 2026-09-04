@@ -24,10 +24,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="vi" suppressHydrationWarning>
-      <head>
+      <body>
         <ThemeScript />
-      </head>
-      <body>{children}</body>
+        {children}
+      </body>
     </html>
   );
 }

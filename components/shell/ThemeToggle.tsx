@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Script from "next/script";
 import { IconMoon, IconSun } from "./icons";
 
 type Theme = "light" | "dark";
@@ -42,9 +43,15 @@ export function ThemeToggle() {
 
 /**
  * Đặt class theme trước khi trang vẽ, tránh nhấp nháy nền trắng khi đang ở chế độ tối.
- * Chạy đồng bộ trong <head>.
+ * Dùng next/script (beforeInteractive) thay vì thẻ <script> thô — thẻ thô bị React 19
+ * báo lỗi "Encountered a script tag while rendering React component" mỗi khi cây
+ * quanh nó render lại trên client.
  */
 export function ThemeScript() {
   const code = `(function(){try{var t=localStorage.getItem('zensip-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}if(t==='dark'){document.documentElement.classList.add('dark')}}catch(e){}})();`;
-  return <script dangerouslySetInnerHTML={{ __html: code }} />;
+  return (
+    <Script id="zensip-theme-init" strategy="beforeInteractive">
+      {code}
+    </Script>
+  );
 }

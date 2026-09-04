@@ -20,6 +20,11 @@ function LoginForm() {
     setLoading(true);
 
     const supabase = createClient();
+    if (!supabase) {
+      setLoading(false);
+      setError("Hệ thống đăng nhập chưa được cấu hình. Liên hệ quản trị viên.");
+      return;
+    }
     const { error } = await supabase.auth.signInWithPassword({ email, password });
 
     setLoading(false);
