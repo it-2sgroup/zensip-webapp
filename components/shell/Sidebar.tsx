@@ -28,8 +28,8 @@ const GROUPS: { title: string; items: Item[] }[] = [
     items: [
       { href: "/dashboard", label: "Tổng quan", icon: IconDashboard },
       { href: "/dashboard/san", label: "Vận hành sàn", icon: IconStore },
-      { href: "/dashboard/quang-cao", label: "Quảng cáo", icon: IconAds, soon: true },
-      { href: "/dashboard/booking", label: "Booking KOC", icon: IconUsers, soon: true },
+      { href: "/dashboard/quang-cao", label: "Quảng cáo", icon: IconAds },
+      { href: "/dashboard/booking", label: "Booking KOC", icon: IconUsers },
     ],
   },
   {
@@ -41,18 +41,14 @@ const GROUPS: { title: string; items: Item[] }[] = [
   },
 ];
 
-export function Sidebar({
-  open,
-  onClose,
-}: {
-  open: boolean;
-  onClose: () => void;
-}) {
+export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   const pathname = usePathname();
+
+  const isActive = (href: string) =>
+    href === "/dashboard" ? pathname === href : pathname.startsWith(href);
 
   return (
     <>
-      {/* Lớp phủ khi mở menu trên màn hình nhỏ */}
       {open && (
         <div
           onClick={onClose}
@@ -63,15 +59,15 @@ export function Sidebar({
 
       <aside
         className={cx(
-          "fixed inset-y-0 left-0 z-40 flex w-[248px] flex-col border-r border-[var(--color-line)] bg-[var(--color-surface)]",
-          "transition-transform duration-200 lg:translate-x-0",
+          "fixed inset-y-0 left-0 z-40 flex w-[248px] flex-col border-r border-[var(--color-line)]",
+          "bg-[var(--color-surface)] transition-transform duration-250 ease-[cubic-bezier(0.32,0.72,0,1)] lg:translate-x-0",
           open ? "translate-x-0" : "-translate-x-full",
         )}
       >
         <div className="flex h-[57px] shrink-0 items-center justify-between gap-2 border-b border-[var(--color-line)] px-4">
-          <Link href="/dashboard" className="flex items-center gap-2.5">
-            <ZensipMark className="h-[26px] w-[26px]" />
-            <span className="text-[15px] font-semibold tracking-[-0.02em] text-[var(--color-ink)]">
+          <Link href="/dashboard" className="group flex items-center gap-2.5">
+            <ZensipMark className="h-[26px] w-[26px] transition-transform duration-200 group-hover:scale-105" />
+            <span className="text-[15px] font-semibold tracking-[-0.022em] text-[var(--color-ink)]">
               Zensip
             </span>
           </Link>
@@ -88,14 +84,12 @@ export function Sidebar({
         <nav className="flex-1 overflow-y-auto px-3 py-4">
           {GROUPS.map((g) => (
             <div key={g.title} className="mb-5 last:mb-0">
-              <p className="mb-1.5 px-2.5 text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--color-muted)]">
+              <p className="mb-1.5 px-2.5 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-[var(--color-muted)]">
                 {g.title}
               </p>
               <ul className="space-y-0.5">
                 {g.items.map((it) => {
-                  const active =
-                    pathname === it.href ||
-                    (it.href !== "/dashboard" && pathname.startsWith(it.href));
+                  const active = isActive(it.href);
                   const Icon = it.icon;
 
                   if (it.soon) {
@@ -104,7 +98,7 @@ export function Sidebar({
                         <span
                           aria-disabled
                           title="Sắp có"
-                          className="flex cursor-not-allowed items-center gap-2.5 rounded-[9px] px-2.5 py-[7px] text-[13.5px] text-[var(--color-muted)] opacity-70"
+                          className="flex cursor-not-allowed items-center gap-2.5 rounded-[9px] px-2.5 py-[7px] text-[13.5px] text-[var(--color-muted)] opacity-65"
                         >
                           <Icon className="h-[17px] w-[17px] shrink-0" />
                           <span className="truncate">{it.label}</span>
@@ -123,13 +117,28 @@ export function Sidebar({
                         onClick={onClose}
                         aria-current={active ? "page" : undefined}
                         className={cx(
-                          "flex items-center gap-2.5 rounded-[9px] px-2.5 py-[7px] text-[13.5px] font-medium transition-colors",
+                          "group relative flex items-center gap-2.5 rounded-[9px] px-2.5 py-[7px]",
+                          "text-[13.5px] font-medium transition-all duration-150",
                           active
                             ? "bg-[var(--color-brand-soft)] text-[var(--color-brand)]"
                             : "text-[var(--color-ink-2)] hover:bg-[var(--color-surface-2)] hover:text-[var(--color-ink)]",
                         )}
                       >
-                        <Icon className="h-[17px] w-[17px] shrink-0" />
+                        {/* Chỉ báo trang hiện tại — vạch dọc bên trái */}
+                        <span
+                          aria-hidden
+                          className={cx(
+                            "absolute left-0 top-1/2 w-[3px] -translate-y-1/2 rounded-r-full bg-[var(--color-brand)]",
+                            "transition-all duration-200",
+                            active ? "h-[18px] opacity-100" : "h-0 opacity-0",
+                          )}
+                        />
+                        <Icon
+                          className={cx(
+                            "h-[17px] w-[17px] shrink-0 transition-transform duration-150",
+                            !active && "group-hover:scale-105",
+                          )}
+                        />
                         <span className="truncate">{it.label}</span>
                       </Link>
                     </li>

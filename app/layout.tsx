@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import { ThemeScript } from "@/components/shell/ThemeToggle";
+import { ThemeScript } from "@/components/shell/ThemeScript";
 import "./globals.css";
 
 // Font chữ chính của Zensip. Claude.ai dùng font thương mại riêng (Styrene/Tiempos,

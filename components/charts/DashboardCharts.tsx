@@ -1,110 +1,55 @@
 "use client";
 
-import {
-  Area,
-  AreaChart,
-  Bar,
-  BarChart,
-  CartesianGrid,
-  Cell,
-  Line,
-  LineChart,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
-import { ChartFrame, DataTable, Legend, TooltipBox } from "./ChartFrame";
+import { useState } from "react";
+import { ChartCard } from "./core/ChartCard";
+import { CHART_COLORS, DataTable, FloatingTip, Legend } from "./core/Parts";
+import { TimeSeriesChart } from "./TimeSeries";
+import { useChartWidth } from "./core/useChart";
+import { cx } from "@/components/ui/primitives";
 import { fmtCompact, fmtInt, fmtNum, fmtPct, fmtVnd } from "@/lib/format";
 import type { DayRow, ProductRow } from "@/lib/mock-data";
+import { argMax } from "@/lib/chart-utils";
 
-/* Màu lấy qua biến CSS nên tự đổi theo giao diện sáng/tối, không cần vẽ lại. */
-const S1 = "var(--color-s1)";
-const S2 = "var(--color-s2)";
-const S5 = "var(--color-s5)";
-const S3 = "var(--color-s3)";
-const GRID = "var(--color-grid)";
-const AXIS = "var(--color-axis)";
-const SURFACE = "var(--color-surface)";
-const MUTED = "var(--color-muted)";
-
-const axisProps = {
-  stroke: AXIS,
-  tickLine: false,
-  axisLine: false,
-  tick: { fill: MUTED, fontSize: 11.5 },
-} as const;
+/* Toàn bộ biểu đồ dưới đây dùng lớp SVG tự viết trong components/charts/.
+   Recharts đã bị gỡ bỏ vì tooltip v3 không hoạt động (visibility luôn hidden). */
 
 /* ────────────────────────────────────────────────────────────
-   1. Doanh thu theo ngày — cột chồng, tách theo sàn
-   Hai chuỗi cùng đơn vị (đồng) nên dùng chung một trục.
+   1. Doanh thu theo kỳ — cột chồng, tách theo sàn
    ──────────────────────────────────────────────────────────── */
 export function RevenueByDay({ data }: { data: DayRow[] }) {
-  const totalTiktok = data.reduce((s, d) => s + d.tiktok, 0);
-  const totalShopee = data.reduce((s, d) => s + d.shopee, 0);
+  const peakIdx = argMax(data, (d) => d.tiktok + d.shopee);
+  const peak = data[peakIdx];
+  const avg = data.reduce((s, d) => s + d.tiktok + d.shopee, 0) / (data.length || 1);
 
   return (
-    <ChartFrame
-      title="Doanh thu theo ngày"
+    <ChartCard
+      title="Doanh thu theo kỳ"
       hint={`Tách theo sàn · ${data.length} kỳ gần nhất`}
-      height={264}
-      legend={
-        <Legend
-          items={[
-            { color: S1, label: "TikTok Shop", value: fmtCompact(totalTiktok) },
-            { color: S2, label: "Shopee", value: fmtCompact(totalShopee) },
-          ]}
-        />
+      insight={
+        <>
+          Kỳ cao nhất là <strong className="font-semibold text-[var(--color-ink)]">{peak?.label}</strong> với{" "}
+          {fmtCompact((peak?.tiktok ?? 0) + (peak?.shopee ?? 0))} — gấp{" "}
+          {fmtNum(((peak?.tiktok ?? 0) + (peak?.shopee ?? 0)) / avg)} lần mức trung bình.
+          TikTok Shop chiếm phần lớn doanh thu ở hầu hết các kỳ.
+        </>
       }
       chart={
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 4, right: 4, bottom: 0, left: 4 }} barCategoryGap="22%">
-            <CartesianGrid stroke={GRID} strokeWidth={1} vertical={false} />
-            <XAxis dataKey="label" {...axisProps} minTickGap={28} />
-            <YAxis {...axisProps} tickFormatter={(v) => fmtCompact(v as number)} width={52} />
-            <Tooltip
-              cursor={{ fill: "var(--color-surface-2)" }}
-              content={({ active, payload, label }) => {
-                if (!active || !payload?.length) return null;
-                const tk = (payload.find((p) => p.dataKey === "tiktok")?.value as number) ?? 0;
-                const sp = (payload.find((p) => p.dataKey === "shopee")?.value as number) ?? 0;
-                return (
-                  <TooltipBox
-                    title={String(label)}
-                    rows={[
-                      { color: S1, label: "TikTok Shop", value: fmtVnd(tk) },
-                      { color: S2, label: "Shopee", value: fmtVnd(sp) },
-                    ]}
-                    footer={`Tổng ${fmtVnd(tk + sp)}`}
-                  />
-                );
-              }}
-            />
-            {/* stroke màu nền tạo khe hở 2px giữa hai lớp chồng */}
-            <Bar isAnimationActive={false} dataKey="tiktok" stackId="rev" fill={S1} stroke={SURFACE} strokeWidth={1} />
-            <Bar
-              isAnimationActive={false}
-              dataKey="shopee"
-              stackId="rev"
-              fill={S2}
-              stroke={SURFACE}
-              strokeWidth={1}
-              radius={[4, 4, 0, 0]}
-            />
-          </BarChart>
-        </ResponsiveContainer>
+        <TimeSeriesChart
+          labels={data.map((d) => d.label)}
+          series={[
+            { key: "tiktok", label: "TikTok Shop", color: CHART_COLORS.s1, values: data.map((d) => d.tiktok), type: "bar" },
+            { key: "shopee", label: "Shopee", color: CHART_COLORS.s2, values: data.map((d) => d.shopee), type: "bar" },
+          ]}
+          format={fmtVnd}
+          formatAxis={fmtCompact}
+          reference={{ value: avg, label: `TB ${fmtCompact(avg)}` }}
+        />
       }
       table={
         <DataTable
           head={["Kỳ", "TikTok Shop", "Shopee", "Tổng"]}
-          rows={data.map((d) => [
-            d.label,
-            fmtVnd(d.tiktok),
-            fmtVnd(d.shopee),
-            fmtVnd(d.tiktok + d.shopee),
-          ])}
+          rows={data.map((d) => [d.label, fmtVnd(d.tiktok), fmtVnd(d.shopee), fmtVnd(d.tiktok + d.shopee)])}
+          highlightRow={peakIdx}
         />
       }
     />
@@ -112,91 +57,50 @@ export function RevenueByDay({ data }: { data: DayRow[] }) {
 }
 
 /* ────────────────────────────────────────────────────────────
-   2. So sánh với kỳ trước — cùng chỉ số, cùng đơn vị, một trục
+   2. So sánh với kỳ trước
    ──────────────────────────────────────────────────────────── */
 export function CompareWithPrevious({ data }: { data: DayRow[] }) {
-  const rows = data.map((d) => ({
-    date: d.date,
-    label: d.label,
-    now: d.tiktok + d.shopee,
-    prev: d.prev,
-  }));
-  const sumNow = rows.reduce((s, d) => s + d.now, 0);
-  const sumPrev = rows.reduce((s, d) => s + d.prev, 0);
+  const now = data.reduce((s, d) => s + d.tiktok + d.shopee, 0);
+  const prev = data.reduce((s, d) => s + d.prev, 0);
+  const diff = prev ? ((now - prev) / prev) * 100 : 0;
 
   return (
-    <ChartFrame
+    <ChartCard
       title="So với kỳ trước"
       hint="Tổng doanh thu hai sàn, đối chiếu cùng độ dài kỳ liền trước"
-      height={264}
-      legend={
-        <Legend
-          items={[
-            { color: S5, label: "Kỳ này", value: fmtCompact(sumNow) },
-            { color: AXIS, label: "Kỳ trước", value: fmtCompact(sumPrev) },
-          ]}
-        />
+      insightTone={diff >= 0 ? "good" : "critical"}
+      insight={
+        <>
+          Kỳ này {diff >= 0 ? "tăng" : "giảm"}{" "}
+          <strong className="font-semibold text-[var(--color-ink)]">{fmtPct(Math.abs(diff))}</strong>{" "}
+          so với kỳ trước ({fmtCompact(now)} so với {fmtCompact(prev)}).
+        </>
       }
       chart={
-        <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={rows} margin={{ top: 4, right: 8, bottom: 0, left: 4 }}>
-            <CartesianGrid stroke={GRID} strokeWidth={1} vertical={false} />
-            <XAxis dataKey="label" {...axisProps} minTickGap={28} />
-            <YAxis {...axisProps} tickFormatter={(v) => fmtCompact(v as number)} width={52} />
-            <Tooltip
-              cursor={{ stroke: AXIS, strokeWidth: 1 }}
-              content={({ active, payload, label }) => {
-                if (!active || !payload?.length) return null;
-                const now = (payload.find((p) => p.dataKey === "now")?.value as number) ?? 0;
-                const prev = (payload.find((p) => p.dataKey === "prev")?.value as number) ?? 0;
-                const diff = prev ? ((now - prev) / prev) * 100 : null;
-                return (
-                  <TooltipBox
-                    title={String(label)}
-                    rows={[
-                      { color: S5, label: "Kỳ này", value: fmtVnd(now) },
-                      { color: AXIS, label: "Kỳ trước", value: fmtVnd(prev) },
-                    ]}
-                    footer={
-                      diff == null
-                        ? undefined
-                        : `${diff >= 0 ? "Tăng" : "Giảm"} ${fmtPct(Math.abs(diff))}`
-                    }
-                  />
-                );
-              }}
-            />
-            <Line
-              isAnimationActive={false}
-              type="monotone"
-              dataKey="prev"
-              stroke={AXIS}
-              strokeWidth={2}
-              dot={false}
-              activeDot={{ r: 4, strokeWidth: 2, stroke: SURFACE }}
-            />
-            <Line
-              isAnimationActive={false}
-              type="monotone"
-              dataKey="now"
-              stroke={S5}
-              strokeWidth={2}
-              dot={false}
-              activeDot={{ r: 4.5, strokeWidth: 2, stroke: SURFACE }}
-            />
-          </LineChart>
-        </ResponsiveContainer>
+        <TimeSeriesChart
+          labels={data.map((d) => d.label)}
+          series={[
+            { key: "now", label: "Kỳ này", color: CHART_COLORS.s5, values: data.map((d) => d.tiktok + d.shopee), type: "area" },
+            { key: "prev", label: "Kỳ trước", color: CHART_COLORS.axis, values: data.map((d) => d.prev), type: "line" },
+          ]}
+          stacked={false}
+          format={fmtVnd}
+          formatAxis={fmtCompact}
+          peakOf="now"
+          peakLabel={(v, l) => `Đỉnh ${l}`}
+        />
       }
       table={
         <DataTable
-          head={["Ngày", "Kỳ này", "Kỳ trước", "Chênh lệch"]}
-          rows={rows.map((d) => {
-            const diff = d.prev ? ((d.now - d.prev) / d.prev) * 100 : null;
+          head={["Kỳ", "Kỳ này", "Kỳ trước", "Chênh lệch"]}
+          rows={data.map((d) => {
+            const n = d.tiktok + d.shopee;
+            const p = d.prev ? ((n - d.prev) / d.prev) * 100 : null;
             return [
               d.label,
-              fmtVnd(d.now),
+              fmtVnd(n),
               fmtVnd(d.prev),
-              diff == null ? "—" : `${diff >= 0 ? "+" : "−"}${fmtPct(Math.abs(diff))}`,
+              p == null ? "—" : `${p >= 0 ? "+" : "−"}${fmtPct(Math.abs(p))}`,
             ];
           })}
         />
@@ -206,83 +110,103 @@ export function CompareWithPrevious({ data }: { data: DayRow[] }) {
 }
 
 /* ────────────────────────────────────────────────────────────
-   3. Cơ cấu GMV theo kênh — 4 phần, xem tỉ trọng trong nháy mắt
+   3. Cơ cấu GMV theo kênh — vành khuyên
    ──────────────────────────────────────────────────────────── */
-const CHANNEL_COLORS = [S1, S2, S3, AXIS];
+const CH_COLORS = [CHART_COLORS.s1, CHART_COLORS.s2, CHART_COLORS.s3, CHART_COLORS.axis];
 
 export function ChannelDonut({
   data,
 }: {
   data: { key: string; label: string; value: number }[];
 }) {
+  const [hover, setHover] = useState<number | null>(null);
+  const { ref, width } = useChartWidth<HTMLDivElement>();
   const total = data.reduce((s, d) => s + d.value, 0);
+  const top = data.reduce((a, b) => (b.value > a.value ? b : a), data[0]);
+
+  const SIZE = 190;
+  const R = 78;
+  const STROKE = 26;
+  const C = 2 * Math.PI * R;
+  const GAP = 3; // khe hở giữa các cung, tính bằng px chu vi
+
+  let offset = 0;
 
   return (
-    <ChartFrame
+    <ChartCard
       title="Cơ cấu GMV theo kênh"
       hint="Nguồn: gmv_live · gmv_video · gmv_card"
-      height={228}
+      insight={
+        <>
+          <strong className="font-semibold text-[var(--color-ink)]">{top?.label}</strong> chiếm{" "}
+          {fmtPct(((top?.value ?? 0) / total) * 100)} tổng GMV — kênh quyết định doanh thu.
+        </>
+      }
       chart={
-        <div className="flex h-full items-center gap-4">
-          <div className="relative h-full w-[190px] shrink-0">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-              isAnimationActive={false}
-                  data={data}
-                  dataKey="value"
-                  nameKey="label"
-                  innerRadius="62%"
-                  outerRadius="94%"
-                  paddingAngle={2}
-                  stroke={SURFACE}
-                  strokeWidth={2}
-                  startAngle={90}
-                  endAngle={-270}
-                >
-                  {data.map((d, i) => (
-                    <Cell key={d.key} fill={CHANNEL_COLORS[i % CHANNEL_COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip
-                  content={({ active, payload }) => {
-                    if (!active || !payload?.length) return null;
-                    const p = payload[0];
-                    const v = p.value as number;
-                    return (
-                      <TooltipBox
-                        title={String(p.name)}
-                        rows={[{ label: "GMV", value: fmtVnd(v) }]}
-                        footer={`Chiếm ${fmtPct((v / total) * 100)} tổng GMV`}
-                      />
-                    );
-                  }}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-            <div className="pointer-events-none absolute inset-0 grid place-items-center">
-              <div className="text-center">
-                <p className="text-[11.5px] text-[var(--color-muted)]">Tổng GMV</p>
-                <p className="text-[17px] font-semibold tracking-[-0.02em] text-[var(--color-ink)]">
-                  {fmtCompact(total)}
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="relative flex items-center gap-5" ref={ref}>
+          <svg width={SIZE} height={SIZE} className="shrink-0" role="img" aria-label="Cơ cấu GMV theo kênh">
+            <g transform={`translate(${SIZE / 2} ${SIZE / 2}) rotate(-90)`}>
+              {data.map((d, i) => {
+                const frac = d.value / total;
+                const len = Math.max(0, C * frac - GAP);
+                const dash = `${len} ${C - len}`;
+                const dashOffset = -offset;
+                offset += C * frac;
+                const dim = hover != null && hover !== i;
+                return (
+                  <circle
+                    key={d.key}
+                    r={R}
+                    fill="none"
+                    stroke={CH_COLORS[i % CH_COLORS.length]}
+                    strokeWidth={hover === i ? STROKE + 5 : STROKE}
+                    strokeDasharray={dash}
+                    strokeDashoffset={dashOffset}
+                    opacity={dim ? 0.32 : 1}
+                    style={{ transition: "stroke-width 140ms, opacity 140ms" }}
+                    onPointerEnter={() => setHover(i)}
+                    onPointerLeave={() => setHover(null)}
+                    className="cursor-pointer"
+                  />
+                );
+              })}
+            </g>
+            <text
+              x={SIZE / 2} y={SIZE / 2 - 8} textAnchor="middle"
+              fontSize={11.5} fill={CHART_COLORS.muted}
+            >
+              {hover != null ? data[hover].label : "Tổng GMV"}
+            </text>
+            <text
+              x={SIZE / 2} y={SIZE / 2 + 14} textAnchor="middle"
+              fontSize={19} fontWeight={600} fill="var(--color-ink)"
+              style={{ letterSpacing: "-0.02em" }}
+            >
+              {hover != null ? fmtCompact(data[hover].value) : fmtCompact(total)}
+            </text>
+          </svg>
 
-          {/* Nhãn trực tiếp kèm số — không để giá trị chỉ đọc được qua màu */}
           <ul className="min-w-0 flex-1 space-y-2">
             {data.map((d, i) => (
-              <li key={d.key} className="flex items-center gap-2">
+              <li
+                key={d.key}
+                onPointerEnter={() => setHover(i)}
+                onPointerLeave={() => setHover(null)}
+                className={cx(
+                  "flex items-center gap-2 rounded-[7px] px-1.5 py-1 transition-colors",
+                  hover === i && "bg-[var(--color-surface-2)]",
+                )}
+              >
                 <span
                   aria-hidden
                   className="h-2.5 w-2.5 shrink-0 rounded-[3px]"
-                  style={{ background: CHANNEL_COLORS[i % CHANNEL_COLORS.length] }}
+                  style={{ background: CH_COLORS[i % CH_COLORS.length] }}
                 />
-                <span className="truncate text-[12.5px] text-[var(--color-ink-2)]">
-                  {d.label}
+                <span className="truncate text-[12.5px] text-[var(--color-ink-2)]">{d.label}</span>
+                <span className="tnum ml-auto shrink-0 text-[12.5px] text-[var(--color-muted)]">
+                  {fmtCompact(d.value)}
                 </span>
-                <span className="tnum ml-auto shrink-0 text-[12.5px] font-medium text-[var(--color-ink)]">
+                <span className="tnum w-[46px] shrink-0 text-right text-[12.5px] font-semibold text-[var(--color-ink)]">
                   {fmtPct((d.value / total) * 100)}
                 </span>
               </li>
@@ -293,11 +217,7 @@ export function ChannelDonut({
       table={
         <DataTable
           head={["Kênh", "GMV", "Tỉ trọng"]}
-          rows={data.map((d) => [
-            d.label,
-            fmtVnd(d.value),
-            fmtPct((d.value / total) * 100),
-          ])}
+          rows={data.map((d) => [d.label, fmtVnd(d.value), fmtPct((d.value / total) * 100)])}
         />
       }
     />
@@ -305,81 +225,35 @@ export function ChannelDonut({
 }
 
 /* ────────────────────────────────────────────────────────────
-   4. Quảng cáo GMV Max — chi phí và doanh thu cùng đơn vị (đồng)
-   Cố ý KHÔNG vẽ ROI chung trục với tiền: hai thang đo khác nhau
-   trên một đồ thị sẽ tạo ra tương quan không có thật.
+   4. Quảng cáo GMV Max
    ──────────────────────────────────────────────────────────── */
 export function AdPerformance({ data }: { data: DayRow[] }) {
   const cost = data.reduce((s, d) => s + d.adCost, 0);
   const rev = data.reduce((s, d) => s + d.adRevenue, 0);
+  const roi = cost ? rev / cost : 0;
 
   return (
-    <ChartFrame
+    <ChartCard
       title="Quảng cáo GMV Max"
-      hint={`ROI kỳ này ${fmtNum(rev / cost)} lần · doanh thu chia chi phí`}
-      height={228}
-      legend={
-        <Legend
-          items={[
-            { color: S3, label: "Chi phí", value: fmtCompact(cost) },
-            { color: S1, label: "Doanh thu QC", value: fmtCompact(rev) },
-          ]}
-        />
+      hint={`ROI kỳ này ${fmtNum(roi)} lần · doanh thu chia chi phí`}
+      insight={
+        <>
+          Mỗi đồng chi cho quảng cáo mang về{" "}
+          <strong className="font-semibold text-[var(--color-ink)]">{fmtNum(roi)} đồng</strong> doanh thu gộp.
+          Đây là doanh thu trước phí sàn — xem trang Quảng cáo để biết chiến dịch nào đang kéo tụt chỉ số này.
+        </>
       }
       chart={
-        <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={data} margin={{ top: 4, right: 8, bottom: 0, left: 4 }}>
-            <defs>
-              <linearGradient id="adRev" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor={S1} stopOpacity={0.22} />
-                <stop offset="100%" stopColor={S1} stopOpacity={0.02} />
-              </linearGradient>
-              <linearGradient id="adCost" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor={S3} stopOpacity={0.22} />
-                <stop offset="100%" stopColor={S3} stopOpacity={0.02} />
-              </linearGradient>
-            </defs>
-            <CartesianGrid stroke={GRID} strokeWidth={1} vertical={false} />
-            <XAxis dataKey="label" {...axisProps} minTickGap={28} />
-            <YAxis {...axisProps} tickFormatter={(v) => fmtCompact(v as number)} width={52} />
-            <Tooltip
-              cursor={{ stroke: AXIS, strokeWidth: 1 }}
-              content={({ active, payload, label }) => {
-                if (!active || !payload?.length) return null;
-                const c = (payload.find((p) => p.dataKey === "adCost")?.value as number) ?? 0;
-                const r = (payload.find((p) => p.dataKey === "adRevenue")?.value as number) ?? 0;
-                return (
-                  <TooltipBox
-                    title={String(label)}
-                    rows={[
-                      { color: S1, label: "Doanh thu QC", value: fmtVnd(r) },
-                      { color: S3, label: "Chi phí", value: fmtVnd(c) },
-                    ]}
-                    footer={c ? `ROI ${fmtNum(r / c)} lần` : undefined}
-                  />
-                );
-              }}
-            />
-            <Area
-              isAnimationActive={false}
-              type="monotone"
-              dataKey="adRevenue"
-              stroke={S1}
-              strokeWidth={2}
-              fill="url(#adRev)"
-              activeDot={{ r: 4, strokeWidth: 2, stroke: SURFACE }}
-            />
-            <Area
-              isAnimationActive={false}
-              type="monotone"
-              dataKey="adCost"
-              stroke={S3}
-              strokeWidth={2}
-              fill="url(#adCost)"
-              activeDot={{ r: 4, strokeWidth: 2, stroke: SURFACE }}
-            />
-          </AreaChart>
-        </ResponsiveContainer>
+        <TimeSeriesChart
+          labels={data.map((d) => d.label)}
+          series={[
+            { key: "rev", label: "Doanh thu QC", color: CHART_COLORS.s1, values: data.map((d) => d.adRevenue), type: "area" },
+            { key: "cost", label: "Chi phí", color: CHART_COLORS.s3, values: data.map((d) => d.adCost), type: "line" },
+          ]}
+          stacked={false}
+          format={fmtVnd}
+          formatAxis={fmtCompact}
+        />
       }
       table={
         <DataTable
@@ -388,7 +262,7 @@ export function AdPerformance({ data }: { data: DayRow[] }) {
             d.label,
             fmtVnd(d.adCost),
             fmtVnd(d.adRevenue),
-            d.adCost ? `${fmtNum(d.adRevenue / d.adCost)} lần` : "—",
+            d.adCost ? `${fmtNum(d.adRevenue / d.adCost)}×` : "—",
           ])}
         />
       }
@@ -397,46 +271,55 @@ export function AdPerformance({ data }: { data: DayRow[] }) {
 }
 
 /* ────────────────────────────────────────────────────────────
-   5. Xếp hạng sản phẩm — thanh ngang, một màu cho một chuỗi
+   5. Sản phẩm bán chạy
    ──────────────────────────────────────────────────────────── */
 export function TopProducts({ rows }: { rows: ProductRow[] }) {
+  const [hover, setHover] = useState<number | null>(null);
   const max = Math.max(...rows.map((r) => r.revenue));
+  const total = rows.reduce((s, r) => s + r.revenue, 0);
 
   return (
-    <section className="rounded-[14px] border border-[var(--color-line)] bg-[var(--color-surface)] p-5 shadow-[0_1px_2px_rgba(9,9,11,0.04)]">
+    <section className="rounded-[15px] border border-[var(--color-line)] bg-[var(--color-surface)] p-5 shadow-[0_1px_2px_rgba(9,9,11,0.04)] transition-shadow duration-200 hover:shadow-[0_4px_18px_-6px_rgba(9,9,11,0.12)]">
       <header className="mb-4">
-        <h2 className="text-[15px] font-semibold tracking-[-0.01em] text-[var(--color-ink)]">
+        <h2 className="text-[15px] font-semibold tracking-[-0.012em] text-[var(--color-ink)]">
           Sản phẩm bán chạy
         </h2>
         <p className="mt-0.5 text-[12.5px] text-[var(--color-muted)]">
-          Xếp theo doanh thu trong kỳ
+          Xếp theo doanh thu · {rows[0]?.name.split(" ").slice(0, 4).join(" ")} chiếm{" "}
+          {fmtPct((rows[0].revenue / total) * 100)} nhóm dẫn đầu
         </p>
       </header>
 
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[560px] border-collapse text-[13px]">
+        <table className="w-full min-w-[600px] border-collapse text-[13px]">
           <thead>
             <tr className="border-b border-[var(--color-line-strong)]">
-              <th scope="col" className="py-2 text-left text-[12px] font-semibold text-[var(--color-ink-2)]">
-                Sản phẩm
-              </th>
-              <th scope="col" className="py-2 text-right text-[12px] font-semibold text-[var(--color-ink-2)]">
-                Doanh thu
-              </th>
-              <th scope="col" className="w-[150px] py-2 text-left text-[12px] font-semibold text-[var(--color-ink-2)]">
-                Tỉ trọng
-              </th>
-              <th scope="col" className="py-2 text-right text-[12px] font-semibold text-[var(--color-ink-2)]">
-                Đơn
-              </th>
-              <th scope="col" className="py-2 text-right text-[12px] font-semibold text-[var(--color-ink-2)]">
-                So kỳ trước
-              </th>
+              {["Sản phẩm", "Doanh thu", "Tỉ trọng", "Đơn", "So kỳ trước"].map((h, i) => (
+                <th
+                  key={h}
+                  scope="col"
+                  className={cx(
+                    "py-2 text-[12px] font-semibold text-[var(--color-ink-2)]",
+                    i === 0 || i === 2 ? "text-left" : "text-right",
+                    i === 2 && "w-[160px]",
+                  )}
+                >
+                  {h}
+                </th>
+              ))}
             </tr>
           </thead>
           <tbody>
-            {rows.map((r) => (
-              <tr key={r.sku} className="border-b border-[var(--color-line)] last:border-0">
+            {rows.map((r, i) => (
+              <tr
+                key={r.sku}
+                onPointerEnter={() => setHover(i)}
+                onPointerLeave={() => setHover(null)}
+                className={cx(
+                  "border-b border-[var(--color-line)] transition-colors last:border-0",
+                  hover === i && "bg-[var(--color-surface-2)]",
+                )}
+              >
                 <td className="py-2.5 pr-3">
                   <p className="truncate font-medium text-[var(--color-ink)]">{r.name}</p>
                   <p className="tnum text-[11.5px] text-[var(--color-muted)]">{r.sku}</p>
@@ -445,18 +328,20 @@ export function TopProducts({ rows }: { rows: ProductRow[] }) {
                   {fmtVnd(r.revenue)}
                 </td>
                 <td className="py-2.5 pr-3">
-                  <div
-                    className="h-[7px] w-full overflow-hidden rounded-full bg-[var(--color-surface-2)]"
-                    role="img"
-                    aria-label={`Chiếm ${fmtPct((r.revenue / max) * 100)} so với sản phẩm đứng đầu`}
-                  >
-                    <div
-                      className="h-full rounded-full"
-                      style={{
-                        width: `${(r.revenue / max) * 100}%`,
-                        background: S1,
-                      }}
-                    />
+                  <div className="flex items-center gap-2">
+                    <div className="h-[7px] flex-1 overflow-hidden rounded-full bg-[var(--color-surface-2)]">
+                      <div
+                        className="h-full rounded-full transition-all duration-500"
+                        style={{
+                          width: `${(r.revenue / max) * 100}%`,
+                          background: i === 0 ? CHART_COLORS.s1 : "var(--color-axis)",
+                          opacity: hover != null && hover !== i ? 0.5 : 1,
+                        }}
+                      />
+                    </div>
+                    <span className="tnum w-[38px] shrink-0 text-right text-[11.5px] text-[var(--color-muted)]">
+                      {fmtPct((r.revenue / total) * 100, 0)}
+                    </span>
                   </div>
                 </td>
                 <td className="tnum whitespace-nowrap py-2.5 pr-3 text-right text-[var(--color-ink-2)]">
@@ -465,10 +350,7 @@ export function TopProducts({ rows }: { rows: ProductRow[] }) {
                 <td className="whitespace-nowrap py-2.5 text-right">
                   <span
                     className="tnum text-[12.5px] font-medium"
-                    style={{
-                      color:
-                        r.delta >= 0 ? "var(--color-good)" : "var(--color-critical)",
-                    }}
+                    style={{ color: r.delta >= 0 ? "var(--color-good)" : "var(--color-critical)" }}
                   >
                     {r.delta >= 0 ? "↑" : "↓"} {fmtPct(Math.abs(r.delta))}
                   </span>
