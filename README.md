@@ -34,3 +34,5 @@ npm run dev
   sáng `#ffffff` và nền tối `#141417` mà app dùng. Không đổi thứ tự slot màu —
   thứ tự chính là cơ chế đảm bảo an toàn.
 - Giao diện tối là bộ màu **chọn riêng**, không phải đảo ngược tự động.
+
+<!-- kết nối GitHub tự động: 2026-09-04T07:34:01Z -->
