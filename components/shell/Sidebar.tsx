@@ -36,7 +36,7 @@ const GROUPS: { title: string; items: Item[] }[] = [
     title: "Công cụ",
     items: [
       { href: "/tinh-loi-nhuan", label: "Tính lợi nhuận", icon: IconCalculator },
-      { href: "/phan-tich-video", label: "Phân tích video", icon: IconVideo, soon: true },
+      { href: "/phan-tich-video", label: "Phân tích video", icon: IconVideo },
     ],
   },
 ];
