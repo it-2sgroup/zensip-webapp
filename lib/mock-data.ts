@@ -27,6 +27,8 @@ export const LAST_DAY = "2026-09-02";
 
 export interface DayRow {
   date: string;
+  /** Nhãn hiển thị trên trục/bảng — đã định dạng sẵn theo đúng cấp độ thời gian (ngày/tuần/tháng) */
+  label: string;
   /** Doanh thu TikTok Shop (đ) */
   tiktok: number;
   /** Doanh thu Shopee (đ) */
@@ -38,7 +40,11 @@ export interface DayRow {
   adRevenue: number;
 }
 
-function buildSeries(days: number): DayRow[] {
+const dayMonth = (d: Date) =>
+  `${String(d.getUTCDate()).padStart(2, "0")}/${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
+
+/** Chuỗi ngày liên tục — nguồn DUY NHẤT cho mọi cấp độ thời gian, để số nhất quán giữa các chế độ xem */
+function buildDailyBase(days: number): DayRow[] {
   const r = rng(20260902);
   const end = new Date(`${LAST_DAY}T00:00:00Z`);
   const out: DayRow[] = [];
@@ -63,6 +69,7 @@ function buildSeries(days: number): DayRow[] {
 
     out.push({
       date: d.toISOString().slice(0, 10),
+      label: dayMonth(d),
       tiktok,
       shopee,
       prev,
@@ -74,12 +81,75 @@ function buildSeries(days: number): DayRow[] {
   return out;
 }
 
-export const SERIES_30 = buildSeries(30);
-export const SERIES_7 = SERIES_30.slice(-7);
-export const SERIES_90 = buildSeries(90);
+/** 13 tháng dữ liệu nền — đủ cho mọi cấp độ xem (ngày/tuần/tháng) từ cùng một nguồn */
+const BASE = buildDailyBase(400);
 
-export function seriesFor(range: "7d" | "30d" | "90d"): DayRow[] {
-  return range === "7d" ? SERIES_7 : range === "90d" ? SERIES_90 : SERIES_30;
+function sumRows(rows: DayRow[], date: string, label: string): DayRow {
+  return rows.reduce(
+    (acc, r) => ({
+      date,
+      label,
+      tiktok: acc.tiktok + r.tiktok,
+      shopee: acc.shopee + r.shopee,
+      prev: acc.prev + r.prev,
+      orders: acc.orders + r.orders,
+      adCost: acc.adCost + r.adCost,
+      adRevenue: acc.adRevenue + r.adRevenue,
+    }),
+    { date, label, tiktok: 0, shopee: 0, prev: 0, orders: 0, adCost: 0, adRevenue: 0 },
+  );
+}
+
+/** Gộp theo tuần (7 ngày/nhóm, tính lùi từ ngày cuối) — nhãn là ngày đầu tuần */
+function aggregateWeekly(weeks: number): DayRow[] {
+  const days = weeks * 7;
+  const slice = BASE.slice(-days);
+  const out: DayRow[] = [];
+  for (let i = 0; i < slice.length; i += 7) {
+    const chunk = slice.slice(i, i + 7);
+    if (!chunk.length) continue;
+    const start = new Date(`${chunk[0].date}T00:00:00Z`);
+    out.push(sumRows(chunk, chunk[0].date, `Tuần ${dayMonth(start)}`));
+  }
+  return out;
+}
+
+/** Gộp theo tháng dương lịch */
+function aggregateMonthly(months: number): DayRow[] {
+  const byMonth = new Map<string, DayRow[]>();
+  for (const row of BASE) {
+    const key = row.date.slice(0, 7); // YYYY-MM
+    if (!byMonth.has(key)) byMonth.set(key, []);
+    byMonth.get(key)!.push(row);
+  }
+  const keys = Array.from(byMonth.keys()).sort().slice(-months);
+  return keys.map((key) => {
+    const [y, m] = key.split("-");
+    return sumRows(byMonth.get(key)!, `${key}-01`, `Th${Number(m)}/${y}`);
+  });
+}
+
+export const SERIES_7 = BASE.slice(-7);
+export const SERIES_30 = BASE.slice(-30);
+export const SERIES_90 = BASE.slice(-90);
+export const SERIES_12W = aggregateWeekly(12);
+export const SERIES_12M = aggregateMonthly(12);
+
+export type RangeKey = "7d" | "30d" | "90d" | "12w" | "12m";
+
+export function seriesFor(range: RangeKey): DayRow[] {
+  switch (range) {
+    case "7d":
+      return SERIES_7;
+    case "90d":
+      return SERIES_90;
+    case "12w":
+      return SERIES_12W;
+    case "12m":
+      return SERIES_12M;
+    default:
+      return SERIES_30;
+  }
 }
 
 /** Cơ cấu GMV theo kênh bán — khớp cột gmv_live / gmv_video / gmv_card */
@@ -117,3 +187,30 @@ export const SYNC_STATUS = [
   { source: "Shopee · Đơn hàng", at: "02/09 01:15", ok: true },
   { source: "Shopee · Đối soát escrow", at: "01/09 01:15", ok: false },
 ];
+
+export interface LiveSessionRow {
+  id: string;
+  channel: string;
+  date: string;
+  durationMin: number;
+  peakViewers: number;
+  orders: number;
+  gmv: number;
+}
+
+/** Phiên Live gần nhất — khớp cột tiktok_lives (peak_viewers, orders, gmv, duration_minutes) */
+export const LIVE_SESSIONS: LiveSessionRow[] = [
+  { id: "L-0912", channel: "SAIZA.VN chính", date: "02/09", durationMin: 186, peakViewers: 3_240, orders: 412, gmv: 68_400_000 },
+  { id: "L-0910", channel: "SAIZA.VN chính", date: "31/08", durationMin: 154, peakViewers: 2_680, orders: 356, gmv: 54_100_000 },
+  { id: "L-0908", channel: "SU Việt Nam", date: "29/08", durationMin: 120, peakViewers: 1_450, orders: 187, gmv: 26_800_000 },
+  { id: "L-0905", channel: "SAIZA.VN chính", date: "27/08", durationMin: 210, peakViewers: 4_120, orders: 528, gmv: 81_900_000 },
+  { id: "L-0902", channel: "SAIZA.VN chính", date: "24/08", durationMin: 167, peakViewers: 2_910, orders: 371, gmv: 59_600_000 },
+];
+
+/** Đơn hoàn/huỷ tổng sàn trong kỳ — bám tiktok_returns.return_status / tiktok_cancellations.cancel_status */
+export const RETURN_CANCEL_SUMMARY = {
+  returnedOrders: 1_284,
+  returnedRate: 3.2,
+  cancelledOrders: 2_356,
+  cancelledRate: 5.9,
+};

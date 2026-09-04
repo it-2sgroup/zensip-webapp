@@ -17,7 +17,7 @@ import {
   YAxis,
 } from "recharts";
 import { ChartFrame, DataTable, Legend, TooltipBox } from "./ChartFrame";
-import { fmtCompact, fmtDayMonth, fmtInt, fmtNum, fmtPct, fmtVnd } from "@/lib/format";
+import { fmtCompact, fmtInt, fmtNum, fmtPct, fmtVnd } from "@/lib/format";
 import type { DayRow, ProductRow } from "@/lib/mock-data";
 
 /* Màu lấy qua biến CSS nên tự đổi theo giao diện sáng/tối, không cần vẽ lại. */
@@ -48,7 +48,7 @@ export function RevenueByDay({ data }: { data: DayRow[] }) {
   return (
     <ChartFrame
       title="Doanh thu theo ngày"
-      hint={`Tách theo sàn · ${data.length} ngày gần nhất`}
+      hint={`Tách theo sàn · ${data.length} kỳ gần nhất`}
       height={264}
       legend={
         <Legend
@@ -62,12 +62,7 @@ export function RevenueByDay({ data }: { data: DayRow[] }) {
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} margin={{ top: 4, right: 4, bottom: 0, left: 4 }} barCategoryGap="22%">
             <CartesianGrid stroke={GRID} strokeWidth={1} vertical={false} />
-            <XAxis
-              dataKey="date"
-              {...axisProps}
-              tickFormatter={fmtDayMonth}
-              minTickGap={22}
-            />
+            <XAxis dataKey="label" {...axisProps} minTickGap={28} />
             <YAxis {...axisProps} tickFormatter={(v) => fmtCompact(v as number)} width={52} />
             <Tooltip
               cursor={{ fill: "var(--color-surface-2)" }}
@@ -77,7 +72,7 @@ export function RevenueByDay({ data }: { data: DayRow[] }) {
                 const sp = (payload.find((p) => p.dataKey === "shopee")?.value as number) ?? 0;
                 return (
                   <TooltipBox
-                    title={fmtDayMonth(String(label))}
+                    title={String(label)}
                     rows={[
                       { color: S1, label: "TikTok Shop", value: fmtVnd(tk) },
                       { color: S2, label: "Shopee", value: fmtVnd(sp) },
@@ -103,9 +98,9 @@ export function RevenueByDay({ data }: { data: DayRow[] }) {
       }
       table={
         <DataTable
-          head={["Ngày", "TikTok Shop", "Shopee", "Tổng"]}
+          head={["Kỳ", "TikTok Shop", "Shopee", "Tổng"]}
           rows={data.map((d) => [
-            fmtDayMonth(d.date),
+            d.label,
             fmtVnd(d.tiktok),
             fmtVnd(d.shopee),
             fmtVnd(d.tiktok + d.shopee),
@@ -122,6 +117,7 @@ export function RevenueByDay({ data }: { data: DayRow[] }) {
 export function CompareWithPrevious({ data }: { data: DayRow[] }) {
   const rows = data.map((d) => ({
     date: d.date,
+    label: d.label,
     now: d.tiktok + d.shopee,
     prev: d.prev,
   }));
@@ -145,7 +141,7 @@ export function CompareWithPrevious({ data }: { data: DayRow[] }) {
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={rows} margin={{ top: 4, right: 8, bottom: 0, left: 4 }}>
             <CartesianGrid stroke={GRID} strokeWidth={1} vertical={false} />
-            <XAxis dataKey="date" {...axisProps} tickFormatter={fmtDayMonth} minTickGap={22} />
+            <XAxis dataKey="label" {...axisProps} minTickGap={28} />
             <YAxis {...axisProps} tickFormatter={(v) => fmtCompact(v as number)} width={52} />
             <Tooltip
               cursor={{ stroke: AXIS, strokeWidth: 1 }}
@@ -156,7 +152,7 @@ export function CompareWithPrevious({ data }: { data: DayRow[] }) {
                 const diff = prev ? ((now - prev) / prev) * 100 : null;
                 return (
                   <TooltipBox
-                    title={fmtDayMonth(String(label))}
+                    title={String(label)}
                     rows={[
                       { color: S5, label: "Kỳ này", value: fmtVnd(now) },
                       { color: AXIS, label: "Kỳ trước", value: fmtVnd(prev) },
@@ -197,7 +193,7 @@ export function CompareWithPrevious({ data }: { data: DayRow[] }) {
           rows={rows.map((d) => {
             const diff = d.prev ? ((d.now - d.prev) / d.prev) * 100 : null;
             return [
-              fmtDayMonth(d.date),
+              d.label,
               fmtVnd(d.now),
               fmtVnd(d.prev),
               diff == null ? "—" : `${diff >= 0 ? "+" : "−"}${fmtPct(Math.abs(diff))}`,
@@ -344,7 +340,7 @@ export function AdPerformance({ data }: { data: DayRow[] }) {
               </linearGradient>
             </defs>
             <CartesianGrid stroke={GRID} strokeWidth={1} vertical={false} />
-            <XAxis dataKey="date" {...axisProps} tickFormatter={fmtDayMonth} minTickGap={22} />
+            <XAxis dataKey="label" {...axisProps} minTickGap={28} />
             <YAxis {...axisProps} tickFormatter={(v) => fmtCompact(v as number)} width={52} />
             <Tooltip
               cursor={{ stroke: AXIS, strokeWidth: 1 }}
@@ -354,7 +350,7 @@ export function AdPerformance({ data }: { data: DayRow[] }) {
                 const r = (payload.find((p) => p.dataKey === "adRevenue")?.value as number) ?? 0;
                 return (
                   <TooltipBox
-                    title={fmtDayMonth(String(label))}
+                    title={String(label)}
                     rows={[
                       { color: S1, label: "Doanh thu QC", value: fmtVnd(r) },
                       { color: S3, label: "Chi phí", value: fmtVnd(c) },
@@ -387,9 +383,9 @@ export function AdPerformance({ data }: { data: DayRow[] }) {
       }
       table={
         <DataTable
-          head={["Ngày", "Chi phí", "Doanh thu QC", "ROI"]}
+          head={["Kỳ", "Chi phí", "Doanh thu QC", "ROI"]}
           rows={data.map((d) => [
-            fmtDayMonth(d.date),
+            d.label,
             fmtVnd(d.adCost),
             fmtVnd(d.adRevenue),
             d.adCost ? `${fmtNum(d.adRevenue / d.adCost)} lần` : "—",

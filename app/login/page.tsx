@@ -1,17 +1,40 @@
 "use client";
 
-import Link from "next/link";
-import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useState } from "react";
 import { Button, Label, TextField } from "@/components/ui/primitives";
 import { IconLock, ZensipMark } from "@/components/shell/icons";
+import { createClient } from "@/lib/supabase/client";
 
-/**
- * Giao diện đăng nhập. Chưa nối xác thực thật —
- * sẽ gắn Supabase Auth ở bước bảo mật (xem tài liệu kiến trúc).
- */
-export default function LoginPage() {
+function LoginForm() {
+  const router = useRouter();
+  const params = useSearchParams();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  async function onSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+
+    const supabase = createClient();
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+
+    setLoading(false);
+    if (error) {
+      setError(
+        error.message === "Invalid login credentials"
+          ? "Email hoặc mật khẩu không đúng."
+          : "Có lỗi khi đăng nhập. Thử lại sau.",
+      );
+      return;
+    }
+
+    router.replace(params.get("next") || "/dashboard");
+    router.refresh();
+  }
 
   return (
     <main className="grid min-h-dvh place-items-center px-4 py-10">
@@ -27,10 +50,7 @@ export default function LoginPage() {
         </div>
 
         <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            // Sẽ thay bằng signInWithPassword của Supabase Auth
-          }}
+          onSubmit={onSubmit}
           className="rounded-[14px] border border-[var(--color-line)] bg-[var(--color-surface)] p-6 shadow-[0_1px_3px_rgba(9,9,11,0.05)]"
         >
           <div className="mb-4">
@@ -46,7 +66,7 @@ export default function LoginPage() {
             />
           </div>
 
-          <div className="mb-5">
+          <div className="mb-2">
             <Label htmlFor="password">Mật khẩu</Label>
             <TextField
               id="password"
@@ -59,8 +79,14 @@ export default function LoginPage() {
             />
           </div>
 
-          <Button type="submit" className="w-full py-2.5">
-            Đăng nhập
+          {error && (
+            <p role="alert" className="mb-3 text-[12.5px] text-[var(--color-critical)]">
+              {error}
+            </p>
+          )}
+
+          <Button type="submit" disabled={loading} className="mt-3 w-full py-2.5">
+            {loading ? "Đang đăng nhập…" : "Đăng nhập"}
           </Button>
 
           <p className="mt-4 flex items-start gap-1.5 text-[11.5px] leading-relaxed text-[var(--color-muted)]">
@@ -71,17 +97,15 @@ export default function LoginPage() {
             </span>
           </p>
         </form>
-
-        <p className="mt-5 text-center text-[12.5px] text-[var(--color-muted)]">
-          Đang dựng giao diện —{" "}
-          <Link
-            href="/dashboard"
-            className="font-medium text-[var(--color-brand)] underline underline-offset-2"
-          >
-            xem thử hệ thống
-          </Link>
-        </p>
       </div>
     </main>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense>
+      <LoginForm />
+    </Suspense>
   );
 }

@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { StatTile } from "@/components/ui/StatTile";
-import { Badge, Segmented } from "@/components/ui/primitives";
+import { Badge } from "@/components/ui/primitives";
+import { usePeriodPicker } from "@/components/dashboard/PeriodPicker";
 import {
   AdPerformance,
   ChannelDonut,
@@ -10,18 +11,11 @@ import {
   RevenueByDay,
   TopProducts,
 } from "@/components/charts/DashboardCharts";
-import {
-  CHANNEL_MIX,
-  SYNC_STATUS,
-  TOP_PRODUCTS,
-  seriesFor,
-} from "@/lib/mock-data";
+import { CHANNEL_MIX, SYNC_STATUS, TOP_PRODUCTS, seriesFor } from "@/lib/mock-data";
 import { delta, fmtCompact, fmtInt, fmtNum, fmtPct } from "@/lib/format";
 
-type Range = "7d" | "30d" | "90d";
-
 export default function DashboardPage() {
-  const [range, setRange] = useState<Range>("30d");
+  const { range, picker } = usePeriodPicker();
   const data = useMemo(() => seriesFor(range), [range]);
 
   const kpi = useMemo(() => {
@@ -60,17 +54,7 @@ export default function DashboardPage() {
           </p>
         </div>
 
-        {/* Một hàng bộ lọc duy nhất, áp cho toàn bộ biểu đồ bên dưới */}
-        <Segmented<Range>
-          ariaLabel="Chọn khoảng thời gian"
-          value={range}
-          onChange={setRange}
-          options={[
-            { value: "7d", label: "7 ngày" },
-            { value: "30d", label: "30 ngày" },
-            { value: "90d", label: "90 ngày" },
-          ]}
-        />
+        {picker}
       </div>
 
       {failedSync.length > 0 && (

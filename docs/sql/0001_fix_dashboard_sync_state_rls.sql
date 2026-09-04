@@ -1,0 +1,35 @@
+-- ============================================================
+-- FIX BẢO MẬT: bật RLS cho public.dashboard_sync_state
+-- Project: SOVA (jjarzdxyarwobruzdqbg)
+-- Phát hiện: Supabase advisor mức "critical", 04/09/2026 —
+--   bảng đang mở hoàn toàn cho role anon/authenticated.
+--
+-- Đã kiểm tra nội dung bảng: chỉ 3 dòng con trỏ đồng bộ nội bộ
+-- (live_sessions_cursor, content_video_cursor, booking_koc_cursor),
+-- KHÔNG có dữ liệu khách hàng/PII. Bảng này chỉ được các Edge
+-- Function (chạy bằng service_role) đọc/ghi — không có lý do gì
+-- để app phía client (anon/authenticated) truy cập trực tiếp.
+--
+-- Chính sách: bật RLS, KHÔNG thêm policy nào cho anon/authenticated
+-- → hai role đó bị chặn hoàn toàn, chỉ service_role (bỏ qua RLS
+-- theo mặc định của Postgres/Supabase) mới đọc/ghi được.
+--
+-- ⚠️ CHƯA APPLY — bạn tự chạy trong Supabase SQL Editor sau khi
+-- xác nhận không có nơi nào trong code đang gọi bảng này bằng
+-- anon/publishable key. Đã grep 4 repo cục bộ (tiktok-sync,
+-- sismo-sync, lark-tools, booking-automation) không thấy nơi nào
+-- dùng bảng này ngoài Edge Function nội bộ — nhưng nên tự rà lại.
+-- ============================================================
+
+ALTER TABLE public.dashboard_sync_state ENABLE ROW LEVEL SECURITY;
+
+-- Không tạo policy nào ở đây một cách cố ý.
+-- Nếu sau này Zensip cần đọc trạng thái đồng bộ để hiển thị badge
+-- "cập nhật lần cuối lúc...", thêm policy CHỈ ĐỌC (SELECT) cho
+-- role authenticated, không bao giờ cho phép INSERT/UPDATE/DELETE
+-- từ phía client:
+--
+-- CREATE POLICY "zensip_read_sync_state" ON public.dashboard_sync_state
+--   FOR SELECT
+--   TO authenticated
+--   USING (true);

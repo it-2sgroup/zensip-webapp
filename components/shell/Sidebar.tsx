@@ -13,6 +13,7 @@ import {
   IconVideo,
   ZensipMark,
 } from "./icons";
+import { UserMenu } from "./UserMenu";
 
 type Item = {
   href: string;
@@ -26,7 +27,7 @@ const GROUPS: { title: string; items: Item[] }[] = [
     title: "Phân tích",
     items: [
       { href: "/dashboard", label: "Tổng quan", icon: IconDashboard },
-      { href: "/dashboard/san", label: "Vận hành sàn", icon: IconStore, soon: true },
+      { href: "/dashboard/san", label: "Vận hành sàn", icon: IconStore },
       { href: "/dashboard/quang-cao", label: "Quảng cáo", icon: IconAds, soon: true },
       { href: "/dashboard/booking", label: "Booking KOC", icon: IconUsers, soon: true },
     ],
@@ -140,19 +141,7 @@ export function Sidebar({
         </nav>
 
         <div className="shrink-0 border-t border-[var(--color-line)] p-3">
-          <div className="flex items-center gap-2.5 rounded-[9px] px-2 py-1.5">
-            <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[var(--color-brand-soft)] text-[12px] font-semibold text-[var(--color-brand)]">
-              AD
-            </span>
-            <div className="min-w-0">
-              <p className="truncate text-[13px] font-medium text-[var(--color-ink)]">
-                Admin
-              </p>
-              <p className="truncate text-[11.5px] text-[var(--color-muted)]">
-                Nội bộ SISMO
-              </p>
-            </div>
-          </div>
+          <UserMenu />
         </div>
       </aside>
     </>
