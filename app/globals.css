@@ -8,8 +8,11 @@
    ============================================================ */
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  /* var(--font-inter) do next/font/google tiêm vào <html> trong app/layout.tsx.
+     Giữ nguyên chuỗi fallback hệ thống phía sau — dùng khi font Inter chưa tải xong
+     hoặc chạy ở môi trường không có next/font (ví dụ Storybook độc lập, nếu sau này thêm). */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   --color-page: #f7f8fa;
   --color-surface: #ffffff;
