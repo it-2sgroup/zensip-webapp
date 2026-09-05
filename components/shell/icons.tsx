@@ -92,23 +92,33 @@ export const IconLock = ({ className }: P) => (
   </svg>
 );
 
-/** Dấu hiệu nhận diện Zensip — vòng tròn hở với nhịp dữ liệu bên trong */
+/**
+ * Dấu hiệu nhận diện Zensip.
+ *
+ * Chữ "Z" cách điệu thành một đường xu hướng đi lên — nét ngang trên, chéo
+ * xuống, ngang dưới, giống hệt hình chữ Z thật nên vẫn đọc được ngay là chữ
+ * cái đầu thương hiệu. Điểm khác biệt: đầu mút trên cùng có một chấm tròn đặc
+ * — đúng mô-típ "điểm dữ liệu" đang dùng ở mọi biểu đồ trong app (viền màu
+ * nền quanh chấm cuối đường, xem components/charts/TimeSeries.tsx). Nhờ vậy
+ * logo không chỉ là chữ cái, mà còn ngầm nói sản phẩm này là dashboard dữ liệu.
+ */
 export const ZensipMark = ({ className }: P) => (
   <svg viewBox="0 0 32 32" className={className} aria-hidden>
     <defs>
       <linearGradient id="zs-mark" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stopColor="#6366f1" />
-        <stop offset="100%" stopColor="#a855f7" />
+        <stop offset="0%" stopColor="#4f46e5" />
+        <stop offset="100%" stopColor="#9333ea" />
       </linearGradient>
     </defs>
     <rect width="32" height="32" rx="8.5" fill="url(#zs-mark)" />
     <path
-      d="M10 11.5h12L10 20.5h12"
+      d="M9.5 11.5H22M22 11.5 9.5 20.5M9.5 20.5H22"
       fill="none"
       stroke="#fff"
-      strokeWidth="2.1"
+      strokeWidth="2.3"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
+    <circle cx="22" cy="11.5" r="1.9" fill="#fff" />
   </svg>
 );
